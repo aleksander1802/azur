@@ -1,0 +1,53 @@
+.header {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    width: 100%;
+    padding: 0 7.5rem;
+
+    &__contacts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 700px;
+        height: max-content;
+        cursor: default;
+        &_logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        &_address {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        &_phone {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 4px;
+        }
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 132px;
+        &_nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 82px;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
