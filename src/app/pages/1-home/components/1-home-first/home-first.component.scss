@@ -1,17 +1,19 @@
 .container {
     position: relative;
     z-index: 100;
+    
 }
+
 .home {
     position: relative;
-    padding-top: 305px;
-    height: 100vh;
     width: 100%;
+    
     background-image: url("../../../../../assets/images/home/home_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    padding-top: 305px;
+    padding-bottom: 240px;
     &__gradient {
         position: absolute;
         bottom: 0;
@@ -29,7 +31,7 @@
         width: 900px;
         font-size: 71px;
         letter-spacing: -1.42px;
-        line-height: 90%;
+        line-height: 90%;        
     }
     &__description {
         margin-top: 29px;
@@ -40,6 +42,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-top: 43px;
         &_link {
             text-decoration: none;
         }

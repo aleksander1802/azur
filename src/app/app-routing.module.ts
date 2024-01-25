@@ -20,6 +20,13 @@ const routes: Routes = [
                         (mod) => mod.AllObjectsModule
                     ),
             },
+            {
+                path: 'property',
+                loadChildren: () =>
+                    import('./pages/10-property-management/property-management.module').then(
+                        (mod) => mod.PropertyManagementModule
+                    ),
+            },
         ],
     },
     {

@@ -1,1 +1,57 @@
-<p>menu works!</p>
+<div class="menu" [ngClass]="{ menu__active: isOpen }">
+    <div class="menu__wrapper">
+        <div class="menu__header">
+            <nav class="menu__header_nav">
+                <a href="">en</a>
+                <a href="">fr</a>
+                <a href="">ru</a>
+                <a href="">it</a>
+            </nav>
+            <img
+                src="../../../../assets/icons/menu_close.svg"
+                alt="Burger menu close"
+                (click)="onCloseMenu()"
+                class="burger__close"
+            />
+        </div>
+
+        <ul class="menu__links">
+            @for (item of navLinks; track item.link) {
+            <li
+                routerLinkActive="link__active"
+                [routerLinkActiveOptions]="{ exact: true }"
+            >
+                <a
+                    [routerLink]="item.link"
+                    class="menu__links_link link__hover"
+                    >{{ item.title }}</a
+                >
+            </li>
+            }
+        </ul>
+
+        <div
+            class="menu__links_secondary"
+            routerLinkActive="link__active"
+            [routerLinkActiveOptions]="{ exact: true }"
+        >
+            <a [routerLink]="'/property'" class="link__hover"
+                >Управление недвижимостью</a
+            >
+            <a [routerLink]="'/concierge'" class="link__hover"
+                >Консьерж-сервис</a
+            >
+        </div>
+
+        <a [routerLink]="" class="menu__link_feedback link__hover"
+            >Связаться с нами</a
+        >
+
+        <div class="menu__links_policy">
+            <a href="" class="link__policy_hover">Наша комиссия</a>
+            <a href="" class="link__policy_hover"
+                >Политика конфиденциальности</a
+            >
+        </div>
+    </div>
+</div>
