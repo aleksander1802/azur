@@ -1,37 +1,23 @@
 .container {
     position: relative;
     z-index: 100;
-    
 }
 
 .home {
     position: relative;
     width: 100%;
-    
+    height: 1040px;
     background-image: url("../../../../../assets/images/home/home_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding-top: 305px;
     padding-bottom: 240px;
-    &__gradient {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 573px;
-        background: linear-gradient(
-            180deg,
-            rgba(0, 0, 0, 0) 0%,
-            rgba(0, 0, 0, 0.3) 100%
-        );
-        z-index: 0;
-    }
-
     &__title {
         width: 900px;
         font-size: 71px;
         letter-spacing: -1.42px;
-        line-height: 90%;        
+        line-height: 90%;
     }
     &__description {
         margin-top: 29px;

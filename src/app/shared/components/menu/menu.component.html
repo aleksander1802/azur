@@ -1,12 +1,12 @@
 <div class="menu" [ngClass]="{ menu__active: isOpen }">
     <div class="menu__wrapper">
         <div class="menu__header">
-            <nav class="menu__header_nav">
+            <div class="menu__header_nav">
                 <a href="">en</a>
                 <a href="">fr</a>
                 <a href="">ru</a>
                 <a href="">it</a>
-            </nav>
+            </div>
             <img
                 src="../../../../assets/icons/menu_close.svg"
                 alt="Burger menu close"
@@ -15,20 +15,22 @@
             />
         </div>
 
-        <ul class="menu__links">
-            @for (item of navLinks; track item.link) {
-            <li
-                routerLinkActive="link__active"
-                [routerLinkActiveOptions]="{ exact: true }"
-            >
-                <a
-                    [routerLink]="item.link"
-                    class="menu__links_link link__hover"
-                    >{{ item.title }}</a
+        <nav>
+            <ul class="menu__links">
+                @for (item of navLinks; track item.link) {
+                <li
+                    routerLinkActive="link__active"
+                    [routerLinkActiveOptions]="{ exact: true }"
                 >
-            </li>
-            }
-        </ul>
+                    <a
+                        [routerLink]="item.link"
+                        class="menu__links_link link__hover"
+                        >{{ item.title }}</a
+                    >
+                </li>
+                }
+            </ul>
+        </nav>
 
         <div
             class="menu__links_secondary"
@@ -48,8 +50,10 @@
         >
 
         <div class="menu__links_policy">
-            <a href="" class="link__policy_hover">Наша комиссия</a>
-            <a href="" class="link__policy_hover"
+            <a [routerLink]="'/fee'" class="link__policy_hover"
+                >Наша комиссия</a
+            >
+            <a [routerLink]="'/policy'" class="link__policy_hover"
                 >Политика конфиденциальности</a
             >
         </div>

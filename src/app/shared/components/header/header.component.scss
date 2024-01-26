@@ -4,11 +4,10 @@
     left: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    z-index: 10;
+    align-items: center;    
     width: 100%;
     padding: 0 7.5rem;
-
+    z-index: 200;
     &__contacts {
         display: flex;
         justify-content: space-between;
@@ -36,10 +35,12 @@
         }
     }
     &__menu {
+        
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 132px;
+        
         &_nav {
             display: flex;
             justify-content: space-between;

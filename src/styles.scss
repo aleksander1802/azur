@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap");
 
 :root {
     --primary: #ffffff;
     --primary-half: rgba(255, 255, 255, 0.5);
+    --footer-region: #bcbcbc;
     --secondary-half: rgba(0, 0, 0, 0.5);
     --accent: #be7e00;
     --menu-text: #656565;
@@ -23,7 +24,6 @@
 
 html,
 body {
-    
     scroll-behavior: smooth;
     overflow-x: hidden;
     background-color: var(--background);
@@ -35,7 +35,6 @@ body {
 body {
     height: 100%;
 }
-
 
 ul {
     list-style-type: none;

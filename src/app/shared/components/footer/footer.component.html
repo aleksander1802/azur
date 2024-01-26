@@ -1,1 +1,131 @@
-<p>footer works!</p>
+<div class="footer">
+    <form class="footer__form" [formGroup]="feedbackForm">
+        <span class="footer__form_title">Перезвоните мне</span>
+
+        <div class="footer__form_controls">
+            <div
+                class="footer__form_control"
+                [ngClass]="{ invalid: name?.touched && name?.invalid }"
+            >
+                <input
+                    id="name"
+                    type="text"
+                    formControlName="name"
+                    autocomplete="name"
+                    placeholder="Имя"
+                />
+            </div>
+            <div class="validation" *ngIf="name?.touched && name?.invalid">
+                <small *ngIf="getError('name', 'required')">
+                    Please enter a name
+                </small>
+            </div>
+
+            <div
+                class="footer__form_control"
+                [ngClass]="{ invalid: phone?.touched && phone?.invalid }"
+            >
+                <input
+                    id="phone"
+                    type="number"
+                    formControlName="phone"
+                    autocomplete="phone"
+                    placeholder="Телефон"
+                />
+            </div>
+            <div class="validation" *ngIf="phone?.touched && phone?.invalid">
+                <small *ngIf="getError('phone', 'required')"
+                    >Please enter a phone</small
+                >
+            </div>
+
+            <div
+                class="footer__form_control"
+                [ngClass]="{ invalid: email?.touched && email?.invalid }"
+            >
+                <input
+                    id="email"
+                    type="email"
+                    formControlName="email"
+                    autocomplete="email"
+                    placeholder="Email"
+                />
+            </div>
+            <div class="validation" *ngIf="email?.touched && email?.invalid">
+                <small *ngIf="getError('email', 'required')"
+                    >Please enter a register email</small
+                >
+                <small *ngIf="getError('email', 'email')"
+                    >The register email is invalid</small
+                >
+            </div>
+        </div>
+
+        <div class="footer__form__submit">
+            <button
+                [disabled]="feedbackForm.invalid"
+                type="submit"
+                class="footer__form__submit-button"
+            >
+                Отправить запрос
+            </button>
+        </div>
+    </form>
+
+    <div class="footer__contacts">
+        <div class="footer__contacts_wrapper">
+            <div class="footer__contacts_wrapper-phone">
+                <img
+                    src="../../../../assets/icons/phone.svg"
+                    alt="Contact phone number"
+                />
+                <span>+33 4 93 16 06 31 </span>
+            </div>
+            <div class="footer__contacts_wrapper-links">
+                <img src="../../../../assets/icons/inst.svg" alt="Inst link" />
+                <img src="../../../../assets/icons/face.svg" alt="Face link" />
+            </div>
+        </div>
+
+        <div class="footer__contacts_email">
+            <img src="../../../../assets/icons/email.svg" alt="Contact email" />
+            <span>contact&#64;azur-life.com</span>
+        </div>
+
+        <div class="footer__contacts_address">
+            <img
+                src="../../../../assets/icons/pointer.svg"
+                alt="Contact address"
+            />
+            <span>Франция, бульвар Леклерк, 46, 06310, Болье-сюр-Мер</span>
+        </div>
+    </div>
+
+    <nav class="footer__navlinks">
+        <span class="footer__navlinks_title">Навигация</span>
+        <ul class="footer__navlinks_list">
+            @for (item of navLinks; track item.link) {
+            <li class="footer__navlinks_list-item">
+                <a
+                    [routerLink]="item.link"
+                    class="footer__navlinks_list-link"
+                    >{{ item.title }}</a
+                >
+            </li>
+            }
+        </ul>
+    </nav>
+
+    <div class="footer__regions">
+        <span class="footer__regions_title">Регионы</span>
+        <ul class="footer__regions_list">
+            @for (item of regions; track item.title) {
+            <li class="footer__regions_list-item">
+                <span>{{ item.title }}</span>
+            </li>
+            }
+        </ul>
+    </div>
+
+    <p class="footer__design">Design by IDEAS.AGENCY</p>
+</div>
