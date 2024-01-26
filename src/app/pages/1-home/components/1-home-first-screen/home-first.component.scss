@@ -6,7 +6,7 @@
 .home {
     position: relative;
     width: 100%;
-    height: 1040px;
+    min-height: 100vh;
     background-image: url("../../../../../assets/images/home/home_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
