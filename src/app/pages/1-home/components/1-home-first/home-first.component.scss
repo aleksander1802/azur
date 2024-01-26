@@ -31,6 +31,16 @@
         margin-top: 43px;
         &_link {
             text-decoration: none;
+            position: relative;
+            &:after {
+                content: "";
+                position: absolute;
+                height: 1px;
+                width: 100%;
+                bottom: -5px;
+                left: 0;
+                background-color: var(--primary);
+            }
         }
         &_button {
             width: 134px;

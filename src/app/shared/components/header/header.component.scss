@@ -1,10 +1,7 @@
 .header {
-    position: fixed;
+    position: absolute;
     top: 45px;
     left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;    
     width: 100%;
     padding: 0 7.5rem;
     z-index: 200;
@@ -35,12 +32,13 @@
         }
     }
     &__menu {
-        
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 132px;
-        
+        position: fixed;
+        top: inherit;
+        right: 8.5rem;
         &_nav {
             display: flex;
             justify-content: space-between;
@@ -55,11 +53,8 @@
 
 .burger__open {
     cursor: pointer;
-    
-    svg:hover path  {
-        
-            stroke: red;
-        
+
+    svg:hover path {
+        stroke: red;
     }
 }
-

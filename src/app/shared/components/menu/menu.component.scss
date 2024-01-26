@@ -2,11 +2,11 @@
     position: fixed;
     right: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: var(--secondary-half);
     transform: translateX(100%);
     transition: transform 0.3s ease;
-    z-index: 200;    
+    z-index: 200;
     & * {
         color: var(--menu-text);
         font-size: 20px;
@@ -15,9 +15,9 @@
         transform: translateX(0);
     }
     &__wrapper {
-        position: fixed;
+        position: absolute;
         width: 525px;
-        height: inherit;
+        height: 100%;
         top: 0;
         right: 0;
         background-color: var(--background-menu);
@@ -26,6 +26,8 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        overflow-y: auto;
+        padding-bottom: 89px;
     }
     &__header {
         display: flex;
@@ -51,7 +53,7 @@
         display: flex;
         gap: 25px;
         flex-direction: column;
-        margin-top: 118px;
+        margin-top: 18px;
         &_link {
             text-decoration: none;
             line-height: 120%;
@@ -69,7 +71,7 @@
         &_policy {
             display: flex;
             gap: 52px;
-            margin-top: 79px;
+            margin-top: 70px;
             a {
                 text-decoration: none;
                 font-size: 15px;
@@ -78,7 +80,8 @@
     }
     &__link {
         &_feedback {
-            margin-top: 92px;
+            margin-top: 70px;
+            cursor: pointer;
         }
     }
 }
