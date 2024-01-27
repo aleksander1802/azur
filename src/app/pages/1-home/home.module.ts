@@ -7,6 +7,7 @@ import { HomeThirdScreenComponent } from './components/3-home-third-screen/home-
 import { SharedModule } from 'src/app/shared/shared.module';
 import { HomeFourthScreenComponent } from './components/4-home-fourth-screen/home-fourth-screen.component';
 import { HomeFifthScreenComponent } from './components/5-home-fifth-screen/home-fifth-screen.component';
+import { HomeSixthScreenComponent } from './components/home-sixth-screen/home-sixth-screen.component';
 
 @NgModule({
     declarations: [
@@ -16,6 +17,7 @@ import { HomeFifthScreenComponent } from './components/5-home-fifth-screen/home-
         HomeThirdScreenComponent,
         HomeFourthScreenComponent,
         HomeFifthScreenComponent,
+        HomeSixthScreenComponent,
     ],
     imports: [CommonModule, SharedModule],
 })
