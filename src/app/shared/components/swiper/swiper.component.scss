@@ -1,0 +1,62 @@
+.swiper {
+    &__slider {
+        &__home {
+            position: relative;
+            object-fit: contain;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 60px;
+            
+            &__wrapper {
+                position: relative;
+                width: max-content;
+                z-index: 10;
+
+                &-choice,
+                &-exclusive {
+                    position: absolute;
+                    top: -3%;
+                    right: 5%;
+                }
+
+                &_top {
+                    position: absolute;
+                    top: 6%;
+                    left: 48px;
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    span {
+                        font-size: 20px;
+                    }
+                }
+                &_bottom {
+                    position: absolute;
+                    bottom: 12%;
+                    left: 48px;
+                    &-button {
+                        width: 82px;
+                        height: 34px;
+                        border-radius: 8px;
+                        border: none;
+                        background-color: var(--primary);
+                        color: var(--accent);
+                        margin-bottom: 27px;
+                        cursor: pointer;
+                    }
+
+                    &-title {
+                        width: 374px;
+                        font-size: 24px;
+                        line-height: 120%;
+                        margin-bottom: 26px;
+                    }
+                    &-description {
+                        width: 340px;
+                    }
+                }
+            }
+        }
+    }
+}

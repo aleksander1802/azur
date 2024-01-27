@@ -1,3 +1,21 @@
 <div class="home__third">
-    <div class="container"></div>
+    <div class="container">
+        <div class="home__third_objects">
+            <h2 class="home__third_objects-title">Доступные объекты</h2>
+            <a href="" class="home__third_objects-link">Смотреть все объекты</a>
+        </div>
+
+        <div class="home__third_slider">
+            <app-swiper [slides]="slidesSlider" [config]="config"></app-swiper>
+
+            <div class="swiper-navigation">
+                <div class="swiper-button-prev">
+                    <img src="/assets/icons/prev_slide.svg" alt="Prev slide" />
+                </div>
+                <div class="swiper-button-next">
+                    <img src="/assets/icons/next_slide.svg" alt="Next slide" />
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

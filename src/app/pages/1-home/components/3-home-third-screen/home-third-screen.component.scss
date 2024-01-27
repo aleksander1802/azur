@@ -1,7 +1,57 @@
+.container {
+    padding: 0;
+}
+
 .home {
     &__third {
         padding-top: 118px;
         padding-bottom: 150px;
         min-height: 100vh;
+        &_objects {
+            padding-left: 125px;
+            position: relative;
+            width: max-content;
+            &-title {
+                font-size: 85px;
+                line-height: 90%;
+                letter-spacing: -1.7px;
+            }
+            &-link {
+                position: absolute;
+                top: 0;
+                right: -182px;
+                text-decoration: none;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    height: 1px;
+                    width: 100%;
+                    bottom: -5px;
+                    left: 0;
+                    background-color: var(--primary);
+                }
+            }
+        }
+        &_slider {
+            position: relative;
+            user-select: none;
+        }
     }
+}
+
+.swiper-navigation {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    height: 0px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    cursor: pointer;
 }
