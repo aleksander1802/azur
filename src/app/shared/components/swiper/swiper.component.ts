@@ -21,6 +21,6 @@ import { SwiperSlidesArray } from 'src/app/models/home.types';
 })
 export class SwiperComponent {
     @Input() slides: SwiperSlidesArray[] = [];
-
     @Input() config: SwiperOptions = {};
+    @Input() activeSlide = 0;
 }

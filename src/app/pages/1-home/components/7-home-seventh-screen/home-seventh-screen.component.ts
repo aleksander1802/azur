@@ -1,65 +1,69 @@
-import { Component } from '@angular/core';
-import { SwiperOptions } from 'swiper/types';
-import { Navigation } from 'swiper/modules';
+import { Component, Input, Output } from '@angular/core';
 import { SwiperSlidesArray } from 'src/app/models/home.types';
+import { Navigation } from 'swiper/modules';
+import { SwiperOptions } from 'swiper/types';
 
 @Component({
-    selector: 'app-home-third-screen',
-    templateUrl: './home-third-screen.component.html',
-    styleUrl: './home-third-screen.component.scss',
+    selector: 'app-home-seventh-screen',
+    templateUrl: './home-seventh-screen.component.html',
+    styleUrl: './home-seventh-screen.component.scss',
 })
-export class HomeThirdScreenComponent {
-    slidesSlider: SwiperSlidesArray[] = [
+export class HomeSeventhScreenComponent {
+    slides: SwiperSlidesArray[] = [
         {
-            address: 'Канны, Франция',
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
             img: '/assets/images/home/slider_1.jpg',
-            choice: true,
-            sell: true,
+            addedBottomClass: true,
+            article: true,
+            link: true,
         },
         {
-            address: 'Ницца, Франция',
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
             img: '/assets/images/home/slider_2.jpg',
-            exclusive: true,
-            sell: true,
+            addedBottomClass: true,
+            news: true,
+            link: true,
         },
         {
-            address: 'Ницца, Франция',
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
             img: '/assets/images/home/slider_3.jpg',
-            exclusive: true,
-            sell: true,
+            addedBottomClass: true,
+            article: true,
+            link: true,
         },
         {
-            address: 'Ницца, Франция',
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
             img: '/assets/images/home/slider_4.png',
-            sell: true,
+            addedBottomClass: true,
+            news: true,
+            link: true,
         },
         {
-            address: 'Ницца, Франция',
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
             img: '/assets/images/home/slider_5.jpg',
-            sell: true,
+            addedBottomClass: true,
+            article: true,
+            link: true,
         },
     ];
+
+    activeSlideIndex = 0;
 
     config: SwiperOptions = {
         modules: [Navigation],
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.home__seventh_slider-button-next',
+            prevEl: '.home__seventh_slider-button-prev',
             enabled: true,
         },
         autoHeight: true,
@@ -67,10 +71,15 @@ export class HomeThirdScreenComponent {
         centeredSlides: true,
         loopAdditionalSlides: 1,
         loop: true,
+        on: {
+            slideChange: (swiper) => {
+                this.activeSlideIndex = swiper.realIndex;
+            },
+        },
         grabCursor: true,
         injectStyles: [
             `
-              :host .swiper-wrapper {align-items: center;}             
+              :host .swiper-wrapper {align-items: center;}   
             `,
         ],
     };

@@ -1,8 +1,9 @@
 <swiper-container fmSwiper [config]="config" init="false">
-    @for (slide of slides; track slide.img) {
+    @for (slide of slides; track slide.img; let idx = $index) {
     <swiper-slide>
         <div class="swiper__slider__home">
             <div class="swiper__slider__home__wrapper">
+                <div class="swiper__slider__home__wrapper_gradient"></div>
                 @if (slide.choice) {
                 <img
                     src="/assets/icons/choice.svg"
@@ -11,13 +12,13 @@
                         'swiper__slider__home__wrapper-choice': slide.choice
                     }"
                 />
-                }
-                @if (slide.exclusive) {
+                } @if (slide.exclusive) {
                 <img
                     src="/assets/icons/exclusive.svg"
                     alt="Azur exclusive"
                     [ngClass]="{
-                        'swiper__slider__home__wrapper-exclusive': slide.exclusive
+                        'swiper__slider__home__wrapper-exclusive':
+                            slide.exclusive
                     }"
                 />
                 }
@@ -26,6 +27,11 @@
                     [alt]="slide.title"
                     class="swiper__slider__home__wrapper-image"
                 />
+                @if (idx === activeSlide && slide.link) {
+                <a href="" class="swiper__slider__home__wrapper_link"
+                    >Подробнее</a
+                >
+                } @if (slide.address) {
                 <div class="swiper__slider__home__wrapper_top">
                     <img
                         src="/assets/icons/pointer.svg"
@@ -33,10 +39,45 @@
                     />
                     <span>{{ slide.address }}</span>
                 </div>
-                <div class="swiper__slider__home__wrapper_bottom">
+                } @if (slide.article) {
+                <div class="swiper__slider__home__wrapper_top">
+                    <button class="swiper__slider__home__wrapper_top-button">
+                        Статья
+                    </button>
+                </div>
+
+                } @if (slide.article || slide.news) {
+                <div class="swiper__slider__home__wrapper_top">
+                    @if (slide.article) {
+                    <button
+                        class="swiper__slider__home__wrapper_top-button"
+                        type="button"
+                    >
+                        Статья
+                    </button>
+                    } @else {
+                    <button
+                        class="swiper__slider__home__wrapper_top-button"
+                        type="button"
+                    >
+                        Новости
+                    </button>
+                    }
+                </div>
+                }
+                <div
+                    class="swiper__slider__home__wrapper_bottom"
+                    [ngClass]="{
+                        'swiper__slider__home__wrapper_bottom-low':
+                            slide.addedBottomClass
+                    }"
+                >
+                    @if (slide.sell) {
                     <button class="swiper__slider__home__wrapper_bottom-button">
                         Продажа
                     </button>
+                    }
+
                     <p class="swiper__slider__home__wrapper_bottom-title">
                         {{ slide.title }}
                     </p>

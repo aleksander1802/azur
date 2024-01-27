@@ -1,0 +1,21 @@
+<div class="home__seventh">
+    <div class="container">
+        <div class="home__seventh_blog">
+            <h2 class="home__seventh_blog-title">блог</h2>
+            <img src="/assets/icons/logo_circle.svg" alt="Logo circle image" />
+        </div>
+
+        <div class="home__seventh_slider">
+            <app-swiper [slides]="slides" [config]="config" [activeSlide]="activeSlideIndex"></app-swiper>
+
+            <div class="swiper-navigation">
+                <div class="home__seventh_slider-button-prev">
+                    <img src="/assets/icons/prev_slide.svg" alt="Prev slide" />
+                </div>
+                <div class="home__seventh_slider-button-next">
+                    <img src="/assets/icons/next_slide.svg" alt="Next slide" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+.container {
+    padding: 0;
+}
+
+.home {
+    &__seventh {
+        padding-top: 105px;
+        padding-bottom: 150px;
+        min-height: 100vh;
+        &_blog {
+            position: relative;
+            margin-left: 125px;
+            width: max-content;
+            img {
+                position: absolute;
+                top: -1.7rem;
+                right: -4rem;
+            }
+        }
+        &_slider {
+            position: relative;
+            user-select: none;
+            &-button-next,
+            &-button-prev {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.swiper-navigation {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    height: 0px;
+}
