@@ -3,7 +3,6 @@
         background-color: var(--background-second);
         padding-top: 52px;
         padding-bottom: 66px;
-
         position: relative;
         &_letter {
             position: absolute;
@@ -93,7 +92,7 @@
                 margin-top: 45px;
                 width: 186px;
                 height: 57px;
-                background-color: var(--button);
+                background-color: var(--button-background);
                 border: none;
                 border-radius: 7px;
                 cursor: pointer;
