@@ -10,7 +10,7 @@ export class MenuComponent {
     @Output() closeMenu: EventEmitter<void> = new EventEmitter<void>();
 
     navLinks = [
-        { title: 'О нас', link: '/' },
+        { title: 'О нас', link: '/about' },
         { title: 'Все объекты', link: '/objects' },
         { title: 'Продажа', link: '/sell' },
         { title: 'Аренда', link: '/rent' },

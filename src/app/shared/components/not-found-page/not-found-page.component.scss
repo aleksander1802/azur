@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.not__found {
+    position: relative;
+    background-image: url("/assets/images/not-found/404.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    &_wrapper {
+        position: relative;
+        width: max-content;
+    }
+
+    &_title {
+        max-width: 956px;
+        text-align: center;
+    }
+
+    &_subtitle,
+    a {
+        font-size: 20px;
+        position: relative;
+        a {
+            text-decoration: none;
+            &:after {
+                content: "";
+                position: absolute;
+                height: 1px;
+                width: 100%;
+                bottom: -5px;
+                left: 0;
+                background-color: var(--primary);
+            }
+        }
+    }
+}

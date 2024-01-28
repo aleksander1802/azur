@@ -8,7 +8,7 @@ import {
 
 import { SwiperOptions } from 'swiper/types/swiper-options';
 import { SwiperDirective } from '../../directives/swiper.directive';
-import { SwiperSlidesArray } from 'src/app/models/home.types';
+import { SwiperSlidesArray } from 'src/app/shared/models/home.types';
 
 @Component({
     selector: 'app-swiper',

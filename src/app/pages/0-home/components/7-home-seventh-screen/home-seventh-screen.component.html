@@ -2,11 +2,15 @@
     <div class="container">
         <div class="home__seventh_blog">
             <h2 class="home__seventh_blog-title">блог</h2>
-            <img src="/assets/icons/logo_circle.svg" alt="Logo circle image" />
+            <app-logo-circle></app-logo-circle>
         </div>
 
         <div class="home__seventh_slider">
-            <app-swiper [slides]="slides" [config]="config" [activeSlide]="activeSlideIndex"></app-swiper>
+            <app-swiper
+                [slides]="slides"
+                [config]="config"
+                [activeSlide]="activeSlideIndex"
+            ></app-swiper>
 
             <div class="swiper-navigation">
                 <div class="home__seventh_slider-button-prev">

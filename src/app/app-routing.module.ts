@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './pages/1-home/home.component';
-import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
+import { NotFoundPageComponent } from './shared/components/not-found-page/not-found-page.component';
 import { MainLayoutComponent } from './shared/components/main-layout/main-layout.component';
+import { HomeComponent } from './pages/0-home/home.component';
 
 const routes: Routes = [
     {
@@ -14,6 +14,13 @@ const routes: Routes = [
                 component: HomeComponent,
             },
             {
+                path: 'about',
+                loadChildren: () =>
+                    import('./pages/1-about/about.module').then(
+                        (mod) => mod.AboutModule
+                    ),
+            },
+            {
                 path: 'objects',
                 loadChildren: () =>
                     import('./pages/2-all-objects/all-objects.module').then(
@@ -23,9 +30,9 @@ const routes: Routes = [
             {
                 path: 'property',
                 loadChildren: () =>
-                    import('./pages/10-property-management/property-management.module').then(
-                        (mod) => mod.PropertyManagementModule
-                    ),
+                    import(
+                        './pages/10-property-management/property-management.module'
+                    ).then((mod) => mod.PropertyManagementModule),
             },
         ],
     },

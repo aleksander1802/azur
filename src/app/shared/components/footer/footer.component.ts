@@ -10,7 +10,7 @@ export class FooterComponent implements OnInit {
     feedbackForm!: FormGroup;
 
     navLinks = [
-        { title: 'О нас', link: '/' },
+        { title: 'О нас', link: '/about' },
         { title: 'Все объекты', link: '/objects' },
         { title: 'Продажа', link: '/sell' },
         { title: 'Аренда', link: '/rent' },

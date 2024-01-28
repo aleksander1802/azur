@@ -7,6 +7,8 @@ import { MenuComponent } from './components/menu/menu.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SwiperComponent } from './components/swiper/swiper.component';
+import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
+import { LogoCircleComponent } from './components/logo-circle/logo-circle.component';
 
 @NgModule({
     declarations: [
@@ -14,14 +16,22 @@ import { SwiperComponent } from './components/swiper/swiper.component';
         HeaderComponent,
         MenuComponent,
         FooterComponent,
+        NotFoundPageComponent,
     ],
-    imports: [CommonModule, RouterModule, ReactiveFormsModule, SwiperComponent],
+    imports: [
+        CommonModule,
+        RouterModule,
+        ReactiveFormsModule,
+        SwiperComponent,
+        LogoCircleComponent,
+    ],
     exports: [
         HeaderComponent,
         MenuComponent,
         SwiperComponent,
         ReactiveFormsModule,
         RouterModule,
+        LogoCircleComponent,
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
