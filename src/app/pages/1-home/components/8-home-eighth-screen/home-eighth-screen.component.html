@@ -1,0 +1,74 @@
+<div class="home__eighth">
+    <div class="home__eighth__wrapper">
+        <div class="container">
+            <h2 class="home__eighth_title">Получите информацию первыми</h2>
+            <form class="home__eighth__form" [formGroup]="emailForm">
+                <div class="home__eighth__form_controls">
+                    <div
+                        class="home__eighth__form_control"
+                        [ngClass]="{
+                            invalid: email?.touched && email?.invalid
+                        }"
+                    >
+                        <input
+                            id="email"
+                            type="email"
+                            formControlName="email"
+                            autocomplete="email"
+                            placeholder="Введите свой email"
+                        />
+                    </div>
+                    <div
+                        class="validation"
+                        *ngIf="email?.touched && email?.invalid"
+                    >
+                        <small *ngIf="getError('email', 'required')"
+                            >Please enter your email</small
+                        >
+                        <small *ngIf="getError('email', 'email')"
+                            >The email is invalid</small
+                        >
+                    </div>
+                </div>
+                <div class="home__eighth__form_checkbox_wrapper">
+                    <div class="home__eighth__form_checkbox">
+                        <input
+                            type="checkbox"
+                            id="privacyCheckbox"
+                            formControlName="privacyPolicy"
+                            class="home__eighth__form_checkbox-input"
+                        />
+                        <span
+                            class="home__eighth__form_checkbox-checkmark"
+                        ></span>
+                    </div>
+                    <label
+                        for="privacyCheckbox"
+                        class="home__eighth__form_checkbox-label"
+                        >Оставляя свой email, я принимаю политику
+                        конфиденциальности.</label
+                    >
+                </div>
+
+                <div class="home__eighth__form__submit">
+                    <button
+                        [disabled]="emailForm.invalid"
+                        type="submit"
+                        class="home__eighth__form__submit-button"
+                    >
+                        Отправить
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="home__eighth_link">
+        <a [routerLink]="'/about'" class="home__eighth_link-about"
+            >О нас
+            <img
+                src="../../../../../assets/icons/link_row.svg"
+                alt="About us link row"
+            />
+        </a>
+    </div>
+</div>

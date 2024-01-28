@@ -9,6 +9,7 @@ import { HomeFourthScreenComponent } from './components/4-home-fourth-screen/hom
 import { HomeFifthScreenComponent } from './components/5-home-fifth-screen/home-fifth-screen.component';
 import { HomeSixthScreenComponent } from './components/6-home-sixth-screen/home-sixth-screen.component';
 import { HomeSeventhScreenComponent } from './components/7-home-seventh-screen/home-seventh-screen.component';
+import { HomeEighthScreenComponent } from './components/8-home-eighth-screen/home-eighth-screen.component';
 
 @NgModule({
     declarations: [
@@ -20,6 +21,7 @@ import { HomeSeventhScreenComponent } from './components/7-home-seventh-screen/h
         HomeFifthScreenComponent,
         HomeSixthScreenComponent,
         HomeSeventhScreenComponent,
+        HomeEighthScreenComponent,
     ],
     imports: [CommonModule, SharedModule],
 })

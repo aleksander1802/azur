@@ -16,7 +16,13 @@ import { SwiperComponent } from './components/swiper/swiper.component';
         FooterComponent,
     ],
     imports: [CommonModule, RouterModule, ReactiveFormsModule, SwiperComponent],
-    exports: [HeaderComponent, MenuComponent, SwiperComponent],
+    exports: [
+        HeaderComponent,
+        MenuComponent,
+        SwiperComponent,
+        ReactiveFormsModule,
+        RouterModule,
+    ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class SharedModule {}
