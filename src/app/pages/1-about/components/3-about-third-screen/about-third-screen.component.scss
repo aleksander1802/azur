@@ -1,0 +1,86 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    padding-right: 240px;
+}
+
+.about__third {
+    min-height: 100vh;
+    padding-top: 273px;
+    padding-bottom: 320px;
+    position: relative;
+
+    &_ampersand {
+        position: absolute;
+        bottom: 108px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &_title {
+        max-width: 540px;
+    }
+
+    &__wrapper {
+        background-image: url("/assets/images/about/natalia.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 487px;
+        height: 720px;
+        position: relative;
+
+        &_right {
+            position: absolute;
+            top: 595px;
+            left: 215px;
+            &-title {
+                display: flex;
+                flex-direction: column;
+                &-name {
+                    font-size: 20px;
+                }
+            }
+            &-description {
+                width: max-content;
+                margin-top: 29px;
+                line-height: 160%;
+            }
+        }
+        &_left {
+            background-image: url("../../../../../assets/images/about/eve.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            left: -365px;
+            top: 240px;
+            width: 389px;
+            height: 584px;
+            &-items {
+                width: 351px;
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                text-align: right;
+                position: absolute;
+                top: 355px;
+                right: 219px;
+            }
+            &-title {
+                display: flex;
+                flex-direction: column;
+                &-name {
+                    font-size: 20px;
+                }
+            }
+            &-description {
+                margin-top: 29px;
+            }
+        }
+
+    }
+}

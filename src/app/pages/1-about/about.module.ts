@@ -5,6 +5,7 @@ import { AboutComponent } from './about.component';
 import { AboutFirstScreenComponent } from './components/1-about-first-screen/about-first-screen.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutSecondScreenComponent } from './components/2-about-second-screen/about-second-screen.component';
+import { AboutThirdScreenComponent } from './components/3-about-third-screen/about-third-screen.component';
 
 const routes: Routes = [
     {
@@ -18,6 +19,7 @@ const routes: Routes = [
         AboutComponent,
         AboutFirstScreenComponent,
         AboutSecondScreenComponent,
+        AboutThirdScreenComponent,
     ],
     imports: [CommonModule, SharedModule, RouterModule.forChild(routes)],
     exports: [RouterModule],
