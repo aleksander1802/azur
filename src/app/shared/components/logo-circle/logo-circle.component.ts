@@ -9,6 +9,5 @@ import { Component, Input } from '@angular/core';
     styleUrl: './logo-circle.component.scss',
 })
 export class LogoCircleComponent {
-    @Input() additionalClasses = '';
-    defaultClasses = 'logo__circle';
+    @Input() fill = 'white';
 }

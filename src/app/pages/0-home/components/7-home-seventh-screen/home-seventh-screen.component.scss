@@ -11,6 +11,12 @@
             position: relative;
             margin-left: 125px;
             width: max-content;
+            &-circle {
+                display: inline-block;
+                position: absolute;
+                top: -1.7rem;
+                right: -4rem;
+            }
         }
         &_slider {
             position: relative;

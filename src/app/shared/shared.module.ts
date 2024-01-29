@@ -9,6 +9,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { SwiperComponent } from './components/swiper/swiper.component';
 import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 import { LogoCircleComponent } from './components/logo-circle/logo-circle.component';
+import { CrumbsComponent } from './components/crumbs/crumbs.component';
 
 @NgModule({
     declarations: [
@@ -17,6 +18,7 @@ import { LogoCircleComponent } from './components/logo-circle/logo-circle.compon
         MenuComponent,
         FooterComponent,
         NotFoundPageComponent,
+        CrumbsComponent,
     ],
     imports: [
         CommonModule,
@@ -32,6 +34,7 @@ import { LogoCircleComponent } from './components/logo-circle/logo-circle.compon
         ReactiveFormsModule,
         RouterModule,
         LogoCircleComponent,
+        CrumbsComponent,
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

@@ -1,0 +1,38 @@
+.about__first {
+    min-height: 100vh;
+    background-image: url("/assets/images/about/about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &_wrapper {
+        min-height: 100vh;
+        background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.3) 0%,
+            rgba(0, 0, 0, 0.452) 100%
+        );
+        padding-top: 107px;
+        padding-bottom: 225px;
+    }
+
+    &_title {
+        margin-top: 69px;
+        max-width: 1000px;
+    }
+
+    &_description {
+        width: 473px;
+        margin-top: 40px;
+    }
+
+    &_button {
+        margin-top: 25px;
+        background-color: var(--primary);
+        color: var(--accent);
+        padding: 17px 25px;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+}

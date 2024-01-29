@@ -1,0 +1,14 @@
+.crumbs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    &__title {
+        text-decoration: none;
+        color: var(--crumbs-title);
+    }
+
+    &__current {
+        cursor: default;
+    }
+}

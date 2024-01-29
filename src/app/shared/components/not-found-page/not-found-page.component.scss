@@ -21,6 +21,12 @@
     &_title {
         max-width: 956px;
         text-align: center;
+        &-circle {
+            display: inline-block;
+            position: absolute;
+            top: -3rem;
+            right: -2.5rem;
+        }
     }
 
     &_subtitle,
