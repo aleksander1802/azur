@@ -1,0 +1,51 @@
+<div class="about__fourth">
+    <img
+        src="/assets/images/about/about_fourth.jpg"
+        alt="Expertise image"
+        class="about__fourth_image"
+    />
+    <div class="container">
+        <div class="about__fourth_wrapper">
+            <h2 class="about__fourth_title">Экспертиза агентства</h2>
+
+            <p class="about__fourth_description">
+                Azur Life - динамично развивающееся агентство, отстаивающее
+                ценности конфиденциальности, лояльности, высокого
+                профессионализма и индивидуального подхода с 2017 года. Мы имеем
+                все необходимые лицензии, страховые и финансовые гарантии,
+                требуемые французским законодательством для того, чтобы провести
+                Вашу сделку по недвижимости максимально качественно и комфортно.
+            </p>
+
+            <div class="about__fourth_experience">
+                <app-experience></app-experience>
+            </div>
+
+            <button class="about__fourth_button">
+                Купить или продать с нами
+            </button>
+        </div>
+    </div>
+
+    <div class="navigation__links">
+        <div class="navigation__links_left">
+            <a [routerLink]="''">
+                <img
+                    src="../../../../../assets/icons/left_arrow_link.svg"
+                    alt="Left arrow link"
+                />
+                <span>Вернуться на главную страницу</span></a
+            >
+        </div>
+
+        <div class="navigation__links_right">
+            <a [routerLink]="'/objects'">
+                <span>Все объекты</span>
+                <img
+                    src="../../../../../assets/icons/right_arrow_link.svg"
+                    alt="Right arrow link"
+                />
+            </a>
+        </div>
+    </div>
+</div>

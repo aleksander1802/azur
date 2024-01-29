@@ -35,43 +35,8 @@
                 line-height: 160%;
             }
 
-            &_exp {
-                width: 100%;
+            &_experience {
                 margin-top: 70px;
-                display: flex;
-                justify-content: space-between;
-                position: relative;
-                &-item {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    text-align: center;
-                    width: max-content;
-                    gap: 20px;
-                }
-
-                &-number {
-                    font-size: 85px;
-                    letter-spacing: -1.7px;
-                }
-                &:before {
-                    content: "";
-                    position: absolute;
-                    top: 80px;
-                    left: 70px;
-                    width: 73px;
-                    height: 1px;
-                    background-color: rgba(255, 255, 255, 0.08);
-                }
-                &:after {
-                    content: "";
-                    position: absolute;
-                    top: 80px;
-                    left: 260px;
-                    width: 73px;
-                    height: 1px;
-                    background-color: rgba(255, 255, 255, 0.08);
-                }
             }
             &_link {
                 position: absolute;

@@ -1,5 +1,5 @@
 .footer {
-    background-image: url("../../../../assets/images/footer/footer.jpg");
+    background-image: url("/assets/images/footer/footer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -132,7 +132,7 @@
                         content: "";
                         position: absolute;
                         bottom: -2px;
-                        width: 100%;
+                        width: max-content;
                         height: 1px;
                         background-color: rgb(255, 255, 255);
                     }

@@ -1,0 +1,79 @@
+.about__fourth {
+    position: relative;
+    min-height: 100vh;
+    background-color: var(--background-second);
+    padding-top: 11px;
+    &_image {
+        position: absolute;
+        top: -91px;
+        right: 127px;
+    }
+
+    &_wrapper {
+        width: 475px;
+    }
+
+    &_description {
+        width: 420px;
+        margin-top: 30px;
+        line-height: 160%;
+    }
+
+    &_experience {
+        margin-top: 46px;
+    }
+
+    &_button {
+        background-color: var(--button-background);
+        padding: 17px 25px;
+        margin-top: 49px;
+        border-radius: 7px;
+        cursor: pointer;
+        border: none;
+        &:hover {
+            background-color: var(--button-hover);
+        }
+    }
+}
+
+.navigation__links {
+    padding: 0 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 55px;
+    &_left,
+    &_right {
+        position: relative;
+        a {
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            text-decoration: none;
+            span {
+                position: relative;
+                font-size: 20px;
+                &::before {
+                    width: 0;
+                    content: "";
+                    position: absolute;
+                    bottom: -2px;
+                    height: 1px;
+                    transition: all 0.5s;
+                }
+                &:hover {
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        bottom: -2px;
+                        width: 100%;
+                        height: 1px;
+                        background-color: rgb(255, 255, 255);
+                    }
+                }
+            }
+        }
+    }
+}

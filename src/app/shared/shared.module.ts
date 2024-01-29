@@ -10,6 +10,7 @@ import { SwiperComponent } from './components/swiper/swiper.component';
 import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 import { LogoCircleComponent } from './components/logo-circle/logo-circle.component';
 import { CrumbsComponent } from './components/crumbs/crumbs.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @NgModule({
     declarations: [
@@ -19,6 +20,7 @@ import { CrumbsComponent } from './components/crumbs/crumbs.component';
         FooterComponent,
         NotFoundPageComponent,
         CrumbsComponent,
+        ExperienceComponent,
     ],
     imports: [
         CommonModule,
@@ -35,6 +37,7 @@ import { CrumbsComponent } from './components/crumbs/crumbs.component';
         RouterModule,
         LogoCircleComponent,
         CrumbsComponent,
+        ExperienceComponent,
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
