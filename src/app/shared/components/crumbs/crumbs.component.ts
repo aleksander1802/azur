@@ -6,7 +6,5 @@ import { Component, Input } from '@angular/core';
     styleUrl: './crumbs.component.scss',
 })
 export class CrumbsComponent {
-    @Input() link = '';
-    @Input() linkTitle = '';
     @Input() current = '';
 }

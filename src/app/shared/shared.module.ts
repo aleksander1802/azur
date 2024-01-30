@@ -19,8 +19,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
         MenuComponent,
         FooterComponent,
         NotFoundPageComponent,
-        CrumbsComponent,
         ExperienceComponent,
+        CrumbsComponent,
     ],
     imports: [
         CommonModule,
