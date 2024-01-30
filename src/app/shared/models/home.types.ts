@@ -1,3 +1,5 @@
+import { single } from "rxjs";
+
 export interface SwiperSlidesArray {
     address?: string;
     title?: string;
@@ -10,4 +12,6 @@ export interface SwiperSlidesArray {
     news?: boolean;
     addedBottomClass?: boolean;
     link?: boolean;
+    rent?: boolean;
+    single?: boolean
 }

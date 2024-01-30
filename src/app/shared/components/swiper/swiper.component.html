@@ -72,11 +72,24 @@
                             slide.addedBottomClass
                     }"
                 >
-                    @if (slide.sell) {
+                    @if (slide.single) { @if (idx === activeSlide && slide.sell
+                    || slide.rent) { @if (slide.sell) {
                     <button class="swiper__slider__home__wrapper_bottom-button">
                         Продажа
                     </button>
-                    }
+                    } @if (slide.rent) {
+                    <button class="swiper__slider__home__wrapper_bottom-button">
+                        Аренда
+                    </button>
+                    } } } @else { @if (slide.sell) {
+                    <button class="swiper__slider__home__wrapper_bottom-button">
+                        Продажа
+                    </button>
+                    } @if (slide.rent) {
+                    <button class="swiper__slider__home__wrapper_bottom-button">
+                        Аренда
+                    </button>
+                    } }
 
                     <p class="swiper__slider__home__wrapper_bottom-title">
                         {{ slide.title }}

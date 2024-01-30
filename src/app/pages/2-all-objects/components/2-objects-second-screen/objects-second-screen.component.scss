@@ -1,0 +1,47 @@
+.objects__second {
+    padding-top: 117px;
+    padding-bottom: 128px;
+    min-height: 100vh;
+    &_sell {
+        position: relative;
+        margin-left: 125px;
+        width: max-content;
+        &-link {
+            display: block;
+            position: absolute;
+            width: max-content;
+            top: -1rem;
+            left: 330px;
+            cursor: pointer;
+            &:after {
+                content: "";
+                position: absolute;
+                height: 1px;
+                width: 100%;
+                bottom: -5px;
+                left: 0;
+                background-color: var(--primary);
+            }
+        }
+    }
+    &_slider {
+        position: relative;
+        user-select: none;
+        &-button-next,
+        &-button-prev {
+            cursor: pointer;
+        }
+    }
+}
+
+.swiper-navigation {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    height: 0px;
+}

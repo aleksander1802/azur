@@ -1,0 +1,25 @@
+<div class="objects__second">
+    <div class="objects__second_sell">
+        <h2 class="objects__second_sell-title">Продажа</h2>
+        <a class="objects__second_sell-link">
+            Смотреть все объекты на продажу
+        </a>
+    </div>
+
+    <div class="objects__second_slider">
+        <app-swiper
+            [slides]="slides"
+            [config]="config"
+            [activeSlide]="activeSlideIndex"
+        ></app-swiper>
+
+        <div class="swiper-navigation">
+            <div class="objects__second_slider-button-prev">
+                <img src="/assets/icons/prev_slide.svg" alt="Prev slide" />
+            </div>
+            <div class="objects__second_slider-button-next">
+                <img src="/assets/icons/next_slide.svg" alt="Next slide" />
+            </div>
+        </div>
+    </div>
+</div>
