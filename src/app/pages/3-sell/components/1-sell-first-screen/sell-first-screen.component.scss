@@ -1,0 +1,26 @@
+.sell__first {
+    background-image: url("/assets/images/sell/sell_first.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-top: 106px;
+    padding-bottom: 475px;
+    &_wrapper {
+        position: relative;
+        max-width: 450px;
+        margin-top: 161px;
+    }
+    &_title {
+        &-circle {
+            position: absolute;
+            top: -2rem;
+            right: 2rem;
+        }
+    }
+    &_description {
+        max-width: 435px;
+        margin-top: 31px;
+        line-height: 160%; 
+    }
+}

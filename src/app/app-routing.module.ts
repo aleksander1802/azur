@@ -28,6 +28,13 @@ const routes: Routes = [
                     ),
             },
             {
+                path: 'sell',
+                loadChildren: () =>
+                    import('./pages/3-sell/sell.module').then(
+                        (mod) => mod.SellModule
+                    ),
+            },
+            {
                 path: 'property',
                 loadChildren: () =>
                     import(
