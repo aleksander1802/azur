@@ -1,0 +1,43 @@
+<div class="objects__third">
+    <div class="objects__third_rent">
+        <h2 class="objects__third_rent-title">Аренда</h2>
+        <a class="objects__third_rent-link"> Смотреть все объекты в аренду </a>
+    </div>
+    <div class="objects__third_slider">
+        <app-swiper
+            [slides]="slides"
+            [config]="config"
+            [activeSlide]="activeSlideIndex"
+        ></app-swiper>
+
+        <div class="swiper-navigation">
+            <div class="objects__third_slider-button-prev">
+                <img src="/assets/icons/prev_slide.svg" alt="Prev slide" />
+            </div>
+            <div class="objects__third_slider-button-next">
+                <img src="/assets/icons/next_slide.svg" alt="Next slide" />
+            </div>
+        </div>
+    </div>
+    <div class="navigation__links">
+        <div class="navigation__links_left">
+            <a [routerLink]="''">
+                <img
+                    src="../../../../../assets/icons/left_arrow_link.svg"
+                    alt="Left arrow link"
+                />
+                <span>О нас</span></a
+            >
+        </div>
+
+        <div class="navigation__links_right">
+            <a [routerLink]="'/objects'">
+                <span>Купить, продать, арендовать вместе с нами</span>
+                <img
+                    src="../../../../../assets/icons/right_arrow_link.svg"
+                    alt="Right arrow link"
+                />
+            </a>
+        </div>
+    </div>
+</div>
