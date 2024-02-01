@@ -1,0 +1,202 @@
+<div class="sell__second">
+    <div class="container">
+        <div class="sell__second__filter">
+            <h2 class="sell__second__filter-title">Объекты на продажу</h2>
+            <div class="sell__second__filter__wrapper">
+                <div class="sell__second__filter__wrapper_item">
+                    <select id="houseType" [(ngModel)]="selectedHouseType">
+                        <option value="" disabled>Тип</option>
+                        <option value="apartments">Апартаменты</option>
+                        <option value="house">Дом</option>
+                        <option value="float">Квартира</option>
+                    </select>
+                </div>
+                <div class="sell__second__filter__wrapper_item">
+                    <select id="city" [(ngModel)]="selectedCity">
+                        <option value="" disabled>Расположение</option>
+                        <option *ngFor="let city of cities" [value]="city">
+                            {{ city }}
+                        </option>
+                        <option value="">Все</option>
+                    </select>
+                </div>
+                <div class="sell__second__filter__wrapper_item">
+                    <select id="sort" [(ngModel)]="selectedSortBy">
+                        <option value="" disabled>Сортировать по</option>
+                        <option value="price_asc">По цене (возрастанию)</option>
+                        <option value="price_desc">По цене (убыванию)</option>
+                        <option value="area_asc">
+                            По площади (возрастанию)
+                        </option>
+                        <option value="area_desc">По площади (убыванию)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        @if (data | filtering : selectedHouseType : selectedCity | sorting :
+        selectedSortBy; as filteredData;) { @if (filteredData.length > 0; ) {
+        @for (item of filteredData | filtering : selectedHouseType :
+        selectedCity | sorting : selectedSortBy; track item.id) {
+
+        <div
+            class="sell__second_wrapper"
+            [ngClass]="{ 'sell__second_wrapper-large': item.large }"
+        >
+            <div class="sell__second__left">
+                <div
+                    class="sell__second__left__image"
+                    [ngClass]="{
+                        'sell__second__left__image-large': item.large
+                    }"
+                >
+                    <img [src]="item.img" [alt]="item.title" />
+
+                    <div class="sell__second__left__image_top">
+                        <img
+                            src="/assets/icons/pointer.svg"
+                            alt="Pointer Azur"
+                        />
+                        <span>{{ item.address }}</span>
+                    </div>
+
+                    <div class="sell__second__left__image_bottom">
+                        <p class="sell__second__left__image_bottom-title">
+                            {{ item.title }}
+                        </p>
+                        <p class="sell__second__left__image_bottom-description">
+                            {{ item.description }}
+                        </p>
+                    </div>
+                    @if (item.choice) {
+                    <div
+                        [ngClass]="{
+                            'sell__second__left__image-choice': item.choice
+                        }"
+                    >
+                        <app-choice-svg></app-choice-svg>
+                    </div>
+
+                    } @if (item.exclusive) {
+
+                    <div
+                        [ngClass]="{
+                            'sell__second__left__image-exclusive':
+                                item.exclusive
+                        }"
+                    >
+                        <app-exclusive-svg></app-exclusive-svg>
+                    </div>
+
+                    }
+                </div>
+            </div>
+            <div
+                class="sell__second__right"
+                [ngClass]="{
+                    'sell__second__right-large': item.large
+                }"
+            >
+                <div class="sell__second__right__top">
+                    <p class="sell__second__right__top-title">
+                        {{ item.title }}
+                    </p>
+                    <p class="sell__second__right__top-description">
+                        {{ item.description }}
+                    </p>
+                </div>
+
+                <div
+                    class="sell__second__right__bottom"
+                    [ngClass]="{
+                        'sell__second__right__bottom-add':
+                            item.choice || item.exclusive
+                    }"
+                >
+                    <div class="sell__second__right__bottom_price">
+                        <span>
+                            {{
+                                item.price | currency : "EUR" : "symbol-narrow"
+                            }}
+                        </span>
+                        <span
+                            >{{ item.area }} <span>м <sup>2</sup></span></span
+                        >
+                    </div>
+
+                    @if (item.choice) {
+                    <div
+                        [ngClass]="{
+                            'sell__second__right__bottom-choice': item.choice
+                        }"
+                    >
+                        <app-choice-svg
+                            [width]="'32'"
+                            [height]="'42'"
+                        ></app-choice-svg>
+                        <span
+                            >Выбор <br />
+                            Azur Life</span
+                        >
+                    </div>
+
+                    } @if (item.exclusive) {
+
+                    <div
+                        [ngClass]="{
+                            'sell__second__right__bottom-exclusive':
+                                item.exclusive
+                        }"
+                    >
+                        <app-exclusive-svg
+                            [width]="'32'"
+                            [height]="'42'"
+                        ></app-exclusive-svg>
+                        <span
+                            >Эксклюзивно <br />
+                            в Azur Life</span
+                        >
+                    </div>
+
+                    }
+
+                    <button
+                        class="sell__second__right__bottom_button"
+                        [ngClass]="{
+                            'sell__second__right__bottom_button-add':
+                                item.choice || item.exclusive
+                        }"
+                    >
+                        Смотреть объект
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        } } @else {
+        <h2 class="sell__second_nothing">Ничего не найдено</h2>
+        } }
+    </div>
+
+    <div class="navigation__links">
+        <div class="navigation__links_left">
+            <a [routerLink]="''">
+                <img
+                    src="/assets/icons/left_arrow_link.svg"
+                    alt="Left arrow link"
+                />
+                <span>Доступные объекты</span></a
+            >
+        </div>
+
+        <div class="navigation__links_right">
+            <a [routerLink]="'/objects'">
+                <span>Объекты в аренду</span>
+                <img
+                    src="/assets/icons/right_arrow_link.svg"
+                    alt="Right arrow link"
+                />
+            </a>
+        </div>
+    </div>
+</div>

@@ -5,12 +5,14 @@ import { MainLayoutComponent } from './components/main-layout/main-layout.compon
 import { HeaderComponent } from './components/header/header.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SwiperComponent } from './components/swiper/swiper.component';
 import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 import { LogoCircleComponent } from './components/logo-circle/logo-circle.component';
 import { CrumbsComponent } from './components/crumbs/crumbs.component';
 import { ExperienceComponent } from './components/experience/experience.component';
+import { FilteringPipe } from './pipes/filtering.pipe';
+import { SortingPipe } from './pipes/sorting.pipe';
 
 @NgModule({
     declarations: [
@@ -21,6 +23,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
         NotFoundPageComponent,
         ExperienceComponent,
         CrumbsComponent,
+        FilteringPipe,
+        SortingPipe,
     ],
     imports: [
         CommonModule,
@@ -28,6 +32,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
         ReactiveFormsModule,
         SwiperComponent,
         LogoCircleComponent,
+        FormsModule,
     ],
     exports: [
         HeaderComponent,
@@ -38,6 +43,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
         LogoCircleComponent,
         CrumbsComponent,
         ExperienceComponent,
+        FilteringPipe,
+        SortingPipe,
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

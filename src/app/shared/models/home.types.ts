@@ -1,6 +1,7 @@
-import { single } from "rxjs";
+import { single } from 'rxjs';
 
 export interface SwiperSlidesArray {
+    id?: number;
     address?: string;
     title?: string;
     description?: string;
@@ -13,5 +14,17 @@ export interface SwiperSlidesArray {
     addedBottomClass?: boolean;
     link?: boolean;
     rent?: boolean;
-    single?: boolean
+    single?: boolean;
+}
+
+export type SortOrder = 'asc' | 'desc' | null;
+
+export type HouseType = 'apartments' | 'house' | 'float' | null;
+
+export interface SellOrRent extends SwiperSlidesArray {
+    category: HouseType;
+    price: number;
+    area: number;
+    address: string;
+    large?: boolean;
 }

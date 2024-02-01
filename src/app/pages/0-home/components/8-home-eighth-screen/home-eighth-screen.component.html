@@ -23,11 +23,11 @@
                         *ngIf="email?.touched && email?.invalid"
                     >
                         <small *ngIf="getError('email', 'required')"
-                            >Please enter your email</small
+                            >Пожалуйста, введите ваш email</small
                         >
                         <small *ngIf="getError('email', 'email')"
-                            >The email is invalid</small
-                        >
+                            >Пожалуйста, введите валидный email
+                        </small>
                     </div>
                 </div>
                 <div class="home__eighth__form_checkbox_wrapper">
@@ -65,10 +65,7 @@
     <div class="home__eighth_link">
         <a [routerLink]="'/about'" class="home__eighth_link-about"
             >О нас
-            <img
-                src="/assets/icons/link_arrow.svg"
-                alt="About us link row"
-            />
+            <img src="/assets/icons/link_arrow.svg" alt="About us link row" />
         </a>
     </div>
 </div>

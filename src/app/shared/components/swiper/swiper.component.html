@@ -5,22 +5,25 @@
             <div class="swiper__slider__home__wrapper">
                 <div class="swiper__slider__home__wrapper_gradient"></div>
                 @if (slide.choice) {
-                <img
-                    src="/assets/icons/choice.svg"
-                    alt="Azur choice"
+                <div
                     [ngClass]="{
                         'swiper__slider__home__wrapper-choice': slide.choice
                     }"
-                />
+                >
+                    <app-choice-svg></app-choice-svg>
+                </div>
+
                 } @if (slide.exclusive) {
-                <img
-                    src="/assets/icons/exclusive.svg"
-                    alt="Azur exclusive"
+
+                <div
                     [ngClass]="{
                         'swiper__slider__home__wrapper-exclusive':
                             slide.exclusive
                     }"
-                />
+                >
+                    <app-exclusive-svg></app-exclusive-svg>
+                </div>
+
                 }
                 <img
                     [src]="slide.img"

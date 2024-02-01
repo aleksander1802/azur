@@ -9,11 +9,18 @@ import {
 import { SwiperOptions } from 'swiper/types/swiper-options';
 import { SwiperDirective } from '../../directives/swiper.directive';
 import { SwiperSlidesArray } from 'src/app/shared/models/home.types';
+import { ChoiceSvgComponent } from '../choice-svg/choice-svg.component';
+import { ExclusiveSvgComponent } from '../exclusive-svg/exclusive-svg.component';
 
 @Component({
     selector: 'app-swiper',
     standalone: true,
-    imports: [CommonModule, SwiperDirective],
+    imports: [
+        CommonModule,
+        SwiperDirective,
+        ChoiceSvgComponent,
+        ExclusiveSvgComponent,
+    ],
     encapsulation: ViewEncapsulation.None,
     templateUrl: './swiper.component.html',
     styleUrls: ['./swiper.component.scss'],
