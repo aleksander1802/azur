@@ -1,6 +1,6 @@
 <div class="order__filter">
-    <h2 class="order__filter-title">
-        Объекты
+    <div class="order__filter-title">
+        <h2>Объекты</h2>
 
         <h2 class="order__filter-title-span">
             {{ title }}
@@ -13,7 +13,7 @@
             }}</span>
             }
         </h2>
-    </h2>
+    </div>
     <div class="order__filter__wrapper">
         <div class="order__filter__wrapper_item">
             <select id="houseType" [(ngModel)]="selectedHouseType">
@@ -50,7 +50,7 @@ of filteredData | filtering : selectedHouseType : selectedCity | sorting :
 selectedSortBy; track item.id) {
 
 <div class="order_wrapper" [ngClass]="{ 'order_wrapper-large': item.large }">
-    <div class="order__left">
+    <div class="order__left" [ngClass]="{ 'order__left-large': item.large }">
         <div
             class="order__left__image"
             [ngClass]="{

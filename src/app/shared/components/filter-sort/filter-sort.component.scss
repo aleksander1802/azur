@@ -33,6 +33,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+
             &_item {
                 display: flex;
                 align-items: center;
@@ -69,7 +70,7 @@
         position: relative;
         margin-top: 180px;
         padding-left: 133px;
-        padding-right: 69px;
+        padding-right: 49px;
         &-large {
             background-color: var(--background);
             padding-left: 0;
@@ -79,7 +80,9 @@
     &__left {
         position: relative;
         width: 50%;
-        padding-left: 56px;
+        &-large {
+            padding-left: 56px;
+        }
 
         &__image {
             position: absolute;
@@ -130,12 +133,13 @@
     }
     &__right {
         max-width: 570px;
-        min-width: 490px;
+        min-width: 460px;
         padding-top: 20px;
         padding-bottom: 40px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+
         &-large {
             padding-top: 60px;
         }

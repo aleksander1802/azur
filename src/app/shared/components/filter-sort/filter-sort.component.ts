@@ -22,20 +22,14 @@ import { ChoiceSvgComponent } from '../choice-svg/choice-svg.component';
     styleUrl: './filter-sort.component.scss',
 })
 export class FilterSortComponent {
-    @Input() title = ' на продажу';
+    @Input() title = '';
     @Input() cities: string[] = [];
     @Input() data: SellOrRent[] = [];
-
-    filteredDataLength = 0;
 
     selectedHouseType: HouseType = 'apartments';
     selectedCity: string = '';
     selectedSortBy: string = 'price_asc';
     sortDirection: 'asc' | 'desc' = 'asc';
-
-    updateFilteredDataLength(length: number) {
-        this.filteredDataLength = length;
-    }
 
     updateFilters(houseType: HouseType, city: string, sort: string) {
         if (sort === this.selectedSortBy) {

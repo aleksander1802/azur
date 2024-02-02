@@ -35,6 +35,13 @@ const routes: Routes = [
                     ),
             },
             {
+                path: 'rent',
+                loadChildren: () =>
+                    import('./pages/4-rent/rent.module').then(
+                        (mod) => mod.RentModule
+                    ),
+            },
+            {
                 path: 'property',
                 loadChildren: () =>
                     import(
