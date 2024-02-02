@@ -13,6 +13,7 @@ import { CrumbsComponent } from './components/crumbs/crumbs.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { FilteringPipe } from './pipes/filtering.pipe';
 import { SortingPipe } from './pipes/sorting.pipe';
+import { NavigationBottomLinksComponent } from './components/navigation-bottom-links/navigation-bottom-links.component';
 
 @NgModule({
     declarations: [
@@ -25,6 +26,7 @@ import { SortingPipe } from './pipes/sorting.pipe';
         CrumbsComponent,
         FilteringPipe,
         SortingPipe,
+        NavigationBottomLinksComponent,
     ],
     imports: [
         CommonModule,
@@ -45,6 +47,7 @@ import { SortingPipe } from './pipes/sorting.pipe';
         ExperienceComponent,
         FilteringPipe,
         SortingPipe,
+        NavigationBottomLinksComponent,
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

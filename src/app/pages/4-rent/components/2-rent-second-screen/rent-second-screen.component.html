@@ -7,25 +7,5 @@
         ></app-filter-sort>
     </div>
 
-    <div class="navigation__links">
-        <div class="navigation__links_left">
-            <a [routerLink]="''">
-                <img
-                    src="/assets/icons/left_arrow_link.svg"
-                    alt="Left arrow link"
-                />
-                <span>Все объекты</span></a
-            >
-        </div>
-
-        <div class="navigation__links_right">
-            <a [routerLink]="'/objects'">
-                <span>Объекты на продажу</span>
-                <img
-                    src="/assets/icons/right_arrow_link.svg"
-                    alt="Right arrow link"
-                />
-            </a>
-        </div>
-    </div>
+   <app-navigation-bottom-links></app-navigation-bottom-links>
 </div>
