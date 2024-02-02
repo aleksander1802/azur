@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute, NavigationEnd } from '@angular/router';
-import { filter } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-navigation-bottom-links',
@@ -10,11 +9,13 @@ import { filter } from 'rxjs';
 export class NavigationBottomLinksComponent implements OnInit {
     constructor(private router: Router) {}
 
-    ngOnInit() {
-        this.updateCurrentLink();
-    }
-
     currentLink: string = '';
+    previousLink = '';
+    nextLink = '';
+    previousTitle = '';
+    nextTitle = '';
+    isFirstPage = true;
+    isLastPage = false;
 
     navLinks = [
         { title: 'Вернуться на главную страницу', link: '/' },
@@ -30,34 +31,28 @@ export class NavigationBottomLinksComponent implements OnInit {
         { title: 'Наша комиссия', link: '/fee' },
     ];
 
+    ngOnInit() {
+        this.updateCurrentLink();
+        this.getPreviousAndNextLinks();
+
+        console.log('init');
+    }
+
     private updateCurrentLink() {
         this.currentLink = this.router.url || '/';
+        console.log('updateCurrentLink');
     }
 
-    getCurrentIndex() {
-        const currentLinkWithoutParams = this.currentLink.split('/')[1];
-        return this.navLinks.findIndex((link) =>
-            link.link.includes(currentLinkWithoutParams)
+    private getPreviousAndNextLinks() {
+        const currentIndex = this.navLinks.findIndex(
+            (link) => link.link === this.currentLink
         );
-    }
-
-    isOnFirstPage() {
-        return this.getCurrentIndex() === 0;
-    }
-
-    isOnLastPage() {
-        return this.getCurrentIndex() === this.navLinks.length - 1;
-    }
-
-    getPreviousLink() {
-        return this.isOnFirstPage()
-            ? null
-            : this.navLinks[this.getCurrentIndex() - 1].link;
-    }
-
-    getNextLink() {
-        return this.isOnLastPage()
-            ? null
-            : this.navLinks[this.getCurrentIndex() + 1].link;
+        this.previousLink = this.navLinks[currentIndex - 1]?.link || '/';
+        this.nextLink = this.navLinks[currentIndex + 1]?.link || '/';
+        this.previousTitle = this.navLinks[currentIndex - 1]?.title || '';
+        this.nextTitle = this.navLinks[currentIndex + 1]?.title || '';
+        this.isFirstPage = this.currentLink === '/';
+        this.isLastPage = this.currentLink === '/fee';
+        console.log('getPreviousAndNextLinks');
     }
 }

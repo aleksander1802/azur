@@ -1,21 +1,21 @@
-<div class="navigation__links">
-    <div class="navigation__links_left" *ngIf="!isOnFirstPage()">
-        <a [routerLink]="getPreviousLink()">
+<div
+    class="navigation__links"
+    [class.single-link_left]="isFirstPage"
+    [class.single-link_right]="isLastPage"
+>
+    <div class="navigation__links_left" [class.hide]="isFirstPage">
+        <a [routerLink]="previousLink">
             <img
                 src="/assets/icons/left_arrow_link.svg"
                 alt="Left arrow link"
             />
-            <span *ngIf="getCurrentIndex() - 1 >= 0">{{
-                navLinks[getCurrentIndex() - 1].title
-            }}</span>
+            <span>{{ previousTitle }}</span>
         </a>
     </div>
 
-    <div class="navigation__links_right" *ngIf="!isOnLastPage()">
-        <a [routerLink]="getNextLink()">
-            <span *ngIf="getCurrentIndex() + 1 < navLinks.length">{{
-                navLinks[getCurrentIndex() + 1].title
-            }}</span>
+    <div class="navigation__links_right" [class.hide]="isLastPage">
+        <a [routerLink]="nextLink">
+            <span>{{ nextTitle }}</span>
             <img
                 src="/assets/icons/right_arrow_link.svg"
                 alt="Right arrow link"
