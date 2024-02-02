@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { HouseType, SellOrRent } from 'src/app/shared/models/home.types';
+import { SellOrRent } from 'src/app/shared/models/home.types';
 
 @Component({
     selector: 'app-sell-second-screen',
@@ -7,24 +7,9 @@ import { HouseType, SellOrRent } from 'src/app/shared/models/home.types';
     styleUrl: './sell-second-screen.component.scss',
 })
 export class SellSecondScreenComponent {
-    selectedHouseType: HouseType = 'apartments';
-    selectedCity: string = '';
-    selectedSortBy: string = 'price_asc';
-    sortDirection: 'asc' | 'desc' = 'asc';
+    title = 'Объекты на продажу';
 
     cities: string[] = ['Канны, Франция', 'Ницца, Франция', 'Другие'];
-
-    updateFilters(houseType: HouseType, city: string, sort: string) {
-        if (sort === this.selectedSortBy) {
-            this.sortDirection = this.sortDirection === 'asc' ? 'desc' : 'asc';
-        } else {
-            this.sortDirection = 'asc';
-        }
-
-        this.selectedHouseType = houseType;
-        this.selectedCity = city;
-        this.selectedSortBy = sort;
-    }
 
     data: SellOrRent[] = [
         {

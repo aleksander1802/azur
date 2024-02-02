@@ -9,6 +9,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SortingPipe } from 'src/app/shared/pipes/sorting.pipe';
 import { ChoiceSvgComponent } from 'src/app/shared/components/choice-svg/choice-svg.component';
 import { ExclusiveSvgComponent } from 'src/app/shared/components/exclusive-svg/exclusive-svg.component';
+import { FilterSortComponent } from 'src/app/shared/components/filter-sort/filter-sort.component';
 
 const routes: Routes = [
     {
@@ -31,7 +32,8 @@ const routes: Routes = [
         ReactiveFormsModule,
         ChoiceSvgComponent,
         ExclusiveSvgComponent,
+        FilterSortComponent,
     ],
-    exports: [RouterModule],
+    exports: [RouterModule,],
 })
 export class SellModule {}
