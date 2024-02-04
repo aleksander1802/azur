@@ -156,15 +156,16 @@ selectedSortBy; track item.id) {
 
             }
 
-            <button
-                class="order__right__bottom_button"
+            <a
+                [routerLink]="item.id"
+                class="order__right__bottom_link"
                 [ngClass]="{
-                    'order__right__bottom_button-add':
+                    'order__right__bottom_link-add':
                         item.choice || item.exclusive
                 }"
             >
                 Смотреть объект
-            </button>
+            </a>
         </div>
     </div>
 </div>

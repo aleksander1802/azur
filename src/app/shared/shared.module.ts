@@ -9,11 +9,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SwiperComponent } from './components/swiper/swiper.component';
 import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 import { LogoCircleComponent } from './components/logo-circle/logo-circle.component';
-import { CrumbsComponent } from './components/crumbs/crumbs.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { FilteringPipe } from './pipes/filtering.pipe';
 import { SortingPipe } from './pipes/sorting.pipe';
 import { NavigationBottomLinksComponent } from './components/navigation-bottom-links/navigation-bottom-links.component';
+import { breakSentenceWithBRPipe } from './pipes/break-sentence.pipe';
 
 @NgModule({
     declarations: [
@@ -23,10 +23,10 @@ import { NavigationBottomLinksComponent } from './components/navigation-bottom-l
         FooterComponent,
         NotFoundPageComponent,
         ExperienceComponent,
-        CrumbsComponent,
         FilteringPipe,
         SortingPipe,
         NavigationBottomLinksComponent,
+        breakSentenceWithBRPipe,
     ],
     imports: [
         CommonModule,
@@ -43,11 +43,11 @@ import { NavigationBottomLinksComponent } from './components/navigation-bottom-l
         ReactiveFormsModule,
         RouterModule,
         LogoCircleComponent,
-        CrumbsComponent,
         ExperienceComponent,
         FilteringPipe,
         SortingPipe,
         NavigationBottomLinksComponent,
+        breakSentenceWithBRPipe,
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

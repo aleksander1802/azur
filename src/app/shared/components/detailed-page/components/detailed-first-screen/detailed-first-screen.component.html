@@ -1,0 +1,63 @@
+@if (data) {
+<div
+    class="detailed__first"
+    [ngStyle]="{ 'background-image': 'url(' + data.imageFull + ')' }"
+>
+    <div class="detailed__first_wrapper">
+        <div class="container">
+            <app-crumbs
+                [current]="data.sell ? 'Продажа' : 'Аренда'"
+            ></app-crumbs>
+            <div class="detailed__first_address">
+                <img src="/assets/icons/pointer.svg" alt="Location address" />
+                <span>{{ data.address }}</span>
+            </div>
+
+            <div class="detailed__first_title">
+                <h2 [innerHTML]="data.title | breakSentenceWithBR"></h2>
+                @if(data.exclusive) {
+                <span class="detailed__first_title-svg">
+                    <app-exclusive-svg></app-exclusive-svg>
+                </span>
+                } @if(data.choice) {
+                <span class="detailed__first_title-svg">
+                    <app-choice-svg></app-choice-svg>
+                </span>
+                }
+            </div>
+
+            <p class="detailed__first_subtitle">{{ data.subtitle }}</p>
+
+            <p class="detailed__first_description">{{ data.description }}</p>
+
+            <div class="detailed__first__info">
+                @if(data.sell) {
+                <button type="button" class="detailed__first__info_button">
+                    Продажа
+                </button>
+                } @else {
+                <button type="button" class="detailed__first__info_button">
+                    Аренда
+                </button>
+                }
+
+                <div class="detailed__first__info_wrapper">
+                    <span
+                        >{{ data.area }}
+                        <span
+                            >м
+                            <sup class="detailed__first__info_wrapper-sup"
+                                >2</sup
+                            ></span
+                        >
+                    </span>
+                    <img src="/assets/icons/header_divider.svg" alt="Divider" />
+                    <span>
+                        {{ data.price | currency : "EUR" : "symbol" }}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+}

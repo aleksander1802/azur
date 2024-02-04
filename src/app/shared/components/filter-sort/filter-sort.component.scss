@@ -175,12 +175,14 @@
                     font-size: 11px;
                 }
             }
-            &_button {
+            &_link {
                 background-color: var(--button-background);
                 padding: 17px 32px;
                 border-radius: 7px;
                 border: none;
                 cursor: pointer;
+                text-align: center;
+                text-decoration: none;
                 &:hover {
                     background-color: var(--button-hover);
                 }

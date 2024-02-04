@@ -24,23 +24,19 @@ export class NavigationBottomLinksComponent implements OnInit {
         { title: 'Продажа', link: '/sell' },
         { title: 'Аренда', link: '/rent' },
         { title: 'Купить, продать, арендовать с нами', link: '/buy-sell-rent' },
-        { title: 'Презентация', link: '/presentation' },
-        { title: 'Экспертная оценка', link: '/expertise' },
         { title: 'Управление недвижимостью', link: '/property' },
         { title: 'Консьерж-сервис', link: '/concierge' },
+        { title: 'Экспертная оценка', link: '/expertise' },
         { title: 'Наша комиссия', link: '/fee' },
     ];
 
     ngOnInit() {
         this.updateCurrentLink();
         this.getPreviousAndNextLinks();
-
-        console.log('init');
     }
 
     private updateCurrentLink() {
         this.currentLink = this.router.url || '/';
-        console.log('updateCurrentLink');
     }
 
     private getPreviousAndNextLinks() {
@@ -53,6 +49,5 @@ export class NavigationBottomLinksComponent implements OnInit {
         this.nextTitle = this.navLinks[currentIndex + 1]?.title || '';
         this.isFirstPage = this.currentLink === '/';
         this.isLastPage = this.currentLink === '/fee';
-        console.log('getPreviousAndNextLinks');
     }
 }

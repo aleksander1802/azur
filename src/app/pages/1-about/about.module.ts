@@ -7,6 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutSecondScreenComponent } from './components/2-about-second-screen/about-second-screen.component';
 import { AboutThirdScreenComponent } from './components/3-about-third-screen/about-third-screen.component';
 import { AboutFourthScreenComponent } from './components/4-about-fourth-screen/about-fourth-screen.component';
+import { CrumbsComponent } from 'src/app/shared/components/crumbs/crumbs.component';
 
 const routes: Routes = [
     {
@@ -23,7 +24,12 @@ const routes: Routes = [
         AboutThirdScreenComponent,
         AboutFourthScreenComponent,
     ],
-    imports: [CommonModule, SharedModule, RouterModule.forChild(routes)],
+    imports: [
+        CommonModule,
+        SharedModule,
+        RouterModule.forChild(routes),
+        CrumbsComponent,
+    ],
     exports: [RouterModule],
 })
 export class AboutModule {}

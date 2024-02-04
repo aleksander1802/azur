@@ -1,19 +1,21 @@
 import { single } from 'rxjs';
 
 export interface SwiperSlidesArray {
-    id?: number;
+    id?: string;
     address?: string;
     title?: string;
     description?: string;
+    descriptionFull?: string;
     img?: string;
+    imageFull?: string;
     choice?: boolean;
     exclusive?: boolean;
     sell?: boolean;
+    rent?: boolean;
     article?: boolean;
     news?: boolean;
     addedBottomClass?: boolean;
     link?: boolean;
-    rent?: boolean;
     single?: boolean;
 }
 
@@ -27,4 +29,6 @@ export interface SellOrRent extends SwiperSlidesArray {
     area: number;
     address: string;
     large?: boolean;
+    title: string;
+    subtitle?: string;
 }

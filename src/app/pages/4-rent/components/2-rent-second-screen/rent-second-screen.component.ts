@@ -13,7 +13,7 @@ export class RentSecondScreenComponent {
 
     data: SellOrRent[] = [
         {
-            id: 1,
+            id: '8b8f9e17-a952-451a-b4b2-94c3bd4ffe43',
             category: 'apartments',
             address: 'Канны, Франция',
             title: 'Апартаменты с видом на море на Английской набережной',
@@ -26,7 +26,7 @@ export class RentSecondScreenComponent {
             choice: true,
         },
         {
-            id: 2,
+            id: '634c5b49-e57d-47c8-b580-e08ed591feb8',
             category: 'apartments',
             address: 'Ницца, Франция',
             title: 'Апартаменты с видом на море на Английской набережной',
@@ -38,7 +38,7 @@ export class RentSecondScreenComponent {
             exclusive: true,
         },
         {
-            id: 3,
+            id: '4f31d36a-eea4-4927-8a45-64e1ad28271b',
             category: 'apartments',
             address: 'Канны, Франция',
             title: 'Апартаменты с видом на море на Английской набережной',
@@ -51,7 +51,7 @@ export class RentSecondScreenComponent {
         },
 
         {
-            id: 4,
+            id: '084e752e-029e-47cd-9578-79274de796d6',
             category: 'apartments',
             address: 'Ницца, Франция',
             title: 'Апартаменты с видом на море на Английской набережной',
