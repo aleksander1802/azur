@@ -11,7 +11,7 @@
         position: relative;
         width: 100%;
         min-height: 100vh;
-        background-image: url("/assets/images/home/fourth.png");
+        background-image: url("src/assets/images/home/fourth.png");
         background-repeat: no-repeat;
         background-position: left;
         background-color: var(--background-second);
@@ -41,7 +41,7 @@
                 &__pointer {
                     &_wrapper {
                         position: relative;
-                        background-image: url("/assets/icons/office_pointer.svg");
+                        background-image: url("src/assets/icons/office_pointer.svg");
                         background-repeat: no-repeat;
                         width: 68px;
                         height: 68px;

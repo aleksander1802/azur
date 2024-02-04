@@ -25,7 +25,7 @@
     }
 
     &__wrapper {
-        background-image: url("/assets/images/about/natalia.png");
+        background-image: url("src/assets/images/about/natalia.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -51,7 +51,7 @@
             }
         }
         &_left {
-            background-image: url("/assets/images/about/eve.jpg");
+            background-image: url("src/assets/images/about/eve.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
