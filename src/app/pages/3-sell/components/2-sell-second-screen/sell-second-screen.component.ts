@@ -19,7 +19,7 @@ export class SellSecondScreenComponent {
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной.',
-            img: '/assets/images/home/slider_4.png',
+            img: 'assets/images/home/slider_4.png',
             price: 1000000,
             area: 104.73,
             large: true,
@@ -32,7 +32,7 @@ export class SellSecondScreenComponent {
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной.',
-            img: '/assets/images/home/slider_3.jpg',
+            img: 'assets/images/home/slider_3.jpg',
             price: 1600000,
             area: 114.73,
             exclusive: true,
@@ -44,7 +44,7 @@ export class SellSecondScreenComponent {
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной.',
-            img: '/assets/images/home/slider_2.jpg',
+            img: 'assets/images/home/slider_2.jpg',
             price: 2000000,
             area: 124.73,
             large: true,
@@ -57,7 +57,7 @@ export class SellSecondScreenComponent {
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной.',
-            img: '/assets/images/home/slider_4.jpg',
+            img: 'assets/images/home/slider_4.jpg',
             price: 2600000,
             area: 134.73,
             exclusive: true,

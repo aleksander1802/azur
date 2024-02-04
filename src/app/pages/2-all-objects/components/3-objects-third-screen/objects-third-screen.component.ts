@@ -14,7 +14,7 @@ export class ObjectsThirdScreenComponent {
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
-            img: '/assets/images/home/slider_3.jpg',
+            img: 'assets/images/home/slider_3.jpg',
             rent: true,
             address: 'Канны, франция',
             choice: true,
@@ -24,7 +24,7 @@ export class ObjectsThirdScreenComponent {
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
-            img: '/assets/images/home/slider_4.png',
+            img: 'assets/images/home/slider_4.png',
             rent: true,
             address: 'Канны, франция',
             single: true,
@@ -34,7 +34,7 @@ export class ObjectsThirdScreenComponent {
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
-            img: '/assets/images/home/slider_2.jpg',
+            img: 'assets/images/home/slider_2.jpg',
             rent: true,
             address: 'Канны, франция',
             exclusive: true,
@@ -45,7 +45,7 @@ export class ObjectsThirdScreenComponent {
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
-            img: '/assets/images/home/slider_5.jpg',
+            img: 'assets/images/home/slider_5.jpg',
             rent: true,
             address: 'Канны, франция',
             exclusive: true,
@@ -55,7 +55,7 @@ export class ObjectsThirdScreenComponent {
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
-            img: '/assets/images/home/slider_1.jpg',
+            img: 'assets/images/home/slider_1.jpg',
             rent: true,
             address: 'Канны, франция',
             choice: true,

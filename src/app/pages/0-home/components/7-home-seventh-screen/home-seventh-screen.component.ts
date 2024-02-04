@@ -14,7 +14,7 @@ export class HomeSeventhScreenComponent {
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
-            img: '/assets/images/home/slider_1.jpg',
+            img: 'assets/images/home/slider_1.jpg',
             addedBottomClass: true,
             article: true,
             link: true,
@@ -23,7 +23,7 @@ export class HomeSeventhScreenComponent {
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
-            img: '/assets/images/home/slider_2.jpg',
+            img: 'assets/images/home/slider_2.jpg',
             addedBottomClass: true,
             news: true,
             link: true,
@@ -32,7 +32,7 @@ export class HomeSeventhScreenComponent {
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
-            img: '/assets/images/home/slider_3.jpg',
+            img: 'assets/images/home/slider_3.jpg',
             addedBottomClass: true,
             article: true,
             link: true,
@@ -41,7 +41,7 @@ export class HomeSeventhScreenComponent {
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
-            img: '/assets/images/home/slider_4.png',
+            img: 'assets/images/home/slider_4.png',
             addedBottomClass: true,
             news: true,
             link: true,
@@ -50,7 +50,7 @@ export class HomeSeventhScreenComponent {
             title: 'Апартаменты с видом на море на Английской набережной',
             description:
                 'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
-            img: '/assets/images/home/slider_5.jpg',
+            img: 'assets/images/home/slider_5.jpg',
             addedBottomClass: true,
             article: true,
             link: true,
