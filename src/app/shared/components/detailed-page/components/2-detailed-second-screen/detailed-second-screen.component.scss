@@ -1,0 +1,61 @@
+.container {
+    padding-right: 185px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detailed__second {
+    padding-top: 118px;
+    padding-bottom: 173px;
+
+    &__left {
+        &_wrapper {
+            display: flex;
+            gap: 60px;
+            margin-top: 42px;
+        }
+
+        &-choice,
+        &-exclusive {
+            display: flex;
+            gap: 18px;
+        }
+
+        &_description {
+            max-width: 480px;
+            margin-top: 72px;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        &_link {
+            background-color: var(--button-background);
+            padding: 17px 46px;
+            border-radius: 7px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            &:hover {
+                background-color: var(--button-hover);
+            }
+        }
+    }
+
+    &__right {
+        max-width: 443px;
+        max-height: 664px;
+        overflow: hidden;
+        position: relative;
+        padding-top: 2rem;
+
+        &-choice,
+        &-exclusive {
+            position: absolute;
+            top: 0;
+            right: 2rem;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+@if (data) {
+<div class="detailed__second">
+    <div class="container">
+        <div class="detailed__second__left">
+            <h2>Об объекте</h2>
+
+            <div class="detailed__second__left_description">
+                @for (paragraph of data.descriptionFull; track paragraph) {
+
+                <p class="detailed__second__left_description-paragraph">
+                    {{ paragraph }}
+                </p>
+                }
+            </div>
+
+            <div class="detailed__second__left_wrapper">
+                @if (data.choice) {
+                <div
+                    [ngClass]="{
+                        'detailed__second__left-choice': data.choice
+                    }"
+                >
+                    <app-choice-svg
+                        [width]="'32'"
+                        [height]="'42'"
+                    ></app-choice-svg>
+                    <span
+                        >Выбор <br />
+                        Azur Life</span
+                    >
+                </div>
+
+                } @if (data.exclusive) {
+
+                <div
+                    [ngClass]="{
+                        'detailed__second__left-exclusive': data.exclusive
+                    }"
+                >
+                    <app-exclusive-svg
+                        [width]="'32'"
+                        [height]="'42'"
+                    ></app-exclusive-svg>
+                    <span
+                        >Эксклюзивно <br />
+                        в Azur Life</span
+                    >
+                </div>
+
+                }
+
+                <a class="detailed__second__left_link">Узнать об объекте</a>
+            </div>
+        </div>
+
+        <div class="detailed__second__right">
+            <img [src]="data.img" [alt]="data.title" />
+
+            @if (data.choice) {
+            <div
+                [ngClass]="{
+                    'detailed__second__right-choice': data.choice
+                }"
+            >
+                <app-choice-svg></app-choice-svg>
+            </div>
+
+            } @if (data.exclusive) {
+
+            <div
+                [ngClass]="{
+                    'detailed__second__right-exclusive': data.exclusive
+                }"
+            >
+                <app-exclusive-svg></app-exclusive-svg>
+            </div>
+
+            }
+        </div>
+    </div>
+</div>
+}

@@ -5,7 +5,7 @@ export interface SwiperSlidesArray {
     address?: string;
     title?: string;
     description?: string;
-    descriptionFull?: string;
+    descriptionFull?: string[];
     img?: string;
     imageFull?: string;
     choice?: boolean;
