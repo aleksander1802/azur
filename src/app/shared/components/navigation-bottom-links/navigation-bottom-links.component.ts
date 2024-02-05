@@ -17,13 +17,13 @@ export class NavigationBottomLinksComponent implements OnInit {
     isFirstPage = true;
     isLastPage = false;
 
+    showSellRentLinks: boolean = false;
+
     navLinks = [
         { title: 'Вернуться на главную страницу', link: '/' },
         { title: 'О нас', link: '/about' },
         { title: 'Все объекты', link: '/objects' },
         { title: 'Продажа', link: '/sell' },
-        { title: 'Объекты на продажу', link: '/sell/:sellId' },
-        { title: 'Объекты в аренду', link: '/sell/:rentId' },
         { title: 'Аренда', link: '/rent' },
         { title: 'Купить, продать, арендовать с нами', link: '/buy-sell-rent' },
         { title: 'Управление недвижимостью', link: '/property' },
@@ -35,6 +35,7 @@ export class NavigationBottomLinksComponent implements OnInit {
     ngOnInit() {
         this.updateCurrentLink();
         this.getPreviousAndNextLinks();
+        this.checkSellRentLinksVisibility();
     }
 
     private updateCurrentLink() {
@@ -51,5 +52,11 @@ export class NavigationBottomLinksComponent implements OnInit {
         this.nextTitle = this.navLinks[currentIndex + 1]?.title || '';
         this.isFirstPage = this.currentLink === '/';
         this.isLastPage = this.currentLink === '/fee';
+    }
+
+    private checkSellRentLinksVisibility() {
+        this.showSellRentLinks =
+            this.currentLink.startsWith('/sell/') ||
+            this.currentLink.startsWith('/rent/');
     }
 }
