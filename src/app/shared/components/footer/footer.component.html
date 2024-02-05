@@ -53,10 +53,10 @@
             </div>
             <div class="validation" *ngIf="email?.touched && email?.invalid">
                 <small *ngIf="getError('email', 'required')"
-                    >Please enter a register email</small
+                    >Пожалуйста, введите ваш email</small
                 >
                 <small *ngIf="getError('email', 'email')"
-                    >The register email is invalid</small
+                    >Пожалуйста, введите валидный email</small
                 >
             </div>
         </div>
@@ -75,10 +75,7 @@
     <div class="footer__contacts">
         <div class="footer__contacts_wrapper">
             <div class="footer__contacts_wrapper-phone">
-                <img
-                    src="assets/icons/phone.svg"
-                    alt="Contact phone number"
-                />
+                <img src="assets/icons/phone.svg" alt="Contact phone number" />
                 <span>+33 4 93 16 06 31 </span>
             </div>
             <div class="footer__contacts_wrapper-links">
@@ -93,10 +90,7 @@
         </div>
 
         <div class="footer__contacts_address">
-            <img
-                src="assets/icons/pointer.svg"
-                alt="Contact address"
-            />
+            <img src="assets/icons/pointer.svg" alt="Contact address" />
             <span>Франция, бульвар Леклерк, 46, 06310, Болье-сюр-Мер</span>
         </div>
     </div>

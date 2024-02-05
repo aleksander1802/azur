@@ -22,6 +22,8 @@ export class NavigationBottomLinksComponent implements OnInit {
         { title: 'О нас', link: '/about' },
         { title: 'Все объекты', link: '/objects' },
         { title: 'Продажа', link: '/sell' },
+        { title: 'Объекты на продажу', link: '/sell/:sellId' },
+        { title: 'Объекты в аренду', link: '/sell/:rentId' },
         { title: 'Аренда', link: '/rent' },
         { title: 'Купить, продать, арендовать с нами', link: '/buy-sell-rent' },
         { title: 'Управление недвижимостью', link: '/property' },

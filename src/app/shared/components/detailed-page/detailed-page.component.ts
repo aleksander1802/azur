@@ -7,6 +7,7 @@ import { CommonModule } from '@angular/common';
 import { DetailedSecondScreenComponent } from './components/2-detailed-second-screen/detailed-second-screen.component';
 import { DetailedThirdScreenComponent } from './components/3-detailed-third-screen/detailed-third-screen.component';
 import { DetailedFourthScreenComponent } from './components/4-detailed-fourth-screen/detailed-fourth-screen.component';
+import { FeedbackComponent } from '../feedback/feedback.component';
 
 @Component({
     selector: 'app-detailed-page',
@@ -18,6 +19,7 @@ import { DetailedFourthScreenComponent } from './components/4-detailed-fourth-sc
         DetailedSecondScreenComponent,
         DetailedThirdScreenComponent,
         DetailedFourthScreenComponent,
+        FeedbackComponent,
     ],
     templateUrl: './detailed-page.component.html',
     styleUrl: './detailed-page.component.scss',

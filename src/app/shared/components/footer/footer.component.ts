@@ -8,6 +8,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class FooterComponent implements OnInit {
     feedbackForm!: FormGroup;
+    
 
     navLinks = [
         { title: 'О нас', link: '/about' },

@@ -2,9 +2,14 @@
     <app-detailed-first-screen
         [data]="currentObject"
     ></app-detailed-first-screen>
+
     <app-detailed-second-screen
         [data]="currentObject"
     ></app-detailed-second-screen>
+
     <app-detailed-third-screen></app-detailed-third-screen>
+
     <app-detailed-fourth-screen></app-detailed-fourth-screen>
+
+    <app-feedback [backgroundImage]="currentObject?.imageFull"></app-feedback>
 </section>

@@ -1,0 +1,119 @@
+<div
+    class="feedback"
+    [ngStyle]="{ 'background-image': 'url(' + backgroundImage + ')' }"
+>
+    <div class="feedback_wrapper">
+        <div class="container">
+            <p class="feedback__subtitle">Напишите нам или</p>
+            <div class="feedback__title">
+                <h2>Оставьте свою заявку</h2>
+                <div class="feedback__title_circle">
+                    <app-logo-circle></app-logo-circle>
+                </div>
+            </div>
+
+            <form class="feedback__form" [formGroup]="feedbackForm">
+                <div class="feedback__form_controls">
+                    <div
+                        class="feedback__form_control"
+                        [ngClass]="{ invalid: name?.touched && name?.invalid }"
+                    >
+                        <input
+                            id="name"
+                            type="text"
+                            formControlName="name"
+                            autocomplete="name"
+                            placeholder="Имя"
+                        />
+                        <div
+                            class="validation"
+                            *ngIf="name?.touched && name?.invalid"
+                        >
+                            <small *ngIf="getError('name', 'required')">
+                                Please enter a name
+                            </small>
+                        </div>
+                    </div>
+
+                    <div
+                        class="feedback__form_control"
+                        [ngClass]="{
+                            invalid: phone?.touched && phone?.invalid
+                        }"
+                    >
+                        <input
+                            id="phone"
+                            type="number"
+                            formControlName="phone"
+                            autocomplete="phone"
+                            placeholder="Телефон"
+                        />
+                        <div
+                            class="validation"
+                            *ngIf="phone?.touched && phone?.invalid"
+                        >
+                            <small *ngIf="getError('phone', 'required')"
+                                >Please enter a phone</small
+                            >
+                        </div>
+                    </div>
+
+                    <div
+                        class="feedback__form_control"
+                        [ngClass]="{
+                            invalid: email?.touched && email?.invalid
+                        }"
+                    >
+                        <input
+                            id="email"
+                            type="email"
+                            formControlName="email"
+                            autocomplete="email"
+                            placeholder="Email"
+                        />
+                        <div
+                            class="validation"
+                            *ngIf="email?.touched && email?.invalid"
+                        >
+                            <small *ngIf="getError('email', 'required')"
+                                >Пожалуйста, введите ваш email</small
+                            >
+                            <small *ngIf="getError('email', 'email')"
+                                >Пожалуйста, введите валидный email</small
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feedback__form_checkbox_wrapper">
+                    <div class="feedback__form_checkbox">
+                        <input
+                            type="checkbox"
+                            id="privacyCheckbox"
+                            formControlName="privacyPolicy"
+                            class="feedback__form_checkbox-input"
+                        />
+                        <span class="feedback__form_checkbox-checkmark"></span>
+                    </div>
+                    <label
+                        for="privacyCheckbox"
+                        class="feedback__form_checkbox-label"
+                        >Оставляя свой email, я принимаю политику
+                        конфиденциальности.</label
+                    >
+                    <div class="feedback__form__submit">
+                        <button
+                            [disabled]="feedbackForm.invalid"
+                            type="submit"
+                            class="feedback__form__submit-button"
+                        >
+                            Отправить
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <app-navigation-bottom-links></app-navigation-bottom-links>
+</div>
