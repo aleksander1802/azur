@@ -1,0 +1,267 @@
+<div class="detailed__fourth">
+    <div class="container">
+        <div class="detailed__fourth_wrapper">
+            <img
+                src="assets/images/letters/a_light.svg"
+                alt="Background letter"
+                class="detailed__fourth_letter"
+            />
+            <h2 class="detailed__fourth_title">Детали</h2>
+
+            <p class="detailed__fourth_description">
+                {{ details.description }}
+            </p>
+
+            <div class="detailed__fourth__details">
+                <div class="detailed__fourth__details_common">
+                    <span class="detailed__fourth__details_title">Общее</span>
+
+                    <svg
+                        width="311"
+                        height="2"
+                        viewBox="0 0 311 2"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path d="M0 1H311" stroke="black" />
+                    </svg>
+
+                    <div class="detailed__fourth__details_wrapper">
+                        <div class="detailed__fourth__details_common_item">
+                            <div
+                                class="detailed__fourth__details_common_item_left"
+                            >
+                                <span>Площадь</span>
+                            </div>
+                            <div
+                                class="detailed__fourth__details_common_item_right"
+                            >
+                                <span
+                                    >{{ details.common.area }}
+                                    <span>м<sup>2</sup></span></span
+                                >
+                            </div>
+                        </div>
+                        <div class="detailed__fourth__details_common_item">
+                            <div
+                                class="detailed__fourth__details_common_item_left"
+                            >
+                                <span>Комнаты</span>
+                            </div>
+                            <div
+                                class="detailed__fourth__details_common_item_right"
+                            >
+                                <span>{{ details.common.rooms }} комнат</span>
+                            </div>
+                        </div>
+                        <div class="detailed__fourth__details_common_item">
+                            <div
+                                class="detailed__fourth__details_common_item_left"
+                            >
+                                <span>Отопление</span>
+                            </div>
+                            <div
+                                class="detailed__fourth__details_common_item_right"
+                            >
+                                <span>{{ details.common.heating }}</span>
+                            </div>
+                        </div>
+                        <div class="detailed__fourth__details_common_item">
+                            <div
+                                class="detailed__fourth__details_common_item_left"
+                            >
+                                <span
+                                    >Доступ <br />
+                                    к горячей воде</span
+                                >
+                            </div>
+                            <div
+                                class="detailed__fourth__details_common_item_right"
+                            >
+                                <span>{{ details.common.hot_water }}</span>
+                            </div>
+                        </div>
+                        <div class="detailed__fourth__details_common_item">
+                            <div
+                                class="detailed__fourth__details_common_item_left"
+                            >
+                                <span>Состояние</span>
+                            </div>
+                            <div
+                                class="detailed__fourth__details_common_item_right"
+                            >
+                                <span>{{ details.common.state }}</span>
+                            </div>
+                        </div>
+                        <div class="detailed__fourth__details_common_item">
+                            <div
+                                class="detailed__fourth__details_common_item_left"
+                            >
+                                <span>Ориентиры</span>
+                            </div>
+                            <div
+                                class="detailed__fourth__details_common_item_right"
+                            >
+                                <span>{{ details.common.landmarks }}</span>
+                            </div>
+                        </div>
+                        <div class="detailed__fourth__details_common_item">
+                            <div
+                                class="detailed__fourth__details_common_item_left"
+                            >
+                                <span>Вид</span>
+                            </div>
+                            <div
+                                class="detailed__fourth__details_common_item_right"
+                            >
+                                <span>{{ details.common.view }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="detailed__fourth__details_services">
+                    <span class="detailed__fourth__details_title">Услуги</span>
+
+                    <svg
+                        width="311"
+                        height="2"
+                        viewBox="0 0 311 2"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path d="M0 1H311" stroke="black" />
+                    </svg>
+
+                    <div class="detailed__fourth__details_services_wrapper">
+                        @for (item of details.services; track item) {
+                        <div class="detailed__fourth__details_services_item">
+                            <span>{{ item }}</span>
+                        </div>
+                        }
+                    </div>
+                </div>
+                <div class="detailed__fourth__details_distance">
+                    <span class="detailed__fourth__details_title"
+                        >Расстояние</span
+                    >
+
+                    <svg
+                        width="311"
+                        height="2"
+                        viewBox="0 0 311 2"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path d="M0 1H311" stroke="black" />
+                    </svg>
+
+                    <div class="detailed__fourth__details_wrapper">
+                        <div class="detailed__fourth__details_distance_item">
+                            <div
+                                class="detailed__fourth__details_distance_item_left"
+                            >
+                                <span>Аэропорт</span>
+                            </div>
+                            <div
+                                class="detailed__fourth__details_distance_item_right"
+                            >
+                                <span>{{ details.distance.airport }} </span>
+                            </div>
+                        </div>
+
+                        <div class="detailed__fourth__details_distance_item">
+                            <div
+                                class="detailed__fourth__details_distance_item_left"
+                            >
+                                <span>Автобусная остановка</span>
+                            </div>
+                            <div
+                                class="detailed__fourth__details_distance_item_right"
+                            >
+                                <span>{{ details.distance.bus_stop }} </span>
+                            </div>
+                        </div>
+
+                        <div class="detailed__fourth__details_distance_item">
+                            <div
+                                class="detailed__fourth__details_distance_item_left"
+                            >
+                                <span>Море</span>
+                            </div>
+                            <div
+                                class="detailed__fourth__details_distance_item_right"
+                            >
+                                <span>{{ details.distance.sea }} </span>
+                            </div>
+                        </div>
+
+                        <div class="detailed__fourth__details_distance_item">
+                            <div
+                                class="detailed__fourth__details_distance_item_left"
+                            >
+                                <span>Пляж</span>
+                            </div>
+                            <div
+                                class="detailed__fourth__details_distance_item_right"
+                            >
+                                <span>{{ details.distance.beach }} </span>
+                            </div>
+                        </div>
+
+                        <div class="detailed__fourth__details_distance_item">
+                            <div
+                                class="detailed__fourth__details_distance_item_left"
+                            >
+                                <span>Шоссе</span>
+                            </div>
+                            <div
+                                class="detailed__fourth__details_distance_item_right"
+                            >
+                                <span>{{ details.distance.highway }} </span>
+                            </div>
+                        </div>
+
+                        <div class="detailed__fourth__details_distance_item">
+                            <div
+                                class="detailed__fourth__details_distance_item_left"
+                            >
+                                <span>Центр города</span>
+                            </div>
+                            <div
+                                class="detailed__fourth__details_distance_item_right"
+                            >
+                                <span>{{ details.distance.city_center }} </span>
+                            </div>
+                        </div>
+
+                        <div class="detailed__fourth__details_distance_item">
+                            <div
+                                class="detailed__fourth__details_distance_item_left"
+                            >
+                                <span>Парк</span>
+                            </div>
+                            <div
+                                class="detailed__fourth__details_distance_item_right"
+                            >
+                                <span>{{ details.distance.park }} </span>
+                            </div>
+                        </div>
+
+                        <div class="detailed__fourth__details_distance_item">
+                            <div
+                                class="detailed__fourth__details_distance_item_left"
+                            >
+                                <span>Морской порт</span>
+                            </div>
+                            <div
+                                class="detailed__fourth__details_distance_item_right"
+                            >
+                                <span>{{ details.distance.seaport }} </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

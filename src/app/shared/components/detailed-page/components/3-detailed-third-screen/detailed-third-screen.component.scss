@@ -15,7 +15,7 @@
         &:hover {
             svg {
                 path {
-                    stroke: red;
+                    stroke: var(--accent);
                 }
             }
             background-color: var(--primary-semihalf);

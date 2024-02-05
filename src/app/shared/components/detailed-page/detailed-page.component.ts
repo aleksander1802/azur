@@ -6,6 +6,7 @@ import { SharedModule } from '../../shared.module';
 import { CommonModule } from '@angular/common';
 import { DetailedSecondScreenComponent } from './components/2-detailed-second-screen/detailed-second-screen.component';
 import { DetailedThirdScreenComponent } from './components/3-detailed-third-screen/detailed-third-screen.component';
+import { DetailedFourthScreenComponent } from './components/4-detailed-fourth-screen/detailed-fourth-screen.component';
 
 @Component({
     selector: 'app-detailed-page',
@@ -16,6 +17,7 @@ import { DetailedThirdScreenComponent } from './components/3-detailed-third-scre
         DetailedFirstScreenComponent,
         DetailedSecondScreenComponent,
         DetailedThirdScreenComponent,
+        DetailedFourthScreenComponent,
     ],
     templateUrl: './detailed-page.component.html',
     styleUrl: './detailed-page.component.scss',

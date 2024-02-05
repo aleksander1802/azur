@@ -33,3 +33,31 @@ export interface SellOrRent extends SwiperSlidesArray {
 
 export interface DetailedSellOrRent
     extends Pick<SwiperSlidesArray, 'title' | 'img'> {}
+
+export interface ObjectDetails {
+    common: Partial<ObjectCommonDetails>;
+    services: string[];
+    distance: Partial<ObjectDistanceDetails>;
+    description: string;
+}
+
+export interface ObjectCommonDetails {
+    area: number;
+    rooms: number;
+    heating: string;
+    hot_water: string;
+    state: string;
+    landmarks: string;
+    view: string;
+}
+
+export interface ObjectDistanceDetails {
+    airport: string;
+    bus_stop: string;
+    sea: string;
+    beach: string;
+    highway: string;
+    city_center: string;
+    park: string;
+    seaport: string;
+}

@@ -1,0 +1,135 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    height: inherit;
+    z-index: 10000;
+}
+
+.detailed__fourth {
+    height: 526px;
+    background-image: url("src/assets/images/about/about_second.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: var(--background-second);
+    &_wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: space-between;
+        width: 1280px;
+        min-height: 720px;
+        background-color: #fffbf2;
+        padding: 55px 45px 75px;
+        overflow: hidden;
+    }
+
+    &_wrapper * {
+        color: var(--background);
+    }
+
+    &_title {
+        font-weight: 400;
+        font-size: 84px;
+        line-height: 90%;
+        letter-spacing: -0.02em;
+    }
+
+    &_description {
+        max-width: 470px;
+        line-height: 160%;
+    }
+
+    &_letter {
+        position: absolute;
+        z-index: 0;
+        left: 451px;
+        top: 0;
+    }
+
+    &__details {
+        width: 100%;
+
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        &_title {
+            display: block;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        &_common {
+            width: 360px;
+
+            &_item {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                line-height: 98%;
+                &_left {
+                    span {
+                        font-weight: 600;
+                    }
+                }
+                &_right {
+                    width: 181px;
+                }
+            }
+        }
+
+        &_services {
+            height: 370px;
+            &_wrapper {
+                height: 287px;
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                row-gap: 20px;
+                align-content: space-between;
+            }
+            &_item {
+                width: max-content;
+                max-width: 151px;
+                line-height: 98%;
+            }
+        }
+
+        &_distance {
+            &_item {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                line-height: 98%;
+                &_left {
+                    span {
+                        font-weight: 600;
+                    }
+                }
+                &_right {
+                    width: 121px;
+                }
+            }
+        }
+
+        &_wrapper {
+            height: 321px;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-bottom: 5px;
+        }
+
+        &_services,
+        &_distance {
+            position: relative;
+            width: 320px;
+            z-index: 100;
+        }
+    }
+}
