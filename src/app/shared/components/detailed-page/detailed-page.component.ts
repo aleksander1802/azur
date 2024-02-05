@@ -5,6 +5,7 @@ import { SellOrRent } from '../../models/home.types';
 import { SharedModule } from '../../shared.module';
 import { CommonModule } from '@angular/common';
 import { DetailedSecondScreenComponent } from './components/2-detailed-second-screen/detailed-second-screen.component';
+import { DetailedThirdScreenComponent } from './components/3-detailed-third-screen/detailed-third-screen.component';
 
 @Component({
     selector: 'app-detailed-page',
@@ -14,6 +15,7 @@ import { DetailedSecondScreenComponent } from './components/2-detailed-second-sc
         CommonModule,
         DetailedFirstScreenComponent,
         DetailedSecondScreenComponent,
+        DetailedThirdScreenComponent,
     ],
     templateUrl: './detailed-page.component.html',
     styleUrl: './detailed-page.component.scss',

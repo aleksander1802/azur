@@ -1,5 +1,3 @@
-import { single } from 'rxjs';
-
 export interface SwiperSlidesArray {
     id?: string;
     address?: string;
@@ -32,3 +30,6 @@ export interface SellOrRent extends SwiperSlidesArray {
     title: string;
     subtitle?: string;
 }
+
+export interface DetailedSellOrRent
+    extends Pick<SwiperSlidesArray, 'title' | 'img'> {}

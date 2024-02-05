@@ -30,4 +30,5 @@ export class SwiperComponent {
     @Input() slides: SwiperSlidesArray[] = [];
     @Input() config: SwiperOptions = {};
     @Input() activeSlide = 0;
+    @Input() detailedComponentStyle = false;
 }

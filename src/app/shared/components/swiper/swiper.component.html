@@ -1,6 +1,12 @@
 <swiper-container fmSwiper [config]="config" init="false">
     @for (slide of slides; track slide.img; let idx = $index) {
     <swiper-slide>
+        @if (detailedComponentStyle) {
+        <div class="swiper__slider__detailed">
+            <img [src]="slide.img" [alt]="slide.title" />
+        </div>
+        } @else {
+
         <div class="swiper__slider__home">
             <div class="swiper__slider__home__wrapper">
                 <div class="swiper__slider__home__wrapper_gradient"></div>
@@ -104,6 +110,7 @@
                 </div>
             </div>
         </div>
+        }
     </swiper-slide>
     }
 </swiper-container>

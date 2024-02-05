@@ -1,0 +1,36 @@
+.detailed__slider {
+    position: relative;
+    user-select: none;
+    &_button-next,
+    &_button-prev {
+        cursor: pointer;
+        width: 46px;
+        height: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+        background-color: var(--primary-background);
+        transition: all 0.3s;
+        &:hover {
+            svg {
+                path {
+                    stroke: red;
+                }
+            }
+            background-color: var(--primary-semihalf);
+        }
+    }
+}
+
+.swiper-navigation {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    height: 0px;
+}
