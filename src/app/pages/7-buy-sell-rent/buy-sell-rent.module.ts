@@ -8,6 +8,7 @@ import { CrumbsComponent } from 'src/app/shared/components/crumbs/crumbs.compone
 import { BuySellRentSecondScreenComponent } from './components/2-buy-sell-rent-second-screen/buy-sell-rent-second-screen.component';
 import { BuySellRentAdvantagesComponent } from './components/buy-sell-rent-advantages/buy-sell-rent-advantages.component';
 import { SvgPercentComponent } from 'src/app/shared/components/svg-percent/svg-percent.component';
+import { BuySellRentThirdScreenComponent } from './components/3-buy-sell-rent-third-screen/buy-sell-rent-third-screen.component';
 
 const routes: Routes = [
     {
@@ -22,6 +23,7 @@ const routes: Routes = [
         BuySellRentFirstScreenComponent,
         BuySellRentSecondScreenComponent,
         BuySellRentAdvantagesComponent,
+        BuySellRentThirdScreenComponent,
     ],
     imports: [
         RouterModule.forChild(routes),

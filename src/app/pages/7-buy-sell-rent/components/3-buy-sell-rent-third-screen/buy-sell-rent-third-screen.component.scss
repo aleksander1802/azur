@@ -1,0 +1,131 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    position: relative;
+    padding: 0;
+}
+.buySellRent__third {
+    min-height: 100vh;
+    padding-bottom: 145px;
+    padding-left: 62px;
+    padding-right: 62px;
+    background-color: var(--background-second);
+
+    &__items {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+    &__item {
+        height: 312px;
+        padding: 36px 62px 42px 58px;
+        position: relative;
+        background-color: var(--background);
+        display: flex;
+        justify-content: space-between;
+
+        position: relative;
+        z-index: 100;
+        &:nth-child(1),
+        &:nth-child(3) {
+            overflow: hidden;
+        }
+        &:nth-child(2) {
+            position: relative;
+            background-color: transparent;
+            margin-top: 62px;
+
+            z-index: 0;
+        }
+        &_title {
+            width: 445px;
+            line-height: 25%;
+        }
+
+        &_wrapper {
+            width: 338px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+
+            &-description {
+                width: 100%;
+            }
+
+            &_feedback {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 350px;
+                &-link {
+                    display: inline-block;
+                    text-decoration: none;
+                }
+
+                &-button {
+                    line-height: 160%;
+                    background-color: var(--button-background);
+                    padding: 17px 22px;
+                    border: none;
+                    border-radius: 7px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &_link {
+            display: block;
+            font-size: 20px;
+            height: max-content;
+            text-decoration: none;
+            position: relative;
+
+            &:hover {
+                &:after {
+                    content: "";
+                    position: absolute;
+                    height: 1px;
+                    width: 100%;
+                    bottom: -5px;
+                    left: 0;
+                    background-color: var(--primary);
+                }
+            }
+        }
+
+        &_first {
+            &-image {
+                position: absolute;
+                top: -80%;
+                right: -6rem;
+                z-index: -1;
+            }
+        }
+
+        &_second {
+            &-image {
+                position: absolute;
+                top: -70%;
+                left: 3.5rem;
+                z-index: -1;
+            }
+        }
+
+        &_third {
+            &-image {
+                position: absolute;
+                top: -150px;
+                right: -5rem;
+                z-index: -1;
+            }
+        }
+    }
+    .buySellRent__third__item:nth-child(2) {
+        .buySellRent__third__item_wrapper {
+            width: 386px;
+        }
+    }
+}
