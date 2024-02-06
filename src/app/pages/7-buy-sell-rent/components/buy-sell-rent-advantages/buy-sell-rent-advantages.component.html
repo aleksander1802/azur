@@ -1,0 +1,36 @@
+<div *ngIf="advantagesData[advantage]">
+    <h2
+        class="advantage__title"
+        [innerHTML]="advantagesData[advantage].title | breakSentenceWithBR"
+    ></h2>
+</div>
+
+<div class="advantage">
+    <img
+        src="assets/icons/diagonal_divider.svg"
+        alt="Diagonal divider"
+        class="advantage__divider"
+    />
+
+    <div *ngFor="let item of advantagesData[advantage].advantages | keyvalue">
+        <div class="advantage__{{ item.key }}">
+            <div class="advantage__{{ item.key }}__title">
+                <h2 class="advantage__{{ item.key }}__title_number">
+                    {{ item.value.number }}
+                </h2>
+                <span
+                    class="advantage__{{ item.key }}__title_symbol"
+                    *ngIf="item.value.symbol === 'percent'"
+                >
+                    <app-svg-percent></app-svg-percent>
+                </span>
+            </div>
+            <p class="advantage__{{ item.key }}__subtitle">
+                {{ item.value.subtitle }}
+            </p>
+            <p class="advantage__{{ item.key }}__description">
+                {{ item.value.description }}
+            </p>
+        </div>
+    </div>
+</div>

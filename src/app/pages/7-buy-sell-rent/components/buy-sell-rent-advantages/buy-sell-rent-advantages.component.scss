@@ -1,0 +1,80 @@
+.advantage {
+    position: relative;
+    height: 870px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+    scroll-behavior: smooth;
+    &__divider {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__first,
+    &__second,
+    &__third {
+        width: 395px;
+        height: 677px;
+        padding-top: 152px;
+        padding-left: 26px;
+        padding-right: 26px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s;
+        opacity: 1;
+        &__title {
+            &_number {
+                font-size: 178px;
+                display: inline-block;
+                letter-spacing: -14px;
+                line-height: 25%;
+            }
+            &_symbol {
+                font-size: 40px;
+                padding-left: 10px;
+                color: var(--primary-semihalf);
+            }
+        }
+
+        &__subtitle {
+            text-align: center;
+            margin-top: 30px;
+            max-width: 200px;
+            min-height: 48px;
+            font-size: 20px;
+        }
+
+        &__description {
+            text-align: center;
+            line-height: 160%;
+            margin-top: 80px;
+            max-width: 321px;
+        }
+    }
+
+    &__first,
+    &__third {
+        &__title {
+            &_number {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    &__second {
+        backdrop-filter: blur(10.5px);
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.03);
+
+        &__description {
+            font-size: 20px;
+            line-height: 120%;
+            margin-top: 70px;
+            max-width: 342px;
+        }
+    }
+}

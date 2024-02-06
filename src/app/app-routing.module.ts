@@ -48,6 +48,13 @@ const routes: Routes = [
                         './pages/10-property-management/property-management.module'
                     ).then((mod) => mod.PropertyManagementModule),
             },
+            {
+                path: 'buy-sell-rent',
+                loadChildren: () =>
+                    import('./pages/7-buy-sell-rent/buy-sell-rent.module').then(
+                        (mod) => mod.BuySellRentModule
+                    ),
+            },
         ],
     },
     {

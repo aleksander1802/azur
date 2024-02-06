@@ -1,0 +1,57 @@
+<div class="buySellRent__second">
+    <div class="buySellRent__second_choice">
+        <div class="buySellRent__second_choice_wrapper_left">
+            <h2 class="buySellRent__second_choice_wrapper_left-title">
+                Узнайте
+            </h2>
+            <div class="buySellRent__second_choice_wrapper_left-circle">
+                <app-logo-circle [fill]="fill"></app-logo-circle>
+            </div>
+        </div>
+
+        <img
+            src="assets/images/letters/a_light.svg"
+            alt="Background block letter"
+            class="buySellRent__second_choice-letter"
+        />
+
+        <div class="buySellRent__second_choice_wrapper_right">
+            <button
+                class="buySellRent__second_choice_wrapper_right-button"
+                [ngClass]="{
+                    'buySellRent__second_choice_wrapper_right-button-active':
+                        activeTab === 'buy'
+                }"
+                (click)="setActiveTab('buy')"
+            >
+                Преимущества покупки
+            </button>
+            <button
+                class="buySellRent__second_choice_wrapper_right-button"
+                [ngClass]="{
+                    'buySellRent__second_choice_wrapper_right-button-active':
+                        activeTab === 'sell'
+                }"
+                (click)="setActiveTab('sell')"
+            >
+                Преимущества продажи
+            </button>
+            <button
+                class="buySellRent__second_choice_wrapper_right-button"
+                [ngClass]="{
+                    'buySellRent__second_choice_wrapper_right-button-active':
+                        activeTab === 'rent'
+                }"
+                (click)="setActiveTab('rent')"
+            >
+                Преимущества аренды
+            </button>
+        </div>
+    </div>
+
+    <div class="container" id="advantages">
+        <app-buy-sell-rent-advantages
+            [advantage]="activeTab"
+        ></app-buy-sell-rent-advantages>
+    </div>
+</div>

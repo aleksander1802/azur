@@ -1,0 +1,96 @@
+.buySellRent__second {
+    min-height: 100vh;
+    position: relative;
+    padding-top: 350px;
+    padding-bottom: 50px;
+    scroll-behavior: smooth;
+    &_choice {
+        position: absolute;
+        top: -2rem;
+        width: 90%;
+        height: 301px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #fffbf2;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 94px;
+        padding-bottom: 131px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        z-index: 100;
+        &-letter {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -9%;
+            z-index: -1;
+        }
+        &_wrapper {
+            &_left {
+                position: relative;
+                width: max-content;
+
+                &-circle {
+                    position: absolute;
+                    display: inline-block;
+                    position: absolute;
+                    top: -2.5rem;
+                    right: -4.5rem;
+                }
+            }
+
+            &_right {
+                width: 55%;
+                display: flex;
+                justify-content: space-between;
+                align-items: end;
+
+                &-button {
+                    background-color: transparent;
+                    width: 140px;
+                    height: 47px;
+                    border: none;
+
+                    cursor: pointer;
+                    font-size: 20px;
+                    position: relative;
+                    transition: all 0.5s;
+                    &::before {
+                        width: 0;
+                        content: "";
+                        position: absolute;
+                        bottom: -12px;
+                        height: 1px;
+                        transition: all 0.5s;
+                    }
+                    &:hover {
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            bottom: -12px;
+                            height: 1px;
+                            width: 140px;
+                            background-color: rgb(0, 0, 0);
+                        }
+                    }
+                    &-active {
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            bottom: -12px;
+                            height: 1px;
+                            width: 140px;
+                            background-color: rgb(0, 0, 0);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &_choice * {
+        color: var(--background);
+    }
+}

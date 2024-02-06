@@ -1,0 +1,35 @@
+.buySellRent__first {
+    min-height: 100vh;
+    background-image: url("src/assets/images/buy-sell-rent/bsr_first.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &_wrapper {
+        background: linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.5) 0%,
+            rgba(0, 0, 0, 0) 60%,
+            rgba(0, 0, 0, 0.3) 100%
+        );
+        min-height: 100vh;
+        min-width: 100vw;
+        padding-top: 106px;
+        padding-bottom: 341px;
+    }
+
+    &_title {
+        max-width: 454px;
+        margin-top: 132px;
+    }
+
+    &_subtitle {
+        width: max-content;
+        margin-top: 29px;
+    }
+
+    &_description {
+        max-width: 425px;
+        margin-top: 41px;
+    }
+}

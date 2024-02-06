@@ -11,5 +11,5 @@ import { SharedModule } from '../../shared.module';
 })
 export class CrumbsComponent {
     @Input() current = '';
-    @Input() detailed = '';
+    @Input() detailed = false;
 }
