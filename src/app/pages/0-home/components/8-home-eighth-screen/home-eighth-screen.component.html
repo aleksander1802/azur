@@ -1,7 +1,14 @@
-<div class="home__eighth">
+<div class="home__eighth" id="request">
     <div class="home__eighth__wrapper">
         <div class="container">
-            <h2 class="home__eighth_title">Получите информацию первыми</h2>
+            @if (break) {
+            <h2
+                [innerHTML]="title | breakSentenceWithBR : 3"
+                class="home__eighth_title"
+            ></h2>
+            } @else {
+            <h2 class="home__eighth_title">{{ title }}</h2>
+            }
             <form class="home__eighth__form" [formGroup]="emailForm">
                 <div class="home__eighth__form_controls">
                     <div

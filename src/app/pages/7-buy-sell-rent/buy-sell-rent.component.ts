@@ -5,4 +5,9 @@ import { Component } from '@angular/core';
     templateUrl: './buy-sell-rent.component.html',
     styleUrl: './buy-sell-rent.component.scss',
 })
-export class BuySellRentComponent {}
+export class BuySellRentComponent {
+    requestTitle = 'Получите первыми информацию о новых объектах';
+    break = true;
+
+    
+}

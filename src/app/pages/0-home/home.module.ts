@@ -21,8 +21,7 @@ import { HomeEighthScreenComponent } from './components/8-home-eighth-screen/hom
         HomeFifthScreenComponent,
         HomeSixthScreenComponent,
         HomeSeventhScreenComponent,
-        HomeEighthScreenComponent,
     ],
-    imports: [CommonModule, SharedModule],
+    imports: [CommonModule, SharedModule, HomeEighthScreenComponent],
 })
 export class HomeModule {}

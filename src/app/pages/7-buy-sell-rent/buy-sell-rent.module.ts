@@ -9,6 +9,7 @@ import { BuySellRentSecondScreenComponent } from './components/2-buy-sell-rent-s
 import { BuySellRentAdvantagesComponent } from './components/buy-sell-rent-advantages/buy-sell-rent-advantages.component';
 import { SvgPercentComponent } from 'src/app/shared/components/svg-percent/svg-percent.component';
 import { BuySellRentThirdScreenComponent } from './components/3-buy-sell-rent-third-screen/buy-sell-rent-third-screen.component';
+import { HomeEighthScreenComponent } from '../0-home/components/8-home-eighth-screen/home-eighth-screen.component';
 
 const routes: Routes = [
     {
@@ -22,8 +23,8 @@ const routes: Routes = [
         BuySellRentComponent,
         BuySellRentFirstScreenComponent,
         BuySellRentSecondScreenComponent,
-        BuySellRentAdvantagesComponent,
         BuySellRentThirdScreenComponent,
+        BuySellRentAdvantagesComponent,
     ],
     imports: [
         RouterModule.forChild(routes),
@@ -31,6 +32,7 @@ const routes: Routes = [
         CommonModule,
         CrumbsComponent,
         SvgPercentComponent,
+        HomeEighthScreenComponent,
     ],
 })
 export class BuySellRentModule {}
