@@ -23,3 +23,10 @@ export interface AdvantagesItem {
     subtitle?: string;
     description: string;
 }
+
+export interface RealEstate {
+    title: string;
+    description: string;
+    imageUrl: string;
+    actionLink: string;
+}
