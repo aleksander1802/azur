@@ -21,4 +21,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
 })
 export class DetailedFirstScreenComponent {
     @Input() data: SellOrRent | null = null;
+
+    currentCrumbsTitleSell = 'Продажа';
+    currentCrumbsTitleRent = 'Аренда';
 }

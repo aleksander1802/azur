@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
     styleUrl: './property-management-first-screen.component.scss',
 })
 export class PropertyManagementFirstScreenComponent {
-    current = 'Передайте недвижимость в управление';
+    currentCrumbsTitle = 'Передайте недвижимость в управление';
 }

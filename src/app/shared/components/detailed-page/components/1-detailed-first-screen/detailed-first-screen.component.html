@@ -6,7 +6,9 @@
     <div class="detailed__first_wrapper">
         <div class="container">
             <app-crumbs
-                [current]="data.sell ? 'Продажа' : 'Аренда'"
+                [current]="
+                    data.sell ? currentCrumbsTitleSell : currentCrumbsTitleRent
+                "
             ></app-crumbs>
             <div class="detailed__first_address">
                 <img src="assets/icons/pointer.svg" alt="Location address" />

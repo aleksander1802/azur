@@ -1,0 +1,39 @@
+.conciergeService__first {
+    min-height: 100vh;
+    background-image: url("src/assets/images/concierge/concierge_first.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &_wrapper {
+        padding-top: 106px;
+        padding-bottom: 223px;
+        background: linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.45) 0%,
+            rgba(0, 0, 0, 0) 50%,
+            rgba(0, 0, 0, 0) 100%
+        );
+    }
+
+    &_title {
+        margin-top: 107px;
+        max-width: 703px;
+    }
+
+    &_description {
+        margin-top: 22px;
+        max-width: 561px;
+        line-height: 160%;
+    }
+
+    &_button {
+        padding: 17px 25px;
+        border-radius: 7px;
+        background-color: var(--background-button);
+        border: none;
+        color: var(--accent);
+        cursor: pointer;
+        margin-top: 106px;
+    }
+}

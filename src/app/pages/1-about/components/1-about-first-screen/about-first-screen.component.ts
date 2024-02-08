@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
     templateUrl: './about-first-screen.component.html',
     styleUrl: './about-first-screen.component.scss',
 })
-export class AboutFirstScreenComponent {}
+export class AboutFirstScreenComponent {
+    currentCrumbsTitle = 'О нас';
+}

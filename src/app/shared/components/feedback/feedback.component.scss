@@ -64,7 +64,11 @@
                 }
 
                 &:-webkit-autofill {
-                    transition: all 5000s ease-in-out;
+                    transition: background-color 5000s ease-in-out;
+                    -webkit-text-fill-color: var(--primary);
+                }
+                &:autofill {
+                    -webkit-text-fill-color: var(--primary);
                 }
             }
         }
