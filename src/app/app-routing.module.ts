@@ -69,6 +69,13 @@ const routes: Routes = [
                         (mod) => mod.ExpertiseModule
                     ),
             },
+            {
+                path: 'fee',
+                loadChildren: () =>
+                    import('./pages/12-fee/fee.module').then(
+                        (mod) => mod.FeeModule
+                    ),
+            },
         ],
     },
     {

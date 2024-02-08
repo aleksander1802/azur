@@ -1,0 +1,41 @@
+<div class="fee__first">
+    <div class="container">
+        <app-crumbs [current]="currentCrumbsTitle"></app-crumbs>
+
+        <h1 class="fee__first_title">{{ currentCrumbsTitle }}</h1>
+
+        <div class="fee__first_wrapper">
+            <div class="fee__first_wrapper_top">
+                <p class="fee__first_wrapper_top-category">Категория</p>
+                <p class="fee__first_wrapper_top-fee">Комиссия</p>
+                <p class="fee__first_wrapper_top-feevat">
+                    Комиссия с учетом НДС
+                </p>
+            </div>
+
+            <div class="fee__first_wrapper_bottom">
+                @for (fee of fees; track fee;) {
+
+                <div class="fee__first_wrapper_bottom_item">
+                    <p class="fee__first_wrapper_bottom_item-first">
+                        {{ fee.category }}
+                    </p>
+
+                    <p class="fee__first_wrapper_bottom_item-second">
+                        {{ fee.commission }}
+                    </p>
+
+                    @if (fee.description) {
+                    <p class="fee__first_wrapper_bottom_item-third">
+                        {{ fee.description }}
+                    </p>
+                    }
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+    <img src="assets/images/letters/a.svg" alt="" class="fee__first_letter" />
+
+    <app-navigation-bottom-links></app-navigation-bottom-links>
+</div>

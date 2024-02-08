@@ -1,0 +1,84 @@
+.container {
+    position: relative;
+    z-index: 100;
+}
+
+.fee__first {
+    min-height: 100vh;
+    padding-top: 106px;
+    padding-bottom: 366px;
+    position: relative;
+    background-color: var(--background-second);
+
+    &_title {
+        margin-top: 161px;
+    }
+
+    &_wrapper {
+        min-height: 246px;
+        margin-top: 177px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &_top {
+            display: flex;
+            height: 32px;
+            align-items: center;
+            gap: 10px;
+
+            &-category {
+                width: 267px;
+            }
+
+            &-fee {
+                width: 56px;
+            }
+
+            &-feevat {
+                flex-grow: 1;
+                text-align: end;
+            }
+        }
+
+        &_bottom {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 174px;
+            &_item {
+                display: flex;
+                height: 24px;
+                align-items: center;
+                gap: 10px;
+                &-first {
+                    width: 267px;
+                    display: inline-block;
+                    border-bottom: 1px solid #333333;
+                }
+
+                &-second {
+                    width: 56px;
+                    display: inline-block;
+                }
+
+                &-third {
+                    flex-grow: 1;
+                    text-align: end;
+                    border-bottom: 1px solid #333333;
+                }
+            }
+        }
+
+        &_top * {
+            font-size: 20px;
+        }
+    }
+
+    &_letter {
+        position: absolute;
+        top: 3.8rem;
+        right: 8px;
+        z-index: 0;
+    }
+}
