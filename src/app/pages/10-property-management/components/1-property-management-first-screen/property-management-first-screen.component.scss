@@ -1,0 +1,44 @@
+.property__first {
+    background-image: url("src/assets/images/property/property_first.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &_wrapper {
+        min-height: 100vh;
+        padding-top: 106px;
+        padding-bottom: 204px;
+
+        background: linear-gradient(
+            270deg,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.45) 100%
+        );
+    }
+
+    &_title {
+        max-width: 646px;
+        margin-top: 50px;
+    }
+
+    &_subtitle {
+        margin-top: 27px;
+        font-size: 20px;
+    }
+
+    &_description {
+        margin-top: 37px;
+        max-width: 452px;
+    }
+
+    &_button {
+        background-color: var(--background-button);
+        line-height: 160%;
+        padding: 17px 25px;
+        color: var(--accent);
+        margin-top: 42px;
+        cursor: pointer;
+        border: none;
+        border-radius: 7px;
+    }
+}

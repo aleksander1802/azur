@@ -1,0 +1,55 @@
+.experience {
+    position: absolute;
+    top: -4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 92px;
+    padding-bottom: 75px;
+    padding-left: 40px;
+    padding-right: 85px;
+    background-color: #fffbf2;
+    overflow: hidden;
+    z-index: 100;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 29px;
+        z-index: 50;
+        &_exp {
+            width: 480px;
+        }
+        &_top {
+            position: relative;
+            width: max-content;
+            &-title {
+                width: max-content;
+            }
+            &-circle {
+                display: inline-block;
+                position: absolute;
+                top: -2rem;
+                right: -6rem;
+            }
+        }
+
+        &_bottom {
+            font-size: 20px;
+        }
+    }
+
+    &__letter {
+        position: absolute;
+        left: -10rem;
+        top: -75%;
+        z-index: 0;
+    }
+}
+
+.experience * {
+    color: black;
+}

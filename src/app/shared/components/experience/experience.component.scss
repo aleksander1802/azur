@@ -1,8 +1,12 @@
 .exp {
-    width: 100%;    
+    width: 100%;
     display: flex;
     justify-content: space-between;
     position: relative;
+    height: 134px;
+    &__black * {
+        color: var(--background);
+    }
     &-item {
         display: flex;
         flex-direction: column;
@@ -19,19 +23,19 @@
     &:before {
         content: "";
         position: absolute;
-        top: 80px;
+        top: 4rem;
         left: 70px;
         width: 73px;
         height: 1px;
-        background-color: rgba(255, 255, 255, 0.08);
+        background-color: rgba(46, 46, 46, 0.19);
     }
     &:after {
         content: "";
         position: absolute;
-        top: 80px;
+        top: 4rem;
         left: 260px;
         width: 73px;
         height: 1px;
-        background-color: rgba(255, 255, 255, 0.08);
+        background-color: rgba(46, 46, 46, 0.19);
     }
 }

@@ -1,0 +1,31 @@
+<div class="property__concierge">
+    <div class="property__concierge__left">
+        <h2 class="property__concierge__left_title">
+            {{ title }}
+        </h2>
+
+        <div class="property__concierge__left_tags">
+            @for (tag of tags; track tag;) {
+            <span class="property__concierge__left_tags-tag">{{ tag }}</span>
+            }
+        </div>
+
+        @if (subtitle) {
+        <p class="property__concierge__left_subtitle">{{ subtitle }}</p>
+        }
+        <p class="property__concierge__left_description">{{ description }}</p>
+
+        <button class="property__concierge__left_button">
+            Оставьте ваш запрос
+        </button>
+    </div>
+    <div class="property__concierge__right">
+        <img [src]="image" alt="Property concierge image" />
+    </div>
+
+    <img
+        src="assets/images/letters/a.svg"
+        alt="Background letter"
+        class="property__concierge_letter"
+    />
+</div>
