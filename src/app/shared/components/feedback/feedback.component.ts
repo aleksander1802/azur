@@ -18,6 +18,8 @@ export class FeedbackComponent implements OnInit {
 
     @Input() feedbackTextArea = false;
 
+    @Input() feedbackTitle = 'Оставьте свою заявку';
+
     constructor(private fb: FormBuilder) {}
 
     ngOnInit() {

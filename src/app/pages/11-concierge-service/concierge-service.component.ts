@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
     templateUrl: './concierge-service.component.html',
     styleUrl: './concierge-service.component.scss',
 })
-export class ConciergeServiceComponent {}
+export class ConciergeServiceComponent {
+    feedbackTitle = 'Оставьте запрос на консьерж сервис';
+}

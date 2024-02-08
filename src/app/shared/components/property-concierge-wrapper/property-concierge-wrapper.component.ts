@@ -8,18 +8,12 @@ import { Component, Input } from '@angular/core';
     styleUrl: './property-concierge-wrapper.component.scss',
 })
 export class PropertyConciergeWrapperComponent {
-    @Input() title = 'Управление недвижимостью';
-    @Input() tags = [
-        'В аренду/на продажу',
-        'Клининг',
-        'Оплата счетов',
-        'Подготовка к приезду',
-    ];
+    @Input() title = '';
+    @Input() tags: string[] = [];
 
-    @Input() subtitle = 'Индивидуальный подход и особое отношение';
+    @Input() subtitle = '';
 
-    @Input() description =
-        'Оплатим счета или подготовим апартаменты к приезду.  Сдадим вашу недвижимость в аренду или закажем клининг пространства: выберите то, что Вам нужно.';
+    @Input() description = '';
 
-    @Input() image = 'assets/images/about/about_fourth.jpg';
+    @Input() image = '';
 }

@@ -2,6 +2,12 @@
     <app-experience-block></app-experience-block>
 
     <div class="container">
-        <app-property-concierge-wrapper></app-property-concierge-wrapper>
+        <app-property-concierge-wrapper
+            [title]="propertyTitle"
+            [tags]="propertyTags"
+            [subtitle]="propertySubtitle"
+            [description]="propertyDescription"
+            [image]="propertyImage"
+        ></app-property-concierge-wrapper>
     </div>
 </div>
