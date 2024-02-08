@@ -16,6 +16,8 @@ export class FeedbackComponent implements OnInit {
 
     feedbackForm!: FormGroup;
 
+    @Input() feedbackTextArea = false;
+
     constructor(private fb: FormBuilder) {}
 
     ngOnInit() {
@@ -28,6 +30,7 @@ export class FeedbackComponent implements OnInit {
             phone: ['', [Validators.required]],
             email: ['', [Validators.required, Validators.email]],
             privacyPolicy: [false, Validators.requiredTrue],
+            feedbackText: ['', this.feedbackTextArea && Validators.required],
         });
     }
 
@@ -41,6 +44,10 @@ export class FeedbackComponent implements OnInit {
 
     get phone() {
         return this.feedbackForm.get('phone');
+    }
+
+    get feedbackText() {
+        return this.feedbackForm.get('feedbackText');
     }
 
     getError(controlName: string, errorName: string) {

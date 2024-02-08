@@ -35,7 +35,7 @@
         width: 430px;
         display: flex;
         flex-direction: column;
-        gap: 21px;
+        gap: 27px;
         &_controls {
             width: 100%;
             display: flex;
@@ -43,7 +43,8 @@
             justify-content: space-between;
             gap: 21px;
             margin-top: 39px;
-            input {
+            input,
+            textarea {
                 width: 100%;
                 height: 100%;
                 outline: none;
@@ -51,7 +52,7 @@
                 background-color: transparent;
                 border-radius: 13px;
                 padding: 11px 21px;
-
+                font-size: 20px;
                 &::placeholder {
                     color: var(--primary-half);
                 }
@@ -70,6 +71,11 @@
 
         &_control {
             height: 54px;
+
+            &-textarea {
+                height: 100px;
+                resize: none;
+            }
         }
 
         &_checkbox {

@@ -83,6 +83,33 @@
                             >
                         </div>
                     </div>
+                    @if(feedbackTextArea) {
+
+                    <div
+                        class="feedback__form_control feedback__form_control-textarea"
+                        [ngClass]="{
+                            invalid:
+                                feedbackText?.touched && feedbackText?.invalid
+                        }"
+                    >
+                        <textarea
+                            id="feedbackText"
+                            formControlName="feedbackText"
+                            class="feedback__form_control-textarea"
+                            placeholder="Текст сообщения"
+                        ></textarea>
+                        <div
+                            class="validation"
+                            *ngIf="
+                                feedbackText?.touched && feedbackText?.invalid
+                            "
+                        >
+                            <small *ngIf="getError('feedbackText', 'required')">
+                                Please enter a text
+                            </small>
+                        </div>
+                    </div>
+                    }
                 </div>
 
                 <div class="feedback__form_checkbox_wrapper">
