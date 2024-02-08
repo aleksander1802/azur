@@ -1,0 +1,38 @@
+.expertise__first {
+    min-height: 100vh;
+    background-image: url("src/assets/images/expertise/expertise_first.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &_wrapper {
+        padding-top: 106px;
+        padding-bottom: 344px;
+        min-height: 100vh;
+        background: linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.65) 0%,
+            rgba(0, 0, 0, 0) 60%,
+            rgba(0, 0, 0, 0) 100%
+        );
+    }
+
+    &_title {
+        margin-top: 220px;
+        max-width: 510px;
+        span {
+            font-family: "Manrope";
+            font-size: 20px;
+            line-height: 120%;
+        }
+    }
+
+    &_description {
+        max-width: 368px;
+        margin-top: 31px;
+    }
+
+    &_expirience {
+        position: relative;
+        height: 85px;
+    }
+}

@@ -62,6 +62,13 @@ const routes: Routes = [
                         './pages/11-concierge-service/concierge-service.module'
                     ).then((mod) => mod.ConciergeServiceModule),
             },
+            {
+                path: 'expertise',
+                loadChildren: () =>
+                    import('./pages/8-expertise/expertise.module').then(
+                        (mod) => mod.ExpertiseModule
+                    ),
+            },
         ],
     },
     {
