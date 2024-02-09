@@ -1,3 +1,14 @@
+@if (additionalPages) {
+<div class="navigation__links">
+    <div class="navigation__links_left">
+        <a [routerLink]="'/'">
+            <img src="assets/icons/left_arrow_link.svg" alt="Left arrow link" />
+            <span>Вернуться на главную страницу</span>
+        </a>
+    </div>
+</div>
+} @else {
+
 <div
     class="navigation__links"
     [class.single-link_left]="isFirstPage"
@@ -39,3 +50,4 @@
         }
     </div>
 </div>
+}

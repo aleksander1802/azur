@@ -18,6 +18,7 @@ export class NavigationBottomLinksComponent implements OnInit {
     isLastPage = false;
 
     showSellRentLinks: boolean = false;
+    additionalPages = false;
 
     navLinks = [
         { title: 'Вернуться на главную страницу', link: '/' },
@@ -36,6 +37,7 @@ export class NavigationBottomLinksComponent implements OnInit {
         this.updateCurrentLink();
         this.getPreviousAndNextLinks();
         this.checkSellRentLinksVisibility();
+        this.checkIsCurrentPageIsAdditional();
     }
 
     private updateCurrentLink() {
@@ -58,5 +60,9 @@ export class NavigationBottomLinksComponent implements OnInit {
         this.showSellRentLinks =
             this.currentLink.startsWith('/sell/') ||
             this.currentLink.startsWith('/rent/');
+    }
+
+    private checkIsCurrentPageIsAdditional() {
+        this.additionalPages = this.currentLink.startsWith('/policy');
     }
 }

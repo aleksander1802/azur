@@ -76,6 +76,13 @@ const routes: Routes = [
                         (mod) => mod.FeeModule
                     ),
             },
+            {
+                path: 'policy',
+                loadChildren: () =>
+                    import('./pages/13-policy/policy.module').then(
+                        (mod) => mod.PrivacyPolicyModule
+                    ),
+            },
         ],
     },
     {
