@@ -14,12 +14,12 @@ export class FeedbackComponent implements OnInit {
     @Input() backgroundImage: string | undefined =
         'assets/images/rent/rent_second_full_1.jpg';
 
-    feedbackForm!: FormGroup;
-
     @Input() feedbackTextArea = false;
 
     @Input() feedbackTitle = 'Оставьте свою заявку';
 
+    feedbackForm!: FormGroup;
+    
     constructor(private fb: FormBuilder) {}
 
     ngOnInit() {

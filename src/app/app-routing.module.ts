@@ -49,6 +49,13 @@ const routes: Routes = [
                     ),
             },
             {
+                path: 'join',
+                loadChildren: () =>
+                    import('./pages/6-join/join.module').then(
+                        (mod) => mod.JoinModule
+                    ),
+            },
+            {
                 path: 'buy-sell-rent',
                 loadChildren: () =>
                     import('./pages/7-buy-sell-rent/buy-sell-rent.module').then(

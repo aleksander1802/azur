@@ -66,6 +66,7 @@ export class NavigationBottomLinksComponent implements OnInit {
     private checkIsCurrentPageIsAdditional() {
         this.additionalPages =
             this.currentLink.startsWith('/policy') ||
-            this.currentLink.startsWith('/blog');
+            this.currentLink.startsWith('/blog') ||
+            this.currentLink.startsWith('/join');
     }
 }
