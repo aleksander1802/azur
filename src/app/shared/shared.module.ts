@@ -48,6 +48,7 @@ import { breakSentenceWithBRPipe } from './pipes/break-sentence.pipe';
         SortingPipe,
         NavigationBottomLinksComponent,
         breakSentenceWithBRPipe,
+        CommonModule,
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

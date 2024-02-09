@@ -42,6 +42,13 @@ const routes: Routes = [
                     ),
             },
             {
+                path: 'blog',
+                loadChildren: () =>
+                    import('./pages/5-blog/blog.module').then(
+                        (mod) => mod.BlogModule
+                    ),
+            },
+            {
                 path: 'buy-sell-rent',
                 loadChildren: () =>
                     import('./pages/7-buy-sell-rent/buy-sell-rent.module').then(

@@ -1,0 +1,29 @@
+<div class="blog__first">
+    <div class="container">
+        <app-crumbs [current]="currentCrumbsTitle"></app-crumbs>
+
+        <div class="blog__first_wrapper">
+            <div class="blog__first_left">
+                <h1 class="blog__first_title">{{ currentCrumbsTitle }}</h1>
+
+                <div class="blog__first_description">
+                    @for (blog of blogText; track blog;) {
+                    <p>{{ blog }}</p>
+                    }
+                </div>
+            </div>
+
+            <div class="blog__first_right">
+                <img src="assets/images/rent/rent_second_2.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <img
+        src="assets/images/letters/a.svg"
+        alt="Background letter"
+        class="blog__first_letter"
+    />
+
+    <app-navigation-bottom-links></app-navigation-bottom-links>
+</div>
