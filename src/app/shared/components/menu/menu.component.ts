@@ -19,9 +19,17 @@ export class MenuComponent {
         { title: 'Купить, продать, арендовать с нами', link: '/buy-sell-rent' },
         { title: 'Экспертная оценка', link: '/expertise' },
         { title: 'Презентация', link: '/presentation' },
+        { title: 'Управление недвижимостью', link: '/property' },
+        { title: 'Консьерж-сервис', link: '/concierge' },
     ];
 
     onCloseMenu() {
         this.closeMenu.emit();
+    }
+
+    onMenuOverlayClick(event: MouseEvent) {
+        if (!(event.target as HTMLElement).closest('.menu__wrapper')) {
+            this.onCloseMenu();
+        }
     }
 }

@@ -22,7 +22,7 @@
 
     &__title {
         position: relative;
-        width: max-content;
+        text-align: center;
         &_circle {
             display: inline-block;
             position: absolute;
@@ -203,4 +203,8 @@ small {
             outline-color: var(--danger-color);
         }
     }
+}
+
+.hide {
+    display: none;
 }

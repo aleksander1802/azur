@@ -6,8 +6,26 @@
         alt="Crumbs arrow"
         class="crumbs__image"
     />
-    <!-- @if (detailed) {
-        <span class="crumbs__current">{{ detailed }}</span>
-    } -->
+
+    @if (detailedSell) {
+
+    <a [routerLink]="'/sell'" class="crumbs__title">Продажа</a>
+    <img
+        src="
+                assets/icons/crumbs_row.svg"
+        alt="Crumbs arrow"
+        class="crumbs__image"
+    />
+    } @if (detailedRent) {
+
+    <a [routerLink]="'/rent'" class="crumbs__title">Аренда</a>
+    <img
+        src="
+                assets/icons/crumbs_row.svg"
+        alt="Crumbs arrow"
+        class="crumbs__image"
+    />
+    }
+
     <span class="crumbs__current">{{ current }}</span>
 </div>

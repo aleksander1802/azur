@@ -1,4 +1,8 @@
-<div class="menu" [ngClass]="{ menu__active: isOpen }">
+<div
+    class="menu"
+    [ngClass]="{ menu__active: isOpen }"
+    (click)="onMenuOverlayClick($event)"
+>
     <div class="menu__wrapper">
         <div class="menu__header">
             <div class="menu__header_nav">
@@ -25,6 +29,7 @@
                     <a
                         [routerLink]="item.link"
                         class="menu__links_link link__hover"
+                        (click)="onCloseMenu()"
                         >{{ item.title }}</a
                     >
                 </li>
@@ -32,28 +37,24 @@
             </ul>
         </nav>
 
-        <div
-            class="menu__links_secondary"
-            routerLinkActive="link__active"
-            [routerLinkActiveOptions]="{ exact: true }"
-        >
-            <a [routerLink]="'/property'" class="link__hover"
-                >Управление недвижимостью</a
-            >
-            <a [routerLink]="'/concierge'" class="link__hover"
-                >Консьерж-сервис</a
-            >
-        </div>
-
-        <a [routerLink]="" class="menu__link_feedback link__hover"
+        <a
+            [routerLink]=""
+            class="menu__link_feedback link__hover"
+            (click)="onCloseMenu()"
             >Связаться с нами</a
         >
 
         <div class="menu__links_policy">
-            <a [routerLink]="'/fee'" class="link__policy_hover"
+            <a
+                [routerLink]="'/fee'"
+                class="link__policy_hover"
+                (click)="onCloseMenu()"
                 >Наша комиссия</a
             >
-            <a [routerLink]="'/policy'" class="link__policy_hover"
+            <a
+                [routerLink]="'/policy'"
+                class="link__policy_hover"
+                (click)="onCloseMenu()"
                 >Политика конфиденциальности</a
             >
         </div>

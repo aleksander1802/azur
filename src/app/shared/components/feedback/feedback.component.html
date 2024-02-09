@@ -7,7 +7,7 @@
             <p class="feedback__subtitle">Напишите нам или</p>
             <div class="feedback__title">
                 <h2>{{ feedbackTitle }}</h2>
-                <div class="feedback__title_circle">
+                <div class="feedback__title_circle" [class.hide]="feedbackTextArea">
                     <app-logo-circle></app-logo-circle>
                 </div>
             </div>

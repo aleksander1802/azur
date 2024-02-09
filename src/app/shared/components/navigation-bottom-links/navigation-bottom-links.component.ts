@@ -10,6 +10,7 @@ export class NavigationBottomLinksComponent implements OnInit {
     constructor(private router: Router) {}
 
     currentLink: string = '';
+    
     previousLink = '';
     nextLink = '';
     previousTitle = '';
