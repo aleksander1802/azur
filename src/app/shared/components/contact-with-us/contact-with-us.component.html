@@ -1,0 +1,39 @@
+<div
+    class="contact"
+    [ngClass]="{ contact__active: contactWithUsService.isOpenContact }"
+    (click)="onContactWithUsOverlayClick($event)"
+>
+    <div class="contact__wrapper">
+        <app-svg-close-button
+            class="contact__close"
+            (click)="contactWithUsService.toggleIsOpenContact()"
+        ></app-svg-close-button>
+
+        <div class="contact__title_top">Azur Life</div>
+
+        <h2 class="contact__title">Свяжитесь с нами</h2>
+
+        <p class="contact__subtitle">
+            Мы готовы ответить на возникающие вопросы о недвижимости
+        </p>
+
+        <app-join-form></app-join-form>
+
+        <div class="contact__contacts">
+            <div class="contact__contacts_phone">
+                <img src="assets/icons/phone.svg" alt="Contact phone number" />
+                <span>+33 4 93 16 06 31 </span>
+            </div>
+
+            <div class="contact__contacts_email">
+                <img src="assets/icons/email.svg" alt="Contact email" />
+                <span>contact&#64;azur-life.com</span>
+            </div>
+
+            <div class="contact__contacts_address">
+                <img src="assets/icons/pointer.svg" alt="Contact address" />
+                <span>Франция, бульвар Леклерк, 46, 06310, Болье-сюр-Мер</span>
+            </div>
+        </div>
+    </div>
+</div>

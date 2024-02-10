@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { ContactWithUsService } from '../../services/contact-with-us.service';
 
 @Component({
     selector: 'app-menu',
@@ -6,8 +7,12 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
     styleUrl: './menu.component.scss',
 })
 export class MenuComponent {
+    constructor(public contactWithUsService: ContactWithUsService) {}
+
     @Input() isOpen = false;
     @Output() closeMenu: EventEmitter<void> = new EventEmitter<void>();
+
+    closeButtonColor = '#656565';
 
     navLinks = [
         { title: 'О нас', link: '/about' },

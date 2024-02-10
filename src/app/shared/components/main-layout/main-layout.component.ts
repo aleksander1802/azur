@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ContactWithUsService } from '../../services/contact-with-us.service';
 
 @Component({
     selector: 'app-main-layout',
@@ -6,6 +7,8 @@ import { Component } from '@angular/core';
     styleUrl: './main-layout.component.scss',
 })
 export class MainLayoutComponent {
+    constructor(public contactWithUsService: ContactWithUsService) {}
+
     isOpen = false;
 
     toggleMenu() {

@@ -83,6 +83,10 @@
         &_feedback {
             margin-top: 70px;
             cursor: pointer;
+            border: none;
+            background-color: transparent;
+            text-align-last: left;
+            width: max-content;
         }
     }
 }

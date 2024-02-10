@@ -5,6 +5,7 @@ import { JoinComponent } from './join.component';
 import { RouterModule, Routes } from '@angular/router';
 import { CrumbsComponent } from 'src/app/shared/components/crumbs/crumbs.component';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { JoinFormComponent } from 'src/app/shared/components/join-form/join-form.component';
 
 const routes: Routes = [
     {
@@ -20,6 +21,7 @@ const routes: Routes = [
         SharedModule,
         CommonModule,
         CrumbsComponent,
+        JoinFormComponent,
     ],
 })
 export class JoinModule {}

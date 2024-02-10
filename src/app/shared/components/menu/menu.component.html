@@ -11,12 +11,12 @@
                 <a href="">ru</a>
                 <a href="">it</a>
             </div>
-            <img
-                src="assets/icons/menu_close.svg"
-                alt="Burger menu close"
-                (click)="onCloseMenu()"
+
+            <app-svg-close-button
+                [color]="closeButtonColor"
                 class="burger__close"
-            />
+                (click)="onCloseMenu()"
+            ></app-svg-close-button>
         </div>
 
         <nav>
@@ -37,12 +37,13 @@
             </ul>
         </nav>
 
-        <a
-            [routerLink]=""
+        <button
             class="menu__link_feedback link__hover"
             (click)="onCloseMenu()"
-            >Связаться с нами</a
+            (click)="contactWithUsService.toggleIsOpenContact()"
         >
+            Связаться с нами
+        </button>
 
         <div class="menu__links_policy">
             <a

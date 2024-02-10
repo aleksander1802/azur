@@ -14,6 +14,9 @@ import { FilteringPipe } from './pipes/filtering.pipe';
 import { SortingPipe } from './pipes/sorting.pipe';
 import { NavigationBottomLinksComponent } from './components/navigation-bottom-links/navigation-bottom-links.component';
 import { breakSentenceWithBRPipe } from './pipes/break-sentence.pipe';
+import { ContactWithUsComponent } from './components/contact-with-us/contact-with-us.component';
+import { JoinFormComponent } from './components/join-form/join-form.component';
+import { SvgCloseButtonComponent } from './components/svg-close-button/svg-close-button.component';
 
 @NgModule({
     declarations: [
@@ -35,6 +38,8 @@ import { breakSentenceWithBRPipe } from './pipes/break-sentence.pipe';
         SwiperComponent,
         LogoCircleComponent,
         FormsModule,
+        ContactWithUsComponent,
+        SvgCloseButtonComponent,
     ],
     exports: [
         HeaderComponent,

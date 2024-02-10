@@ -1,0 +1,115 @@
+<form class="contactUs__form" [formGroup]="joinForm">
+    <div class="contactUs__form_controls">
+        <div
+            class="contactUs__form_control"
+            [ngClass]="{ invalid: name?.touched && name?.invalid }"
+        >
+            <input
+                id="name"
+                type="text"
+                formControlName="name"
+                autocomplete="name"
+                placeholder="Имя"
+            />
+            <div class="validation" *ngIf="name?.touched && name?.invalid">
+                <small *ngIf="getError('name', 'required')">
+                    Пожалуйста, введите имя
+                </small>
+            </div>
+        </div>
+
+        <div
+            class="contactUs__form_control"
+            [ngClass]="{
+                invalid: phone?.touched && phone?.invalid
+            }"
+        >
+            <input
+                id="phone"
+                type="number"
+                formControlName="phone"
+                autocomplete="phone"
+                placeholder="Телефон"
+            />
+            <div class="validation" *ngIf="phone?.touched && phone?.invalid">
+                <small *ngIf="getError('phone', 'required')"
+                    >Пожалуйста, введите номер телефона</small
+                >
+            </div>
+        </div>
+
+        <div
+            class="contactUs__form_control"
+            [ngClass]="{
+                invalid: email?.touched && email?.invalid
+            }"
+        >
+            <input
+                id="email"
+                type="email"
+                formControlName="email"
+                autocomplete="email"
+                placeholder="Email"
+            />
+            <div class="validation" *ngIf="email?.touched && email?.invalid">
+                <small *ngIf="getError('email', 'required')"
+                    >Пожалуйста, введите ваш email</small
+                >
+                <small *ngIf="getError('email', 'email')"
+                    >Пожалуйста, введите валидный email</small
+                >
+            </div>
+        </div>
+
+        <div
+            class="contactUs__form_control contactUs__form_control-textarea"
+            [ngClass]="{
+                invalid: joinText?.touched && joinText?.invalid
+            }"
+        >
+            <textarea
+                id="joinText"
+                formControlName="joinText"
+                class="contactUs__form_control-textarea"
+                placeholder="Текст сообщения"
+            ></textarea>
+            <div
+                class="validation"
+                *ngIf="joinText?.touched && joinText?.invalid"
+            >
+                <small *ngIf="getError('joinText', 'required')">
+                    Пожалуйста, введите текст сообщения
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <div class="contactUs__form_checkbox_wrapper">
+        <div class="contactUs__form_checkbox">
+            <input
+                type="checkbox"
+                id="privacyCheckbox"
+                formControlName="privacyPolicy"
+                class="contactUs__form_checkbox-input"
+            />
+            <span class="contactUs__form_checkbox-checkmark"></span>
+        </div>
+        <label
+            for="privacyCheckbox"
+            class="contactUs__form_checkbox-label"
+            (click)="handleCheckboxClick($event)"
+            >Оставляя свой email, я принимаю политику конфиденциальности.</label
+        >
+    </div>
+
+    <div class="contactUs__form__submit">
+        <button
+            [disabled]="joinForm.invalid"
+            type="submit"
+            class="contactUs__form__submit-button"
+            (click)="onSubmit()"
+        >
+            Отправить запрос
+        </button>
+    </div>
+</form>
