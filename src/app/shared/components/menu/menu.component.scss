@@ -37,18 +37,6 @@
         width: 132px;
         align-self: end;
         margin-right: 60px;
-
-        &_nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 82px;
-            a {
-                text-decoration: none;
-                color: var(--primary);
-                font-size: 12px;
-            }
-        }
     }
     &__links {
         display: flex;

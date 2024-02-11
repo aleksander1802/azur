@@ -1,4 +1,8 @@
-<form class="contactUs__form" [formGroup]="joinForm">
+<form
+    class="contactUs__form"
+    [formGroup]="joinForm"
+    *transloco="let t; read: 'join_form'"
+>
     <div class="contactUs__form_controls">
         <div
             class="contactUs__form_control"
@@ -9,11 +13,11 @@
                 type="text"
                 formControlName="name"
                 autocomplete="name"
-                placeholder="Имя"
+                [placeholder]="t('name_placeholder')"
             />
             <div class="validation" *ngIf="name?.touched && name?.invalid">
                 <small *ngIf="getError('name', 'required')">
-                    Пожалуйста, введите имя
+                    {{ t("name_required_error") }}
                 </small>
             </div>
         </div>
@@ -29,12 +33,12 @@
                 type="number"
                 formControlName="phone"
                 autocomplete="phone"
-                placeholder="Телефон"
+                [placeholder]="t('phone_placeholder')"
             />
             <div class="validation" *ngIf="phone?.touched && phone?.invalid">
-                <small *ngIf="getError('phone', 'required')"
-                    >Пожалуйста, введите номер телефона</small
-                >
+                <small *ngIf="getError('phone', 'required')">
+                    {{ t("phone_required_error") }}
+                </small>
             </div>
         </div>
 
@@ -52,12 +56,12 @@
                 placeholder="Email"
             />
             <div class="validation" *ngIf="email?.touched && email?.invalid">
-                <small *ngIf="getError('email', 'required')"
-                    >Пожалуйста, введите ваш email</small
-                >
-                <small *ngIf="getError('email', 'email')"
-                    >Пожалуйста, введите валидный email</small
-                >
+                <small *ngIf="getError('email', 'required')">
+                    {{ t("email_required_error") }}
+                </small>
+                <small *ngIf="getError('email', 'email')">
+                    {{ t("email_invalid_error") }}
+                </small>
             </div>
         </div>
 
@@ -71,14 +75,14 @@
                 id="joinText"
                 formControlName="joinText"
                 class="contactUs__form_control-textarea"
-                placeholder="Текст сообщения"
+                [placeholder]="t('joinText_placeholder')"
             ></textarea>
             <div
                 class="validation"
                 *ngIf="joinText?.touched && joinText?.invalid"
             >
                 <small *ngIf="getError('joinText', 'required')">
-                    Пожалуйста, введите текст сообщения
+                    {{ t("joinText_required_error") }}
                 </small>
             </div>
         </div>
@@ -98,8 +102,9 @@
             for="privacyCheckbox"
             class="contactUs__form_checkbox-label"
             (click)="handleCheckboxClick($event)"
-            >Оставляя свой email, я принимаю политику конфиденциальности.</label
         >
+            {{ t("privacy_policy_label") }}
+        </label>
     </div>
 
     <div class="contactUs__form__submit">
@@ -109,7 +114,7 @@
             class="contactUs__form__submit-button"
             (click)="onSubmit()"
         >
-            Отправить запрос
+            {{ t("submit_button") }}
         </button>
     </div>
 </form>

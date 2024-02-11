@@ -1,1 +1,13 @@
-<p>language-switcher works!</p>
+<div class="language">
+    @for ( language of languages; track language;) {
+
+    <button
+        href="#"
+        (click)="switchLanguage(language)"
+        [class.language__button_active]="language === currentLanguage"
+        class="language__button"
+    >
+        {{ language }}
+    </button>
+    }
+</div>

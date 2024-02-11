@@ -1,0 +1,19 @@
+{
+    "join_form": {
+        "name_placeholder": "Nome",
+        "phone_placeholder": "Telefono",
+        "joinText_placeholder": "Messaggio",
+        "name_required_error": "Inserisci il tuo nome",
+        "phone_required_error": "Inserisci il tuo numero di telefono",
+        "email_required_error": "Inserisci la tua email",
+        "email_invalid_error": "Inserisci un'email valida",
+        "joinText_required_error": "Inserisci un messaggio",
+        "privacy_policy_label": "Fornendo il tuo indirizzo email, accetti la nostra politica sulla privacy.",
+        "submit_button": "Invia richiesta"
+    },
+    "contact_with_us": {
+        "contact_title": "Contattaci",
+        "contact_subtitle": "Siamo pronti a rispondere alle domande sulla proprietà",
+        "contact_address": "Francia, 46 Boulevard Leclerc, 06310, Beaulieu-sur-Mer"
+    }
+}

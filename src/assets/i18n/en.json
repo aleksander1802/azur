@@ -1,0 +1,19 @@
+{
+    "join_form": {
+        "name_placeholder": "Name",
+        "phone_placeholder": "Phone",
+        "joinText_placeholder": "Message",
+        "name_required_error": "Please enter your name",
+        "phone_required_error": "Please enter your phone number",
+        "email_required_error": "Please enter your email",
+        "email_invalid_error": "Please enter a valid email",
+        "joinText_required_error": "Please enter a message",
+        "privacy_policy_label": "By providing your email, you agree to our privacy policy.",
+        "submit_button": "Send a request"
+    },
+    "contact_with_us": {
+        "contact_title": "Contact us",
+        "contact_subtitle": "We are ready to answer any questions about real estate",
+        "contact_address": "France, Boulevard Leclerc, 46, 06310, Beaulieu-sur-Mer"
+    }
+}

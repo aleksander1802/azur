@@ -1,0 +1,19 @@
+.language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 82px;
+    height: 32px;
+    &__button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        width: max-content;
+        color: var(--primary);
+        font-size: 12px;
+        transition: all 0.3s ease;
+        &_active {
+            border-bottom: 1px solid var(--primary);
+        }
+    }
+}

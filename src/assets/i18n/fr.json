@@ -1,0 +1,19 @@
+{
+    "join_form": {
+        "name_placeholder": "Nom",
+        "phone_placeholder": "Téléphone",
+        "joinText_placeholder": "Message",
+        "name_required_error": "Veuillez saisir votre nom",
+        "phone_required_error": "Veuillez saisir votre numéro de téléphone",
+        "email_required_error": "Veuillez saisir votre e-mail",
+        "email_invalid_error": "Veuillez saisir un e-mail valide",
+        "joinText_required_error": "Veuillez saisir un message",
+        "privacy_policy_label": "En fournissant votre adresse e-mail, vous acceptez notre politique de confidentialité.",
+        "submit_button": "Envoyer une demande"
+    },
+    "contact_with_us": {
+        "contact_title": "Contactez-nous",
+        "contact_subtitle": "Nous sommes prêts à répondre aux nouvelles questions sur l'immobilier",
+        "contact_address": "France, 46 Boulevard Leclerc, 06310, Beaulieu-sur-Mer"
+    }
+}

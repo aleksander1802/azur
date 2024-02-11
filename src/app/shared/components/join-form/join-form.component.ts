@@ -9,11 +9,17 @@ import {
 
 import { CommonModule } from '@angular/common';
 import { ContactWithUsService } from '../../services/contact-with-us.service';
+import { TranslocoRootModule } from 'src/app/transloco-root.module';
 
 @Component({
     selector: 'app-join-form',
     standalone: true,
-    imports: [CommonModule, ReactiveFormsModule, FormsModule],
+    imports: [
+        CommonModule,
+        ReactiveFormsModule,
+        FormsModule,
+        TranslocoRootModule,
+    ],
     templateUrl: './join-form.component.html',
     styleUrl: './join-form.component.scss',
 })

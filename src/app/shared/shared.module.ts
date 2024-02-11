@@ -17,6 +17,8 @@ import { breakSentenceWithBRPipe } from './pipes/break-sentence.pipe';
 import { ContactWithUsComponent } from './components/contact-with-us/contact-with-us.component';
 import { JoinFormComponent } from './components/join-form/join-form.component';
 import { SvgCloseButtonComponent } from './components/svg-close-button/svg-close-button.component';
+import { LanguageSwitcherComponent } from './components/language-switcher/language-switcher.component';
+import { TranslocoRootModule } from '../transloco-root.module';
 
 @NgModule({
     declarations: [
@@ -40,9 +42,11 @@ import { SvgCloseButtonComponent } from './components/svg-close-button/svg-close
         FormsModule,
         ContactWithUsComponent,
         SvgCloseButtonComponent,
+        LanguageSwitcherComponent,
     ],
     exports: [
         HeaderComponent,
+
         MenuComponent,
         SwiperComponent,
         ReactiveFormsModule,
