@@ -1,0 +1,127 @@
+{
+    "join_form": {
+        "name_placeholder": "Nom",
+        "phone_placeholder": "Téléphone",
+        "joinText_placeholder": "Message",
+        "name_required_error": "Veuillez saisir votre nom",
+        "phone_required_error": "Veuillez saisir votre numéro de téléphone",
+        "email_required_error": "Veuillez saisir votre e-mail",
+        "email_invalid_error": "Veuillez saisir un e-mail valide",
+        "joinText_required_error": "Veuillez saisir un message",
+        "privacy_policy_label": "En fournissant votre adresse e-mail, vous acceptez notre politique de confidentialité.",
+        "submit_button": "Envoyer une demande"
+    },
+
+    "contact_with_us": {
+        "contact_title": "Contactez-nous",
+        "contact_subtitle": "Nous sommes prêts à répondre aux nouvelles questions sur l'immobilier",
+        "contact_address": "France, 46 Boulevard Leclerc, 06310, Beaulieu-sur-Mer"
+    },
+
+    "experience": {
+        "experience_years": "années <br / > sur le marché",
+        "experience_clients": "clients <br/ > réguliers",
+        "experience_deals": "transactions <br/> immobilières"
+    },
+
+    "home_first": {
+        "home_first_title": "Sélection de <br/> propriétés <br/> avec accompagnement complet dans Votre langue",
+        "home_first_description": "Notre agence est spécialisée dans les objets Premium <br /> et vous les présente en en russe. Sélection de biens immobiliers <br /> dans toute la France en mettant l'accent sur les zones les plus privilégiées et pittoresques de la Méditerranée Française - Nice, Cannes ou la Côte d'Azur sans trop de temps et de frais supplémentaires.",
+        "home_first_presentation": "Télécharger la présentation",
+        "home_first_contact": "Écrivez-nous"
+    },
+
+    "home_second": {
+        "home_second_subtitle": "C'est une préoccupation pour Vous et Votre propriété",
+        "home_second_description": "Nous sommes prêts à vous surprendre avec une approche spéciale et, bien sûr, une attitude émouvante envers chaque client. Nous parlons Votre langue, de sorte que vous pouvez facilement et simplement faire une transaction à distance ou visiter notre bureau. Parlez - nous de vos préférences et nous choisirons une option valable au cœur de la côte d'Azur sans intermédiaires.",
+        "home_second_more": "En savoir Plus",
+        "home_second_application": "Laisser une demande",
+        "home_second_name": "Natalia Vinogradova",
+        "home_second_post": "Fondateur de l'agence"
+    },
+
+    "home_third": {
+        "home_third_title": "Objets disponibles",
+        "home_third_link": "Voir tous les objets"
+    },
+
+    "slider": {
+        "slider_address_cannes": "Cannes, France",
+        "slider_address_nice": "Nice, France",
+        "slider_title_full": "Appartement avec vue sur la mer sur la promenade des Anglais",
+        "slider_description": "Appartement de 3 pièces entièrement rénové au 5ème étage dans une petite résidence sur la célèbre promenade des Anglais.",
+        "slider_more": "En savoir Plus",
+        "slider_article": "Article",
+        "slider_news": "Actualités",
+        "slider_sell": "Vente",
+        "slider_rent": "Location"
+    },
+
+    "home_fourth": {
+        "home_fourth_title": "Bureau Azur Life",
+        "home_fourth_address": "France, 46 Boulevard Leclerc, 06310, Beaulieu-sur-Mer",
+        "home_fourth_description": "La transaction immobilière est possible dans n'importe quel format. Visitez notre bureau et rencontrez notre équipe en personne. Si vous préférez la communication en ligne, notre équipe se fera un plaisir d'organiser cette interaction. Il ne vous reste qu'une chose à décider: une transaction à distance ou une présence personnelle.",
+        "home_fourth_button": "Prendre rendez-vous"
+    },
+
+    "home_fifth": {
+        "home_fifth_title_left": "Gestion immobilière",
+        "home_fifth_title_right": "Service de conciergerie",
+        "home_fifth_more": "En savoir Plus",
+        "home_fifth_description_left": "Si vous possédez un bien immobilier en France, nous serons des intermédiaires entre vous et les affaires que vous préférez ne pas traiter. Cela est possible non seulement au stade de la Conclusion de la transaction, mais aussi dans la gestion ultérieure de la propriété. Nous contacterons les agences, les autorités fiscales et les opérateurs téléphoniques, nous paierons les factures ou vous représenterons à la réunion annuelle des propriétaires. Nous prendrons en charge toutes les affaires liées à Votre présence personnelle et vous présenterons partout où cela est nécessaire. Azur Life a toutes les licences nécessaires pour cela.",
+        "home_fifth_description_right": "Pour ceux qui apprécient leur temps, nous offrons un service de conciergerie: c'est une véritable préoccupation pour nos clients. Nous organisons des événements, louons des jets privés, des yachts et des voitures. En outre, nous réserverons des Hôtels, des restaurants, commanderons un transfert ou appellerons un taxi, trouverons du personnel pour la propriété choisie et le ferons de manière à ne pas vous distraire de leurs affaires."
+    },
+
+    "home_sixth": {
+        "home_sixth_title": "Pourquoi Azur Life <br /> Vous convient",
+        "home_title_left": "accompagnement expert de toute transaction",
+        "home_description_left": "Votre tranquillité d'esprit est une priorité pour nous: nous disposons de toutes les licences, Assurances et garanties financières requises par la loi française pour effectuer des transactions immobilières.",
+        "home_title_center": "base de données de l'immobilier de première main",
+        "home_description_center": "Azur Life est membre de la Fédération nationale des Agents Immobiliers (FNAIM) et a accès à une vaste base de données de propriétés dans toute la France auprès des propriétaires. Pas de commissions et de trop-payés, seulement une interaction directe avec Azur Life.",
+        "home_description_right": "Service de conciergerie, location, évaluation et gestion de biens immobiliers, ou achat et vente de vos appartements, nous ferons de notre mieux pour que la propriété soit un plaisir."
+    },
+
+    "home_seventh": {
+        "home_seventh_blog": "blog"
+    },
+
+    "home_eighth": {
+        "home_eighth_title": "Obtenez les informations en premier",
+        "home_eighth_email_required_error": "Veuillez entrer votre e-mail",
+        "home_eighth_email_label": "Entrez votre email",
+        "home_eighth_email_invalid_error": "Veuillez entrer un e-mail valide",
+        "home_eighth_privacy_policy_label": "En Laissant mon email, j'accepte la politique de confidentialité.",
+        "home_eighth_submit_button": "Envoyer"
+    },
+
+    "footer": {
+        "footer_form_title": "Rappelle-moi",
+        "footer_form_name_placeholder": "Nom",
+        "footer_form_phone_placeholder": "Téléphone",
+        "footer_form_name_required_error": "Veuillez entrer votre nom",
+        "footer_form_phone_required_error": "Veuillez entrer votre numéro de téléphone",
+        "footer_form_email_required_error": "Veuillez entrer votre e-mail",
+        "footer_form_email_invalid_error": "Veuillez entrer un e-mail valide",
+        "footer_form_submit_button": "Envoyer une requête",
+        "footer_address": "France, 46 Boulevard Leclerc, 06310, Beaulieu-sur-Mer",
+        "footer_navigation": "Navigation",
+        "footer_navigation_about": "À propos de nous",
+        "footer_navigation_objects": "Tous les objets",
+        "footer_navigation_sell": "Vente",
+        "footer_navigation_rent": "Location",
+        "footer_navigation_buy-sell-rent": "Acheter, vendre, louer avec nous",
+        "footer_navigation_presentation": "Présentation",
+        "footer_navigation_expert": "Avis d'expert",
+        "footer_navigation_management": "Gestion immobilière",
+        "footer_navigation_concierge": "Service de conciergerie",
+        "footer_navigation_fee": "Notre Commission",
+        "footer_navigation_privacy": "Politique de confidentialité",
+        "footer_regions": "Régions",
+        "footer_regions_apartments_mer": "Appartement à Beaulieu-sur-Mer",
+        "footer_regions_villa_mer": "Villa à Beaulieu-sur-Mer",
+        "footer_regions_villas-ezze": "Villa à Eze",
+        "footer_regions_villa-ferra": "Villa à Saint-Jean-Cap-ferra",
+        "footer_regions_apartments-ezze": "Appartement à Eze",
+        "footer_regions_apartments-ferra": "Appartement à Saint-Jean-Cap-ferra"
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "join_form": {
+        "name_placeholder": "Nome",
+        "phone_placeholder": "Telefono",
+        "joinText_placeholder": "Messaggio",
+        "name_required_error": "Inserisci il tuo nome",
+        "phone_required_error": "Inserisci il tuo numero di telefono",
+        "email_required_error": "Inserisci la tua email",
+        "email_invalid_error": "Inserisci un'email valida",
+        "joinText_required_error": "Inserisci un messaggio",
+        "privacy_policy_label": "Fornendo il tuo indirizzo email, accetti la nostra politica sulla privacy.",
+        "submit_button": "Invia richiesta"
+    },
+
+    "contact_with_us": {
+        "contact_title": "Contattaci",
+        "contact_subtitle": "Siamo pronti a rispondere alle domande sulla proprietà",
+        "contact_address": "Francia, 46 Boulevard Leclerc, 06310, Beaulieu-sur-Mer"
+    },
+
+    "experience": {
+        "experience_years": "anni <br /> sul mercato",
+        "experience_clients": "clienti <br /> abituali ",
+        "experience_deals": "transazioni <br /> immobiliari"
+    },
+
+    "home_first": {
+        "home_first_title": "Selezione <br/> proprietà <br / > con supporto completo nella tua lingua",
+        "home_first_description": "La nostra agenzia è specializzata in strutture premium <br /> e te le presenta in russo. Selezione di immobili < br /> in tutta la Francia con un focus sulle zone più privilegiate e pittoresche del Mediterraneo francese - Nizza, Cannes o la Costa Azzurra senza inutili costi di tempo e prezzo.",
+        "home_first_presentation": "Scarica la presentazione",
+        "home_first_contact": "Scrivici"
+    },
+
+    "home_second": {
+        "home_second_subtitle": "Questo è prendersi cura di te e della tua proprietà",
+        "home_second_description": "Siamo pronti a sorprenderti con un approccio speciale e, naturalmente, un atteggiamento riverente nei confronti di ogni cliente. Parliamo la tua lingua in modo che tu possa facilmente e semplicemente organizzare un affare da remoto o visitare il nostro ufficio. Parlaci delle tue preferenze e sceglieremo un'opzione utile nel cuore della Costa Azzurra senza intermediari.",
+        "home_second_more": "Altro",
+        "home_second_application": "Lascia un'applicazione",
+        "home_second_name": "Natalia Vinogradova",
+        "home_second_post": "Fondatore dell'agenzia"
+    },
+
+    "home_third": {
+        "home_third_title": "Oggetti disponibili",
+        "home_third_link": "Visualizza tutti gli oggetti"
+    },
+
+    "slider": {
+        "slider_address_cannes": "Cannes, France",
+        "slider_address_nice": "Nizza, Francia",
+        "slider_title_full": "Appartamento con vista mare sulla Promenade des Anglais",
+        "slider_description": "Appartamento completamente ristrutturato con 3 camere da letto al 5 ° piano in una piccola residenza sulla famosa Promenade des Anglais.",
+        "slider_more": "Altro",
+        "slider_article": "Articolo",
+        "slider_news": "Notizie",
+        "slider_sell": "Vendita",
+        "slider_rent": "Affitto"
+    },
+
+    "home_fourth": {
+        "home_fourth_title": "L'ufficio di Azur Life",
+        "home_fourth_address": "Francia, 46 Boulevard Leclerc, 06310, Beaulieu-sur-Mer",
+        "home_fourth_description": "La conclusione di una transazione immobiliare è possibile in qualsiasi formato conveniente. Visita il nostro ufficio e incontra il nostro team di persona. Se preferisci la comunicazione online, il nostro team è felice di organizzare tale interazione. C'è solo una cosa che devi decidere: un accordo a distanza o una presenza personale.",
+        "home_fourth_button": "Fissare un appuntamento"
+    },
+
+    "home_fifth": {
+        "home_fifth_title_left": "Gestione della proprietà",
+        "home_fifth_title_right": "Servizio di portineria",
+        "home_fifth_more": "Altro",
+        "home_fifth_description_left": "Se possiedi un immobile in Francia, diventeremo intermediari tra te e le cose che preferiresti non fare. Ciò è possibile non solo nella fase di conclusione della transazione, ma anche con l'ulteriore gestione della proprietà. Contatteremo le agenzie, le autorità fiscali e gli operatori telefonici, pagheremo le bollette o ti presenteremo alla riunione annuale dei proprietari. Ci occuperemo di tutte le attività relative alla tua presenza personale e ti presenteremo ovunque sia richiesto. Azur Life ha tutte le licenze necessarie per questo.",
+        "home_fifth_description_right": "Per coloro che apprezzano il loro tempo, offriamo un servizio di concierge: è una vera preoccupazione per i nostri clienti. Organizziamo Eventi, noleggiamo jet privati, yacht e auto. Prenoteremo anche hotel, ristoranti, prenoteremo un trasferimento o chiameremo un taxi, troveremo personale per la proprietà scelta e lo faremo in modo da non distrarti dai tuoi affari."
+    },
+
+    "home_sixth": {
+        "home_sixth_title": "Perché Azur Life <br /> fa per te",
+        "home_title_left": "supporto esperto per qualsiasi transazione",
+        "home_description_left": "La tua tranquillità è una priorità per noi: abbiamo tutte le licenze necessarie, le assicurazioni e le garanzie finanziarie richieste dalla legge francese per effettuare transazioni immobiliari.",
+        "home_title_center": "base immobiliare di prima mano",
+        "home_description_center": "Azur Life è membro della Federazione Nazionale degli Agenti Immobiliari (FNAIM) e ha accesso a una vasta base di proprietà in tutta la Francia da parte dei proprietari. Nessuna commissione o pagamento in eccesso, solo interazione diretta con Azur Life.",
+        "home_description_right": "servizio di portineria, affitto, revisione tra pari e gestione della proprietà o acquisto e vendita dei vostri appartamenti - faremo di tutto per rendere la proprietà un piacere."
+    },
+
+    "home_seventh": {
+        "home_seventh_blog": "blog"
+    },
+
+    "home_eighth": {
+        "home_eighth_title": "Ottieni prima le informazioni",
+        "home_eighth_email_required_error": "Inserisci la tua email",
+        "home_eighth_email_label": "Inserisci la tua email",
+        "home_eighth_email_invalid_error": "Inserisci un'e-mail valida",
+        "home_eighth_privacy_policy_label": "lasciando la mia email, accetto l'Informativa sulla privacy.",
+        "home_eighth_submit_button": "Invia"
+    },
+
+    "footer": {
+        "footer_form_title": "Richiamami",
+        "footer_form_name_placeholder": "Nome",
+        "footer_form_phone_placeholder": "Telefono",
+        "footer_form_name_required_error": "Inserisci il tuo nome",
+        "footer_form_phone_required_error": "Inserisci il tuo numero di telefono",
+        "footer_form_email_required_error": "Inserisci la tua email",
+        "footer_form_email_invalid_error": "Inserisci un'e-mail valida",
+        "footer_form_submit_button": "Invia richiesta",
+        "footer_address": "Francia, 46 Boulevard Leclerc, 06310, Beaulieu-sur-Mer",
+        "footer_navigation": "Navigazione",
+        "footer_navigation_about": "Chi siamo",
+        "footer_navigation_objects": "Tutti gli oggetti",
+        "footer_navigation_sell": "Vendita",
+        "footer_navigation_rent": "Affitto",
+        "footer_navigation_buy-sell-rent": "Compra, Vendi, affitta con noi",
+        "footer_navigation_presentation": "Presentazione",
+        "footer_navigation_expert": "Revisione tra pari",
+        "footer_navigation_management": "Gestione della proprietà",
+        "footer_navigation_concierge": "Servizio di portineria",
+        "footer_navigation_fee": "La nostra commissione",
+        "footer_navigation_privacy": "Informativa sulla privacy",
+        "footer_regions": "Regioni",
+        "footer_regions_apartments_mer": "Appartamenti a Beaulieu-sur-Mer",
+        "footer_regions_villa_mer": "Villa a Beaulieu-sur-Mer",
+        "footer_regions_villas-ezze": "Villa a Eze",
+        "footer_regions_villa-ferra": "Villa a Saint-Jean-Cap-Ferrat",
+        "footer_regions_apartments-ezze": "Appartamenti a Eze",
+        "footer_regions_apartments-ferra": "Appartamenti a Saint-Jean-Cap-Ferrat"
+    }
+}
