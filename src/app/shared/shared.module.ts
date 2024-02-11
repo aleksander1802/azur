@@ -43,10 +43,11 @@ import { TranslocoRootModule } from '../transloco-root.module';
         ContactWithUsComponent,
         SvgCloseButtonComponent,
         LanguageSwitcherComponent,
+        TranslocoRootModule,
     ],
     exports: [
         HeaderComponent,
-
+        TranslocoRootModule,
         MenuComponent,
         SwiperComponent,
         ReactiveFormsModule,

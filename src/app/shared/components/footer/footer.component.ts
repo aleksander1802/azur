@@ -8,29 +8,28 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class FooterComponent implements OnInit {
     feedbackForm!: FormGroup;
-    
 
     navLinks = [
-        { title: 'О нас', link: '/about' },
-        { title: 'Все объекты', link: '/objects' },
-        { title: 'Продажа', link: '/sell' },
-        { title: 'Аренда', link: '/rent' },
-        { title: 'Купить, продать, арендовать с нами', link: '/buy-sell-rent' },
-        { title: 'Презентация', link: '/presentation' },
-        { title: 'Экспертная оценка', link: '/expertise' },
-        { title: 'Управление недвижимостью', link: '/property' },
-        { title: 'Консьерж-сервис', link: '/concierge' },
-        { title: 'Наша комиссия', link: '/fee' },
-        { title: 'Политика конфиденциальности', link: '/policy' },
+        { title: 'footer_navigation_about', link: '/about' },
+        { title: 'footer_navigation_objects', link: '/objects' },
+        { title: 'footer_navigation_sell', link: '/sell' },
+        { title: 'footer_navigation_rent', link: '/rent' },
+        { title: 'footer_navigation_buy-sell-rent', link: '/buy-sell-rent' },
+        { title: 'footer_navigation_presentation', link: '/presentation' },
+        { title: 'footer_navigation_expert', link: '/expertise' },
+        { title: 'footer_navigation_management', link: '/property' },
+        { title: 'footer_navigation_concierge', link: '/concierge' },
+        { title: 'footer_navigation_fee', link: '/fee' },
+        { title: 'footer_navigation_privacy', link: '/policy' },
     ];
 
     regions = [
-        { title: 'Апартаменты в Больё-сюр-Мер' },
-        { title: 'Вилла в Больё-сюр-Мер' },
-        { title: 'Вилла в Эзе' },
-        { title: 'Вилла в Сен-Жан-Кап-Ферра' },
-        { title: 'Апартаменты в Эзе' },
-        { title: 'Апартаменты в Сен-Жан-Кап-Ферра' },
+        { title: 'footer_regions_apartments_mer' },
+        { title: 'footer_regions_villa_mer' },
+        { title: 'footer_regions_villas-ezze' },
+        { title: 'footer_regions_villa-ferra' },
+        { title: 'footer_regions_apartments-ezze' },
+        { title: 'footer_regions_apartments-ferra' },
     ];
 
     constructor(private fb: FormBuilder) {}

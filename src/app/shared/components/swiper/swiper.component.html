@@ -1,9 +1,14 @@
-<swiper-container fmSwiper [config]="config" init="false">
+<swiper-container
+    fmSwiper
+    [config]="config"
+    init="false"
+    *transloco="let t; read: 'slider'"
+>
     @for (slide of slides; track slide.img; let idx = $index) {
     <swiper-slide>
         @if (detailedComponentStyle) {
         <div class="swiper__slider__detailed">
-            <img [src]="slide.img" [alt]="slide.title" />
+            <img [src]="slide.img" [alt]="t(slide.title!)" />
         </div>
         } @else {
 
@@ -37,21 +42,23 @@
                     class="swiper__slider__home__wrapper-image"
                 />
                 @if (idx === activeSlide && slide.link) {
-                <a href="" class="swiper__slider__home__wrapper_link"
-                    >Подробнее</a
-                >
+                <a href="" class="swiper__slider__home__wrapper_link">
+                    {{ t("slider_more") }}
+                </a>
                 } @if (slide.address) {
                 <div class="swiper__slider__home__wrapper_top">
                     <img
                         src="assets/icons/pointer.svg"
                         alt="Slider address pointer"
                     />
-                    <span>{{ slide.address }}</span>
+                    <span>
+                        {{ t(slide.address) }}
+                    </span>
                 </div>
                 } @if (slide.article) {
                 <div class="swiper__slider__home__wrapper_top">
                     <button class="swiper__slider__home__wrapper_top-button">
-                        Статья
+                        {{ t("slider_article") }}
                     </button>
                 </div>
 
@@ -62,14 +69,14 @@
                         class="swiper__slider__home__wrapper_top-button"
                         type="button"
                     >
-                        Статья
+                    {{ t("slider_article") }}
                     </button>
                     } @else {
                     <button
                         class="swiper__slider__home__wrapper_top-button"
                         type="button"
                     >
-                        Новости
+                    {{ t("slider_news") }}
                     </button>
                     }
                 </div>
@@ -84,28 +91,28 @@
                     @if (slide.single) { @if (idx === activeSlide && (slide.sell
                     || slide.rent)) { @if (slide.sell) {
                     <button class="swiper__slider__home__wrapper_bottom-button">
-                        Продажа
+                        {{ t("slider_sell") }}
                     </button>
                     } @if (slide.rent) {
                     <button class="swiper__slider__home__wrapper_bottom-button">
-                        Аренда
+                        {{ t("slider_rent") }}
                     </button>
                     } } } @else { @if (slide.sell || slide.rent) { @if
                     (slide.sell) {
                     <button class="swiper__slider__home__wrapper_bottom-button">
-                        Продажа
+                        {{ t("slider_sell") }}
                     </button>
                     } @if (slide.rent) {
                     <button class="swiper__slider__home__wrapper_bottom-button">
-                        Аренда
+                        {{ t("slider_rent") }}
                     </button>
                     } } }
 
                     <p class="swiper__slider__home__wrapper_bottom-title">
-                        {{ slide.title }}
+                        {{ t(slide.title!) }}
                     </p>
                     <p class="swiper__slider__home__wrapper_bottom-description">
-                        {{ slide.description }}
+                        {{ t(slide.description!) }}
                     </p>
                 </div>
             </div>

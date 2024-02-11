@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
     styleUrl: './property-management-second-screen.component.scss',
 })
 export class PropertyManagementSecondScreenComponent {
+    subtitle = 'Управляем Вашей недвижимостью';
+
     propertyTitle = 'Управление недвижимостью';
     propertyTags = [
         'В аренду/на продажу',

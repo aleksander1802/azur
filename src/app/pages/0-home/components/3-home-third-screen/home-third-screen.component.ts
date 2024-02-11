@@ -11,45 +11,40 @@ import { SwiperSlidesArray } from 'src/app/shared/models/home.types';
 export class HomeThirdScreenComponent {
     slidesSlider: SwiperSlidesArray[] = [
         {
-            address: 'Канны, Франция',
-            title: 'Апартаменты с видом на море на Английской набережной',
-            description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+            address: 'slider_address_cannes',
+            title: 'slider_title_full',
+            description: 'slider_description',
             img: 'assets/images/home/slider_1.jpg',
             choice: true,
             sell: true,
         },
         {
-            address: 'Ницца, Франция',
-            title: 'Апартаменты с видом на море на Английской набережной',
-            description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+            address: 'slider_address_nice',
+            title: 'slider_title_full',
+            description: 'slider_description',
             img: 'assets/images/home/slider_2.jpg',
             exclusive: true,
             sell: true,
         },
         {
-            address: 'Ницца, Франция',
-            title: 'Апартаменты с видом на море на Английской набережной',
-            description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+            address: 'slider_address_cannes',
+            title: 'slider_title_full',
+            description: 'slider_description',
             img: 'assets/images/home/slider_3.jpg',
             exclusive: true,
             sell: true,
         },
         {
-            address: 'Ницца, Франция',
-            title: 'Апартаменты с видом на море на Английской набережной',
-            description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+            address: 'slider_address_nice',
+            title: 'slider_title_full',
+            description: 'slider_description',
             img: 'assets/images/home/slider_4.png',
             sell: true,
         },
         {
-            address: 'Ницца, Франция',
-            title: 'Апартаменты с видом на море на Английской набережной',
-            description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+            address: 'slider_address_cannes',
+            title: 'slider_title_full',
+            description: 'slider_description',
             img: 'assets/images/home/slider_5.jpg',
             sell: true,
         },

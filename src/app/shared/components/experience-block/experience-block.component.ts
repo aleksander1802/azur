@@ -9,7 +9,7 @@ import { SharedModule } from '../../shared.module';
     styleUrl: './experience-block.component.scss',
 })
 export class ExperienceBlockComponent {
-    @Input() subtitle = 'Управляем Вашей недвижимостью';
+    @Input() subtitle = '';
 
     colorBlack = true;
 

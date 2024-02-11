@@ -16,7 +16,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
 export class HomeEighthScreenComponent {
     emailForm!: FormGroup;
 
-    @Input() title = 'Получите информацию первыми';
+    @Input() title = 'home_eighth_title';
 
     @Input() break = false;
 

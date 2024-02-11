@@ -1,8 +1,13 @@
 <div class="home__fourth">
     <div class="home__fourth__wrapper">
         <div class="container">
-            <div class="home__fourth__left">
-                <h2 class="home__fourth__left_title">Офис Azur Life</h2>
+            <div
+                class="home__fourth__left"
+                *transloco="let t; read: 'home_fourth'"
+            >
+                <h2 class="home__fourth__left_title">
+                    {{ t("home_fourth_title") }}
+                </h2>
                 <div class="home__fourth__left__address">
                     <div class="home__fourth__left__address__pointer_wrapper">
                         <img
@@ -11,19 +16,16 @@
                         />
                     </div>
                     <p class="home__fourth__left__address_description">
-                        Франция, бульвар Леклерк, 46, 06310, Болье-сюр-Мер
+                        {{ t("home_fourth_address") }}
                     </p>
                 </div>
                 <p class="home__fourth__left_description">
-                    Заключение сделки по недвижимости возможно в любом удобном
-                    Вам формате. Посетите наш офис и познакомьтесь с нашей
-                    командой лично. Если Вы предпочитаете онлайн коммуникацию,
-                    наша команда с радостью организует такое взаимодействие. Вам
-                    осталось решить только одно: дистанционная сделка или личное
-                    присутствие.
+                    {{ t("home_fourth_description") }}
                 </p>
 
-                <button class="home__fourth__left_button">Назначить встречу</button>
+                <button class="home__fourth__left_button">
+                    {{ t("home_fourth_button") }}
+                </button>
             </div>
             <div class="home__fourth__right">
                 <img src="assets/images/home/office.jpg" alt="Azur office" />

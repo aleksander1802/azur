@@ -11,49 +11,50 @@ import { SwiperOptions } from 'swiper/types';
 export class HomeSeventhScreenComponent {
     slides: SwiperSlidesArray[] = [
         {
-            title: 'Апартаменты с видом на море на Английской набережной',
+            title: 'slider_address_cannes',
             description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+                'slider_title_full',
             img: 'assets/images/home/slider_1.jpg',
             addedBottomClass: true,
             article: true,
             link: true,
         },
         {
-            title: 'Апартаменты с видом на море на Английской набережной',
+            title: 'slider_address_cannes',
             description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+                'slider_title_full',
             img: 'assets/images/home/slider_2.jpg',
             addedBottomClass: true,
             news: true,
             link: true,
         },
         {
-            title: 'Апартаменты с видом на море на Английской набережной',
+            title: 'slider_address_cannes',
             description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+                'slider_title_full',
             img: 'assets/images/home/slider_3.jpg',
             addedBottomClass: true,
             article: true,
             link: true,
         },
         {
-            title: 'Апартаменты с видом на море на Английской набережной',
+            title: 'slider_address_cannes',
             description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+                'slider_title_full',
             img: 'assets/images/home/slider_4.png',
             addedBottomClass: true,
             news: true,
             link: true,
         },
         {
-            title: 'Апартаменты с видом на море на Английской набережной',
+            title: 'slider_address_cannes',
             description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+                'slider_title_full',
             img: 'assets/images/home/slider_5.jpg',
             addedBottomClass: true,
             article: true,
             link: true,
+
         },
     ];
 

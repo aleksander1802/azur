@@ -1,7 +1,12 @@
 <div class="home__seventh">
     <div class="container">
-        <div class="home__seventh_blog">
-            <h2 class="home__seventh_blog-title">блог</h2>
+        <div
+            class="home__seventh_blog"
+            *transloco="let t; read: 'home_seventh'"
+        >
+            <h2 class="home__seventh_blog-title">
+                {{ t("home_seventh_blog") }}
+            </h2>
             <div class="home__seventh_blog-circle">
                 <app-logo-circle></app-logo-circle>
             </div>

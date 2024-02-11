@@ -11,9 +11,117 @@
         "privacy_policy_label": "By providing your email, you agree to our privacy policy.",
         "submit_button": "Send a request"
     },
+
     "contact_with_us": {
         "contact_title": "Contact us",
         "contact_subtitle": "We are ready to answer any questions about real estate",
         "contact_address": "France, Boulevard Leclerc, 46, 06310, Beaulieu-sur-Mer"
+    },
+
+    "experience": {
+        "experience_years": "years <br /> on the market",
+        "experience_clients": "regular <br /> customers",
+        "experience_deals": "real <br /> estate deals"
+    },
+
+    "home_first": {
+        "home_first_title": "Real estate <br/> selection  <br/> with full support <br/> in your language",
+        "home_first_description": "Our agency specializes in premium objects and presents them to you in Russian. Selection of real estate <br /> throughout France with a focus on the most privileged and picturesque areas of the French Mediterranean - Nice, Cannes or the Cote d'Azur without unnecessary time and extra charges.",
+        "home_first_presentation": "Download the presentation",
+        "home_first_contact": "Write to us"
+    },
+
+    "home_second": {
+        "home_second_subtitle": "This is taking care of you and your property",
+        "home_second_description": "We are ready to pleasantly surprise you with a special approach and, of course, a reverent attitude towards each client. We speak your language, so you can easily and simply make a deal remotely or visit our office. Tell us about your preferences and we will select a worthwhile option in the heart of the French Riviera without intermediaries.",
+        "home_second_more": "More details",
+        "home_second_application": "Submit a request",
+        "home_second_name": "Natalia Vinogradova",
+        "home_second_post": "The founder of the agency"
+    },
+
+    "home_third": {
+        "home_third_title": "Available objects",
+        "home_third_link": "View all objects"
+    },
+
+    "slider": {
+        "slider_address_cannes": "Cannes, France",
+        "slider_address_nice": "Nice, France",
+        "slider_title_full": "Apartment with sea view on the Promenade des Anglais",
+        "slider_description": "Fully renovated 3-room apartment on the 5th floor in a small residence on the famous Promenade des Anglais.",
+        "slider_more": "More details",
+        "slider_article": "Article",
+        "slider_news": "News",
+        "slider_sell": "Sale",
+        "slider_rent": "Rent"
+    },
+
+    "home_fourth": {
+        "home_fourth_title": "Azur Life Office",
+        "home_fourth_address": "France, Boulevard Leclerc, 46, 06310, Beaulieu-sur-Mer",
+        "home_fourth_description": "The conclusion of a real estate transaction is possible in any format convenient to you. Visit our office and get to know our team in person. If you prefer online communication, our team will be happy to organize such interaction. You have only one thing left to decide: a remote transaction or personal presence.",
+        "home_fourth_button": "Make an appointment"
+    },
+
+    "home_fifth": {
+        "home_fifth_title_left": "Property management",
+        "home_fifth_title_right": "Concierge service",
+        "home_fifth_more": "More details",
+        "home_fifth_description_left": "If you own real estate in France, we will become intermediaries between you and the cases that you would prefer not to deal with. This is possible not only at the stage of concluding a transaction, but also during further management of the property. We will contact the departments, tax authorities and telephone operators, we will pay the bills or represent you at the annual meeting of the owners. We will take care of all matters related to your personal presence and introduce you wherever required. Azur Life has all the licenses necessary for this.",
+        "home_fifth_description_right": "For those who value their time, we offer concierge services: this is a real concern for our customers. We organize events, rent private planes, yachts and cars. We will also book hotels, restaurants, order a transfer or call a taxi, find staff for the selected property and do it so as not to distract you from your business."
+    },
+
+    "home_sixth": {
+        "home_sixth_title": "Why Azur Life <br /> suits you",
+        "home_title_left": "expert support of any transaction",
+        "home_description_left": "Your peace of mind is a priority for us: we have all the necessary licenses, insurance and financial guarantees required by French law to carry out real estate transactions.",
+        "home_title_center": "first-hand real estate database",
+        "home_description_center": "Azur Life is a member of the National Federation of Real Estate Agents (FNAIM) and has access to an extensive database of real estate properties throughout France from owners. No commissions and overpayments, only direct interaction with Azur Life.",
+        "home_description_right": "Concierge service, rental, expert assessment and property management or the purchase and sale of your apartments - we will do everything to make owning real estate only a pleasure."
+    },
+
+    "home_seventh": {
+        "home_seventh_blog": "blog"
+    },
+
+    "home_eighth": {
+        "home_eighth_title": "Get the information <br /> first",
+        "home_eighth_email_required_error": "Please enter your email",
+        "home_eighth_email_label": "Enter your email",
+        "home_eighth_email_invalid_error": "Please enter a valid email",
+        "home_eighth_privacy_policy_label": "Leaving your email , I accept the privacy policy.",
+        "home_eighth_submit_button": "Send"
+    },
+
+    "footer": {
+        "footer_form_title": "Call me back",
+        "footer_form_name_placeholder": "Name",
+        "footer_form_phone_placeholder": "Phone",
+        "footer_form_name_required_error": "Please enter your name",
+        "footer_form_phone_required_error": "Please enter your phone number",
+        "footer_form_email_required_error": "Please enter your email",
+        "footer_form_email_invalid_error": "Please enter a valid email",
+        "footer_form_submit_button": "Send a request",
+        "footer_address": "France, Boulevard Leclerc, 46, 06310, Beaulieu-sur-Mer",
+        "footer_navigation": "Navigation",
+        "footer_navigation_about": "About us",
+        "footer_navigation_objects": "All objects",
+        "footer_navigation_sell": "Sale",
+        "footer_navigation_rent": "Rent",
+        "footer_navigation_buy-sell-rent": "Buy, sell, rent with us",
+        "footer_navigation_presentation": "Presentation",
+        "footer_navigation_expert": "Expert assessment",
+        "footer_navigation_management": "Property management",
+        "footer_navigation_concierge": "Concierge service",
+        "footer_navigation_fee": "Our commission",
+        "footer_navigation_privacy": "Privacy Policy",
+        "footer_regions": "Regions",
+        "footer_regions_apartments_mer": "Apartments in Beaulieu-sur-Mer",
+        "footer_regions_villa_mer": "Villa in Beaulieu-sur-Mer",
+        "footer_regions_villas-ezze": "Villa in Eze",
+        "footer_regions_villa-ferra": "Villa in Saint-Jean-Cap-Ferrat",
+        "footer_regions_apartments-ezze": "Apartments in Ezze",
+        "footer_regions_apartments-ferra": "Apartments in Saint-Jean-Cap-Ferrat"
     }
 }

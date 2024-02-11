@@ -1,8 +1,12 @@
 <div class="home__third">
     <div class="container">
-        <div class="home__third_objects">
-            <h2 class="home__third_objects-title">Доступные объекты</h2>
-            <a href="" class="home__third_objects-link">Смотреть все объекты</a>
+        <div class="home__third_objects" *transloco="let t; read: 'home_third'">
+            <h2 class="home__third_objects-title">
+                {{ t("home_third_title") }}
+            </h2>
+            <a href="" class="home__third_objects-link">
+                {{ t("home_third_link") }}
+            </a>
         </div>
 
         <div class="home__third_slider">

@@ -7,9 +7,9 @@
             <span>Azur Life</span>
         </div>
         <img src="assets/icons/header_divider.svg" alt="Divider" />
-        <div class="header__contacts_address">
+        <div class="header__contacts_address" *transloco="let t; read: 'contact_with_us'">
             <img src="assets/icons/pointer.svg" alt="Pointer Azur" />
-            <span>Франция, бульвар Леклерк, 46, 06310, Болье-сюр-Мер</span>
+            <span> {{ t("contact_address") }}</span>
         </div>
         <img src="assets/icons/header_divider.svg" alt="Divider" />
         <div class="header__contacts_phone">

@@ -11,6 +11,7 @@ import { SwiperDirective } from '../../directives/swiper.directive';
 import { SwiperSlidesArray } from 'src/app/shared/models/home.types';
 import { ChoiceSvgComponent } from '../choice-svg/choice-svg.component';
 import { ExclusiveSvgComponent } from '../exclusive-svg/exclusive-svg.component';
+import { TranslocoRootModule } from 'src/app/transloco-root.module';
 
 @Component({
     selector: 'app-swiper',
@@ -20,6 +21,7 @@ import { ExclusiveSvgComponent } from '../exclusive-svg/exclusive-svg.component'
         SwiperDirective,
         ChoiceSvgComponent,
         ExclusiveSvgComponent,
+        TranslocoRootModule,
     ],
     encapsulation: ViewEncapsulation.None,
     templateUrl: './swiper.component.html',

@@ -1,6 +1,8 @@
-<div class="footer">
+<div class="footer" *transloco="let t; read: 'footer'">
     <form class="footer__form" [formGroup]="feedbackForm">
-        <span class="footer__form_title">Перезвоните мне</span>
+        <span class="footer__form_title">
+            {{ t("footer_form_title") }}
+        </span>
 
         <div class="footer__form_controls">
             <div
@@ -12,12 +14,13 @@
                     type="text"
                     formControlName="name"
                     autocomplete="name"
-                    placeholder="Имя"
+                    [placeholder]="t('footer_form_name_placeholder')"
                 />
             </div>
+
             <div class="validation" *ngIf="name?.touched && name?.invalid">
                 <small *ngIf="getError('name', 'required')">
-                    Please enter a name
+                    {{ t("footer_form_name_required_error") }}
                 </small>
             </div>
 
@@ -30,13 +33,13 @@
                     type="number"
                     formControlName="phone"
                     autocomplete="phone"
-                    placeholder="Телефон"
+                    [placeholder]="t('footer_form_phone_placeholder')"
                 />
             </div>
             <div class="validation" *ngIf="phone?.touched && phone?.invalid">
-                <small *ngIf="getError('phone', 'required')"
-                    >Please enter a phone</small
-                >
+                <small *ngIf="getError('phone', 'required')">
+                    {{ t("footer_form_phone_required_error") }}
+                </small>
             </div>
 
             <div
@@ -52,12 +55,12 @@
                 />
             </div>
             <div class="validation" *ngIf="email?.touched && email?.invalid">
-                <small *ngIf="getError('email', 'required')"
-                    >Пожалуйста, введите ваш email</small
-                >
-                <small *ngIf="getError('email', 'email')"
-                    >Пожалуйста, введите валидный email</small
-                >
+                <small *ngIf="getError('email', 'required')">
+                    {{ t("footer_form_email_required_error") }}
+                </small>
+                <small *ngIf="getError('email', 'email')">
+                    {{ t("footer_form_email_invalid_error") }}
+                </small>
             </div>
         </div>
 
@@ -67,7 +70,7 @@
                 type="submit"
                 class="footer__form__submit-button"
             >
-                Отправить запрос
+                {{ t("footer_form_submit_button") }}
             </button>
         </div>
     </form>
@@ -91,19 +94,23 @@
 
         <div class="footer__contacts_address">
             <img src="assets/icons/pointer.svg" alt="Contact address" />
-            <span>Франция, бульвар Леклерк, 46, 06310, Болье-сюр-Мер</span>
+            <span>
+                {{ t("footer_address") }}
+            </span>
         </div>
     </div>
 
     <nav class="footer__navlinks">
-        <span class="footer__navlinks_title">Навигация</span>
+        <span class="footer__navlinks_title">
+            {{ t("footer_navigation") }}
+        </span>
         <ul class="footer__navlinks_list">
             @for (item of navLinks; track item.link) {
             <li class="footer__navlinks_list-item">
                 <a
                     [routerLink]="item.link"
                     class="footer__navlinks_list-link"
-                    >{{ item.title }}</a
+                    >{{ t(item.title) }}</a
                 >
             </li>
             }
@@ -111,11 +118,13 @@
     </nav>
 
     <div class="footer__regions">
-        <span class="footer__regions_title">Регионы</span>
+        <span class="footer__regions_title">
+            {{ t("footer_regions") }}
+        </span>
         <ul class="footer__regions_list">
             @for (item of regions; track item.title) {
             <li class="footer__regions_list-item">
-                <span>{{ item.title }}</span>
+                <span>{{ t(item.title) }}</span>
             </li>
             }
         </ul>

@@ -1,13 +1,13 @@
 <div class="home__eighth" id="request">
     <div class="home__eighth__wrapper">
-        <div class="container">
+        <div class="container" *transloco="let t; read: 'home_eighth'">
             @if (break) {
             <h2
                 [innerHTML]="title | breakSentenceWithBR : 3"
                 class="home__eighth_title"
             ></h2>
             } @else {
-            <h2 class="home__eighth_title">{{ title }}</h2>
+            <h2 class="home__eighth_title" [innerHTML]="t(title)"></h2>
             }
             <form class="home__eighth__form" [formGroup]="emailForm">
                 <div class="home__eighth__form_controls">
@@ -22,18 +22,18 @@
                             type="email"
                             formControlName="email"
                             autocomplete="email"
-                            placeholder="Введите свой email"
+                            [placeholder]="t('home_eighth_email_label')"
                         />
                     </div>
                     <div
                         class="validation"
                         *ngIf="email?.touched && email?.invalid"
                     >
-                        <small *ngIf="getError('email', 'required')"
-                            >Пожалуйста, введите ваш email</small
-                        >
-                        <small *ngIf="getError('email', 'email')"
-                            >Пожалуйста, введите валидный email
+                        <small *ngIf="getError('email', 'required')">
+                            {{ t("home_eighth_email_required_error") }}
+                        </small>
+                        <small *ngIf="getError('email', 'email')">
+                            {{ t("home_eighth_email_invalid_error") }}
                         </small>
                     </div>
                 </div>
@@ -52,9 +52,9 @@
                     <label
                         for="privacyCheckbox"
                         class="home__eighth__form_checkbox-label"
-                        >Оставляя свой email, я принимаю политику
-                        конфиденциальности.</label
                     >
+                    {{ t("home_eighth_privacy_policy_label") }}
+                    </label>
                 </div>
 
                 <div class="home__eighth__form__submit">
@@ -63,7 +63,7 @@
                         type="submit"
                         class="home__eighth__form__submit-button"
                     >
-                        Отправить
+                    {{ t("home_eighth_submit_button") }}
                     </button>
                 </div>
             </form>

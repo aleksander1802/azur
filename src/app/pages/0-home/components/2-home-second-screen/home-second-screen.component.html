@@ -5,28 +5,31 @@
         class="home__second_letter"
     />
     <div class="container">
-        <div class="home__second_wrapper">
+        <div
+            class="home__second_wrapper"
+            *transloco="let t; read: 'home_second'"
+        >
             <div class="home__second__left">
-                <h2 class="home__second__left_title">Azur Life</h2>
+                <h2 class="home__second__left_title">
+                    Azur Life
+
+                    <a href="#" class="home__second__left_link">
+                        {{ t("home_second_more") }}
+                    </a>
+                </h2>
                 <p class="home__second__left_subtitle">
-                    Это забота о Вас и Вашей недвижимости
+                    {{ t("home_second_subtitle") }}
                 </p>
                 <p class="home__second__left_description">
-                    Мы готовы Вас приятно удивить особым подходом и, конечно,
-                    трепетным отношением к каждому клиенту. Мы говорим на Вашем
-                    языке, так что вы можете лешко и просто оформить сделку
-                    дистанционно или посетить наш офис. Расскажите нам о своих
-                    предпочтениях и мы подберем стоящий вариант в самом сердце
-                    Французской Ривьеры без посредников.
+                    {{ t("home_second_description") }}
                 </p>
-                <a href="#" class="home__second__left_link">Подробнее</a>
 
                 <div class="home__second__left_experience">
                     <app-experience></app-experience>
                 </div>
 
                 <button class="home__second__left_button">
-                    Оставить заявку
+                    {{ t("home_second_application") }}
                 </button>
             </div>
 
@@ -38,12 +41,12 @@
                     class="home__second__right-img"
                 />
                 <div class="home__second__right__founder">
-                    <span class="home__second__right__founder-name"
-                        >Наталья Виноградова</span
-                    >
-                    <span class="home__second__right__founder-post"
-                        >Основатель агентства</span
-                    >
+                    <span class="home__second__right__founder-name">
+                        {{ t("home_second_name") }}
+                    </span>
+                    <span class="home__second__right__founder-post">
+                        {{ t("home_second_post") }}
+                    </span>
                 </div>
             </div>
         </div>

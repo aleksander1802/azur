@@ -1,23 +1,18 @@
-<div class="exp" [ngClass]="{'exp__black': colorBlack}">
+<div
+    class="exp"
+    [ngClass]="{ exp__black: colorBlack }"
+    *transloco="let t; read: 'experience'"
+>
     <div class="exp-item">
         <h2 class="exp-number">7</h2>
-        <span
-            >лет <br />
-            на рынке</span
-        >
+        <span [innerHTML]="t('experience_years')"></span>
     </div>
     <div class="exp-item">
         <h2 class="exp-number">27</h2>
-        <span
-            >постоянных <br />
-            клиентов</span
-        >
+        <span [innerHTML]="t('experience_clients')"></span>
     </div>
     <div class="exp-item">
         <h2 class="exp-number">240</h2>
-        <span
-            >сделок <br />
-            с недвижимостью</span
-        >
+        <span [innerHTML]="t('experience_deals')"></span>
     </div>
 </div>
