@@ -1,19 +1,24 @@
 <div class="about__second">
     <div class="container">
-        <div class="about__second_wrapper">
+        <div
+            class="about__second_wrapper"
+            *transloco="let t; read: 'about_second'"
+        >
             <h2 class="about__second_title">
-                “Состоятельные люди
+                {{ t("about_second_title_first") }}
                 <span class="about__second_title-span">
-                    приезжают
+                    {{ t("about_second_title_second") }}
                     <div class="about__second_title-circle">
                         <app-logo-circle [fill]="fillColor"></app-logo-circle>
                     </div>
                 </span>
                 <br />
-                на Лазурный берег за спокойствием <br />
-                и даже уединением”
+                <span
+                    [innerHTML]="t('about_second_title_last')"
+                    class="about__second_title-span"
+                ></span>
             </h2>
-            <span class="about__second_subtitle">Forbes</span>
+            <span class="about__second_subtitle"> Forbes </span>
             <img
                 src="assets/images/letters/a_light.svg"
                 alt="Background letter"

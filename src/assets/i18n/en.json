@@ -49,6 +49,7 @@
         "slider_address_cannes": "Cannes, France",
         "slider_address_nice": "Nice, France",
         "slider_title_full": "Apartment with sea view on the Promenade des Anglais",
+        "slider_title_short": "Apartment with sea view",
         "slider_description": "Fully renovated 3-room apartment on the 5th floor in a small residence on the famous Promenade des Anglais.",
         "slider_more": "More details",
         "slider_article": "Article",
@@ -123,5 +124,33 @@
         "footer_regions_villa-ferra": "Villa in Saint-Jean-Cap-Ferrat",
         "footer_regions_apartments-ezze": "Apartments in Ezze",
         "footer_regions_apartments-ferra": "Apartments in Saint-Jean-Cap-Ferrat"
+    },
+
+    "about_first": {
+        "about_first_title": "Deals <br /> in Russian <br /> with your real estate in France <br /> since 2017",
+        "about_first_description": "Opening new horizons of France for you. We will select a property based on the voiced requests, provide management of your apartments or provide a concierge service, and you can only do one thing: enjoy life.",
+        "about_first_button": "Write to us"
+    },
+
+    "about_second": {
+        "about_second_title_first": "“Wealthy people",
+        "about_second_title_second": "come",
+        "about_second_title_last": "to the Cote d'Azur for tranquility <br /> and even privacy”"
+    },
+
+    "about_third": {
+        "about_third_title_title": "Azur Life Specialists",
+        "about_third_left_name": "Eva Sinibaldi",
+        "about_third_left_post": "Broker",
+        "about_third_left_description": "Specialization: real estate management <br /> Expertise: real estate valuation, <br /> visa issues",
+        "about_third_right_name": "Natalia Vinogradova",
+        "about_third_right_post": "The founder of the agency",
+        "about_third_right_description": "Specialization: sale and rental of real estate in France. <br /> Expertise: property law, taxes and visa issues"
+    },
+
+    "about_fourth": {
+        "about_fourth_title": "Agency expertise",
+        "about_fourth_description": "Your Life is a dynamically developing agency that has been upholding the values of confidentiality, loyalty, high professionalism and individual approach since 2017. We have all the necessary licenses, insurance and financial guarantees required by French law in order to conduct your real estate transaction as efficiently and comfortably as possible.",
+        "about_fourth_button": "Buy or sell with us"
     }
 }

@@ -8,7 +8,7 @@
     <swiper-slide>
         @if (detailedComponentStyle) {
         <div class="swiper__slider__detailed">
-            <img [src]="slide.img" [alt]="t(slide.title!)" />
+            <img [src]="slide.img" [alt]="t(slide['title-short']!)" />
         </div>
         } @else {
 
@@ -108,9 +108,19 @@
                     </button>
                     } } }
 
-                    <p class="swiper__slider__home__wrapper_bottom-title">
-                        {{ t(slide.title!) }}
-                    </p>
+
+                    @if (slide.title) {
+                        <p class="swiper__slider__home__wrapper_bottom-title">
+                            {{ t(slide.title) }}
+                        </p>
+                    }
+
+                    @if (slide['title-short']) {
+                        <p class="swiper__slider__home__wrapper_bottom-title">
+                            {{ t(slide['title-short']) }}
+                        </p>
+                    }
+
                     <p class="swiper__slider__home__wrapper_bottom-description">
                         {{ t(slide.description!) }}
                     </p>

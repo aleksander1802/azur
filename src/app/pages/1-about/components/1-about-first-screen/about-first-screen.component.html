@@ -1,22 +1,19 @@
 <div class="about__first">
     <div class="about__first_wrapper">
-        <div class="container">
+        <div class="container" *transloco="let t; read: 'about_first'">
             <app-crumbs [current]="currentCrumbsTitle"></app-crumbs>
-            <h1 class="about__first_title">
-                Сделки <br />
-                на русском языке <br />
-                с Вашей недвижимостью во Франции <br />
-                с 2017 года
-            </h1>
+            <h1
+                class="about__first_title"
+                [innerHTML]="t('about_first_title')"
+            ></h1>
 
             <p class="about__first_description">
-                Открываем новые горизонты Франции для Вас. Мы подберем
-                недвижимость исходя из озвученных запросов, обеспечим управление
-                вашими апартаментами или окажем услугу консьерж-сервиса, а вам
-                остается только одно: наслаждаться жизнью.
+                {{ t("about_first_description") }}
             </p>
 
-            <button class="about__first_button">Напишите нам</button>
+            <button class="about__first_button">
+                {{ t("about_first_button") }}
+            </button>
         </div>
     </div>
 </div>

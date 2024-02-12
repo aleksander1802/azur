@@ -11,51 +11,51 @@ import { SwiperOptions } from 'swiper/types';
 export class ObjectsSecondScreenComponent {
     slides: SwiperSlidesArray[] = [
         {
-            title: 'Апартаменты с видом на море на Английской набережной',
+            title: 'slider_title_full',
             description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+                'slider_description',
             img: 'assets/images/home/slider_4.png',
             sell: true,
-            address: 'Канны, франция',
+            address: 'slider_address_cannes',
             single: true,
         },
         {
-            title: 'Апартаменты с видом на море на Английской набережной',
+            title: 'slider_title_full',
             description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+                'slider_description',
             img: 'assets/images/home/slider_5.jpg',
             sell: true,
-            address: 'Канны, франция',
+            address: 'slider_address_cannes',
             exclusive: true,
             single: true,
         },
         {
-            title: 'Апартаменты с видом на море на Английской набережной',
+            title: 'slider_title_full',
             description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+                'slider_description',
             img: 'assets/images/home/slider_1.jpg',
             sell: true,
-            address: 'Канны, франция',
+            address: 'slider_address_cannes',
             choice: true,
             single: true,
         },
         {
-            title: 'Апартаменты с видом на море на Английской набережной',
+            title: 'slider_title_full',
             description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+                'slider_description',
             img: 'assets/images/home/slider_2.jpg',
             sell: true,
-            address: 'Канны, франция',
+            address: 'slider_address_cannes',
             exclusive: true,
             single: true,
         },
         {
-            title: 'Апартаменты с видом на море на Английской набережной',
+            title: 'slider_title_full',
             description:
-                'Полностью отремонтированная 3-комнатная квартира на 5 этаже в небольшой резиденции на знаменитой Английской набережной. ',
+                'slider_description',
             img: 'assets/images/home/slider_3.jpg',
             sell: true,
-            address: 'Канны, франция',
+            address: 'slider_address_cannes',
             choice: true,
             single: true,
         },

@@ -23,16 +23,18 @@
         width: 1190px;
         height: 758px;
         background-color: #fffbf2;
+        row-gap: 38px;
     }
 
     &_title {
+        z-index: 100;
         text-align: center;
         font-size: 62px;
         line-height: 90%;
         letter-spacing: -1.24px;
         color: var(--background);
         width: 1100px;
-
+        // min-height: 200px;
         &-span {
             font-size: 62px;
             line-height: 90%;
@@ -49,15 +51,16 @@
         }
     }
     &_subtitle {
-        margin-top: 38px;
         font-size: 20px;
         font-weight: 600;
         line-height: 120%;
         color: var(--background);
+        z-index: 100;
     }
 
     &_letter {
         position: absolute;
         left: 362px;
+        z-index: 0;
     }
 }

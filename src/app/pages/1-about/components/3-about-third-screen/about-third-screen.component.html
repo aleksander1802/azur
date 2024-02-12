@@ -5,42 +5,41 @@
         class="about__third_ampersand"
     />
 
-    <div class="container">
-        <h2 class="about__third_title">Специалисты Azur Life</h2>
+    <div class="container" *transloco="let t; read: 'about_third'">
+        <h2 class="about__third_title">
+            {{ t("about_third_title_title") }}
+        </h2>
         <div class="about__third__wrapper">
             <div class="about__third__wrapper_left">
-               <div class="about__third__wrapper_left-items">
-                <div class="about__third__wrapper_left-title">
-                    <span class="about__third__wrapper_left-title-name"
-                        >Ева Синибальди</span
-                    >
-                    <span class="about__third__wrapper_left-title-post"
-                        >Брокер</span
-                    >
+                <div class="about__third__wrapper_left-items">
+                    <div class="about__third__wrapper_left-title">
+                        <span class="about__third__wrapper_left-title-name">
+                            {{ t("about_third_left_name") }}
+                        </span>
+                        <span class="about__third__wrapper_left-title-post">
+                            {{ t("about_third_left_post") }}
+                        </span>
+                    </div>
+                    <p
+                        class="about__third__wrapper_left-description"
+                        [innerHTML]="t('about_third_left_description')"
+                    ></p>
                 </div>
-                <p class="about__third__wrapper_left-description">
-                    Специализация: управление недвижимостью <br />
-                    Экспертиза: оценка недвижимости, <br />
-                    визовые вопросы
-                </p>
-               </div>
             </div>
             <div class="about__third__wrapper_right">
                 <div class="about__third__wrapper_right-title">
-                    <span class="about__third__wrapper_right-title-name"
-                        >Наталья Виноградова</span
-                    >
-                    <span class="about__third__wrapper_right-title-post"
-                        >Основатель агентства</span
-                    >
+                    <span class="about__third__wrapper_right-title-name">
+                        {{ t("about_third_right_name") }}
+                    </span>
+                    <span class="about__third__wrapper_right-title-post">
+                        {{ t("about_third_right_post") }}
+                    </span>
                 </div>
 
-                <p class="about__third__wrapper_right-description">
-                    Специализация: продажа <br />
-                    и аренда недижимости во Франции. <br />
-                    Экспертиза: имущественное право, налоги <br />
-                    и визовые вопросы
-                </p>
+                <p
+                    class="about__third__wrapper_right-description"
+                    [innerHTML]="t('about_third_right_description')"
+                ></p>
             </div>
         </div>
     </div>

@@ -2,6 +2,7 @@ export interface SwiperSlidesArray {
     id?: string;
     address?: string;
     title?: string;
+    'title-short'?: string;
     description?: string;
     descriptionFull?: string[];
     img?: string;
@@ -32,7 +33,7 @@ export interface SellOrRent extends SwiperSlidesArray {
 }
 
 export interface DetailedSellOrRent
-    extends Pick<SwiperSlidesArray, 'title' | 'img'> {}
+    extends Pick<SwiperSlidesArray, 'title-short' | 'img'> {}
 
 export interface ObjectDetails {
     common: Partial<ObjectCommonDetails>;

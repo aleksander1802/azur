@@ -17,19 +17,19 @@ import { SwiperOptions } from 'swiper/types';
 export class DetailedThirdScreenComponent {
     slides: DetailedSellOrRent[] = [
         {
-            title: 'Апартаменты с видом на море',
+            'title-short': 'slider_title_short',
             img: 'assets/images/detailed/detailed_first.jpg',
         },
         {
-            title: 'Апартаменты с видом на море',
+            'title-short': 'slider_title_short',
             img: 'assets/images/detailed/detailed_second.jpg',
         },
         {
-            title: 'Апартаменты с видом на море',
+            'title-short': 'slider_title_short',
             img: 'assets/images/detailed/detailed_third.jpg',
         },
         {
-            title: 'Апартаменты с видом на море',
+            'title-short': 'slider_title_short',
             img: 'assets/images/detailed/detailed_fourth.jpg',
         },
     ];

@@ -5,16 +5,16 @@
         class="about__fourth_image"
     />
     <div class="container">
-        <div class="about__fourth_wrapper">
-            <h2 class="about__fourth_title">Экспертиза агентства</h2>
+        <div
+            class="about__fourth_wrapper"
+            *transloco="let t; read: 'about_fourth'"
+        >
+            <h2 class="about__fourth_title">
+                {{ t("about_fourth_title") }}
+            </h2>
 
             <p class="about__fourth_description">
-                Azur Life - динамично развивающееся агентство, отстаивающее
-                ценности конфиденциальности, лояльности, высокого
-                профессионализма и индивидуального подхода с 2017 года. Мы имеем
-                все необходимые лицензии, страховые и финансовые гарантии,
-                требуемые французским законодательством для того, чтобы провести
-                Вашу сделку по недвижимости максимально качественно и комфортно.
+                {{ t("about_fourth_description") }}
             </p>
 
             <div class="about__fourth_experience">
@@ -22,10 +22,10 @@
             </div>
 
             <button class="about__fourth_button">
-                Купить или продать с нами
+                {{ t("about_fourth_button") }}
             </button>
         </div>
     </div>
 
-   <app-navigation-bottom-links></app-navigation-bottom-links>
+    <app-navigation-bottom-links></app-navigation-bottom-links>
 </div>
