@@ -152,5 +152,20 @@
         "about_fourth_title": "Expertise de l'agence",
         "about_fourth_description": "Your Life est une agence dynamique qui défend les valeurs de confidentialité, de loyauté, d'excellence et d'approche individuelle depuis 2017. Nous avons toutes les licences nécessaires, les Assurances et les garanties financières requises par la législation française afin de mener Votre transaction immobilière de la plus haute qualité et confortable.",
         "about_fourth_button": "Acheter ou vendre avec nous"
+    },
+
+    "objects_first": {
+        "objects_first_title": "Objets disponibles",
+        "objects_first_description": "Azur Life est spécialisée dans les propriétés haut de gamme sur toute la France. Nous servirons de médiateur de toute transaction avec l'immobilier de luxe: acheter, vendre ou louer des appartements, vous pouvez qualitativement et rapidement."
+    },
+
+    "objects_second": {
+        "objects_second_title": "Vente",
+        "objects_second_link": "Voir tous les objets en vente"
+    },
+
+    "objects_third": {
+        "objects_third_title": "Location",
+        "objects_third_link": "Voir tous les objets à louer"
     }
 }

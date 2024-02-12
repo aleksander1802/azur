@@ -152,5 +152,20 @@
         "about_fourth_title": "Agency expertise",
         "about_fourth_description": "Your Life is a dynamically developing agency that has been upholding the values of confidentiality, loyalty, high professionalism and individual approach since 2017. We have all the necessary licenses, insurance and financial guarantees required by French law in order to conduct your real estate transaction as efficiently and comfortably as possible.",
         "about_fourth_button": "Buy or sell with us"
+    },
+
+    "objects_first": {
+        "objects_first_title": "Available properties",
+        "objects_first_description": "Azur Life specializes in premium properties throughout France. We will serve as a mediator for any transaction with luxury real estate: you can buy, sell or rent apartments efficiently and quickly."
+    },
+
+    "objects_second": {
+        "objects_second_title": "Sale",
+        "objects_second_link": "View all objects for sale"
+    },
+
+    "objects_third": {
+        "objects_third_title": "Rent",
+        "objects_third_link": "View all objects for rent"
     }
 }

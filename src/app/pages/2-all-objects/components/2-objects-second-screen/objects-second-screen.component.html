@@ -1,8 +1,10 @@
-<div class="objects__second">
+<div class="objects__second" *transloco="let t; read: 'objects_second'">
     <div class="objects__second_sell">
-        <h2 class="objects__second_sell-title">Продажа</h2>
+        <h2 class="objects__second_sell-title">
+            {{ t("objects_second_title") }}
+        </h2>
         <a class="objects__second_sell-link">
-            Смотреть все объекты на продажу
+            {{ t("objects_second_link") }}
         </a>
     </div>
 

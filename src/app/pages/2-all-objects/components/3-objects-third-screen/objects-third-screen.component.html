@@ -1,7 +1,11 @@
-<div class="objects__third">
+<div class="objects__third" *transloco="let t; read: 'objects_third'">
     <div class="objects__third_rent">
-        <h2 class="objects__third_rent-title">Аренда</h2>
-        <a class="objects__third_rent-link"> Смотреть все объекты в аренду </a>
+        <h2 class="objects__third_rent-title">
+            {{ t("objects_third_title") }}
+        </h2>
+        <a class="objects__third_rent-link">
+            {{ t("objects_third_link") }}
+        </a>
     </div>
     <div class="objects__third_slider">
         <app-swiper
