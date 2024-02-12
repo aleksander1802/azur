@@ -49,6 +49,7 @@
         "slider_address_cannes": "Cannes, France",
         "slider_address_nice": "Nice, France",
         "slider_title_full": "Appartement avec vue sur la mer sur la promenade des Anglais",
+        "slider_title_short": "Appartement avec vue sur la mer",
         "slider_description": "Appartement de 3 pièces entièrement rénové au 5ème étage dans une petite résidence sur la célèbre promenade des Anglais.",
         "slider_more": "En savoir Plus",
         "slider_article": "Article",
@@ -123,5 +124,48 @@
         "footer_regions_villa-ferra": "Villa à Saint-Jean-Cap-ferra",
         "footer_regions_apartments-ezze": "Appartement à Eze",
         "footer_regions_apartments-ferra": "Appartement à Saint-Jean-Cap-ferra"
+    },
+
+    "about_first": {
+        "about_first_title": "Transactions <br /> en russe <br /> avec Votre bien immobilier en France <br /> depuis 2017",
+        "about_first_description": "Nous vous Ouvrons les nouveaux horizons de la France. Nous choisirons la propriété en fonction des demandes exprimées, assurerons la gestion de vos appartements ou fournirons un service de conciergerie, et vous n'avez qu'une chose à faire: profiter de la vie.",
+        "about_first_button": "Écrivez-nous"
+    },
+
+    "about_second": {
+        "about_second_title_first": "“Les gens riches",
+        "about_second_title_second": "viennent",
+        "about_second_title_last": "sur la côte d'Azur pour la tranquillité <br /> et même la solitude”"
+    },
+
+    "about_third": {
+        "about_third_title_title": "Spécialistes Azur Life",
+        "about_third_left_name": "Eva Sinibaldi",
+        "about_third_left_post": "Courtier",
+        "about_third_left_description": "Spécialisation: gestion immobilière <br /> Expertise: évaluation immobilière, <br /> questions relatives aux visas",
+        "about_third_right_name": "Natalia Vinogradova",
+        "about_third_right_post": "Fondateur de l'agence",
+        "about_third_right_description": "Spécialisation: vente <br /> et location de biens immobiliers en France. <br /> Expertise: droit de la propriété, taxes < br / > et les questions de visa"
+    },
+
+    "about_fourth": {
+        "about_fourth_title": "Expertise de l'agence",
+        "about_fourth_description": "Your Life est une agence dynamique qui défend les valeurs de confidentialité, de loyauté, d'excellence et d'approche individuelle depuis 2017. Nous avons toutes les licences nécessaires, les Assurances et les garanties financières requises par la législation française afin de mener Votre transaction immobilière de la plus haute qualité et confortable.",
+        "about_fourth_button": "Acheter ou vendre avec nous"
+    },
+
+    "objects_first": {
+        "objects_first_title": "Objets disponibles",
+        "objects_first_description": "Azur Life est spécialisée dans les propriétés haut de gamme sur toute la France. Nous servirons de médiateur de toute transaction avec l'immobilier de luxe: acheter, vendre ou louer des appartements, vous pouvez qualitativement et rapidement."
+    },
+
+    "objects_second": {
+        "objects_second_title": "Vente",
+        "objects_second_link": "Voir tous les objets en vente"
+    },
+
+    "objects_third": {
+        "objects_third_title": "Location",
+        "objects_third_link": "Voir tous les objets à louer"
     }
 }
