@@ -16,7 +16,7 @@ export class FeedbackComponent implements OnInit {
 
     @Input() feedbackTextArea = false;
 
-    @Input() feedbackTitle = 'Оставьте свою заявку';
+    @Input() feedbackTitle = 'feedback_title_default';
 
     feedbackForm!: FormGroup;
     

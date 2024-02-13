@@ -263,5 +263,28 @@
         "buy-sell-rent_advantage_sell_first_description": "Grazie a molti anni di lavoro in questo settore e all'esperienza accumulata, siamo in grado di realizzare rapidamente e facilmente una transazione di vendita di immobili: troveremo un acquirente, determineremo il valore della proprietà che è vantaggioso per te e formalizzeremo tutti i documenti.",
         "buy-sell-rent_advantage_sell_second_description": "360° servizio clienti. Ci assumiamo la responsabilità di condurre la transazione e di redigere tutti i documenti richiesti dalla legge francese per la vendita di immobili. Organizzeremo anche il tuo soggiorno in Francia durante la conclusione della transazione.",
         "buy-sell-rent_advantage_sell_third_description": "Vendita di immobili nella tua lingua. I dipendenti esperti di Azur Life accompagnano i clienti lungo tutto il percorso della transazione con facilità nell'interazione con te."
+    },
+
+    "expertise_first": {
+        "expertise_first_title": "Valutazione di esperti",
+        "expertise_first_title_span": "immobiliari",
+        "expertise_first_description": "potrebbe essere necessaria una revisione tra pari dell'alloggio quando si stipula un prestito bancario o si eredita un alloggio. Al fine di proteggerti dall'interazione con le agenzie governative, noi stessi effettuiamo una valutazione esperta della proprietà e determiniamo il valore di mercato della proprietà."
+    },
+
+    "feedback": {
+        "feedback_title_default": "Lascia la tua richiesta",
+        "feedback_title_expertise": "richiedi un esame",
+        "feedback_title_concierge": "Lascia una richiesta di servizio di portineria",
+        "feedback_subtitle": "Scrivici o",
+        "feedback_form_name_placeholder": "Nome",
+        "feedback_form_name_error": "Inserisci il tuo nome",
+        "feedback_form_phone_placeholder": "Telefono",
+        "feedback_form_phone_error": "Inserisci il tuo numero di telefono",
+        "feedback_form_email_required_error": "Inserisci la tua email",
+        "feedback_form_email_invalid_error": "Inserisci un'email valida",
+        "feedback_form_text_placeholder": "Testo del messaggio",
+        "feedback_form_text_required_error": "inserisci un messaggio",
+        "feedback_form_privacy": "Lasciando la mia email, accetto l'Informativa sulla privacy.",
+        "feedback_form_submit_button": "Invia"
     }
 }

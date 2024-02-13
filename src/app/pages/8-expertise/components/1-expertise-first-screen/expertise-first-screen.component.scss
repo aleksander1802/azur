@@ -18,17 +18,20 @@
 
     &_title {
         margin-top: 220px;
-        max-width: 510px;
+        max-width: 470px;
+
         span {
             font-family: "Manrope";
             font-size: 20px;
             line-height: 120%;
+            letter-spacing: normal;
         }
     }
 
     &_description {
         max-width: 368px;
         margin-top: 31px;
+        min-height: 150px;
     }
 
     &_expirience {

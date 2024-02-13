@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
     styleUrl: './expertise.component.scss',
 })
 export class ExpertiseComponent {
-    feedbackTitle = 'запросите экспертизу';
+    feedbackTitle = 'feedback_title_expertise';
 }

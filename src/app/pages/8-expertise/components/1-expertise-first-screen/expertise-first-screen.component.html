@@ -1,20 +1,18 @@
 <div class="expertise__first">
     <div class="expertise__first_wrapper">
-        <div class="container">
+        <div class="container" *transloco="let t; read: 'expertise_first'">
             <app-crumbs [current]="currentCrumbsTitle"></app-crumbs>
 
             <h1 class="expertise__first_title">
-                Экспертная оценка
+                {{ t("expertise_first_title") }}
 
-                <span>недвижимости</span>
+                <span>
+                    {{ t("expertise_first_title_span") }}
+                </span>
             </h1>
 
             <p class="expertise__first_description">
-                Экспертная оценка жилья может понадобиться при взятии кредита в
-                банке или при наследовании жилья. Для того чтобы оградить Вас от
-                взаимодействия с государственными органами, мы сами проводим
-                экспертную оценку имущества и определяем рыночную стоимость
-                недвижимости.
+                {{ t("expertise_first_description") }}
             </p>
         </div>
     </div>

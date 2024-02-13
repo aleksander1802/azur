@@ -3,11 +3,16 @@
     [ngStyle]="{ 'background-image': 'url(' + backgroundImage + ')' }"
 >
     <div class="feedback_wrapper">
-        <div class="container">
-            <p class="feedback__subtitle">Напишите нам или</p>
+        <div class="container" *transloco="let t; read: 'feedback'">
+            <p class="feedback__subtitle">
+                {{ t("feedback_subtitle") }}
+            </p>
             <div class="feedback__title">
-                <h2>{{ feedbackTitle }}</h2>
-                <div class="feedback__title_circle" [class.hide]="feedbackTextArea">
+                <h2>{{ t(feedbackTitle) }}</h2>
+                <div
+                    class="feedback__title_circle"
+                    [class.hide]="feedbackTextArea"
+                >
                     <app-logo-circle></app-logo-circle>
                 </div>
             </div>
@@ -23,14 +28,14 @@
                             type="text"
                             formControlName="name"
                             autocomplete="name"
-                            placeholder="Имя"
+                            [placeholder]="t('feedback_form_name_placeholder')"
                         />
                         <div
                             class="validation"
                             *ngIf="name?.touched && name?.invalid"
                         >
                             <small *ngIf="getError('name', 'required')">
-                                Please enter a name
+                                {{ t("feedback_form_name_error") }}
                             </small>
                         </div>
                     </div>
@@ -46,15 +51,15 @@
                             type="number"
                             formControlName="phone"
                             autocomplete="phone"
-                            placeholder="Телефон"
+                            [placeholder]="t('feedback_form_phone_placeholder')"
                         />
                         <div
                             class="validation"
                             *ngIf="phone?.touched && phone?.invalid"
                         >
-                            <small *ngIf="getError('phone', 'required')"
-                                >Please enter a phone</small
-                            >
+                            <small *ngIf="getError('phone', 'required')">
+                                {{ t("feedback_form_phone_error") }}
+                            </small>
                         </div>
                     </div>
 
@@ -75,12 +80,12 @@
                             class="validation"
                             *ngIf="email?.touched && email?.invalid"
                         >
-                            <small *ngIf="getError('email', 'required')"
-                                >Пожалуйста, введите ваш email</small
-                            >
-                            <small *ngIf="getError('email', 'email')"
-                                >Пожалуйста, введите валидный email</small
-                            >
+                            <small *ngIf="getError('email', 'required')">
+                                {{ t("feedback_form_email_required_error") }}
+                            </small>
+                            <small *ngIf="getError('email', 'email')">
+                                {{ t("feedback_form_email_invalid_error") }}
+                            </small>
                         </div>
                     </div>
                     @if(feedbackTextArea) {
@@ -96,7 +101,7 @@
                             id="feedbackText"
                             formControlName="feedbackText"
                             class="feedback__form_control-textarea"
-                            placeholder="Текст сообщения"
+                            [placeholder]="t('feedback_form_text_placeholder')"
                         ></textarea>
                         <div
                             class="validation"
@@ -105,7 +110,7 @@
                             "
                         >
                             <small *ngIf="getError('feedbackText', 'required')">
-                                Please enter a text
+                                {{ t("feedback_form_text_required_error") }}
                             </small>
                         </div>
                     </div>
@@ -125,16 +130,16 @@
                     <label
                         for="privacyCheckbox"
                         class="feedback__form_checkbox-label"
-                        >Оставляя свой email, я принимаю политику
-                        конфиденциальности.</label
                     >
+                        {{ t("feedback_form_privacy") }}
+                    </label>
                     <div class="feedback__form__submit">
                         <button
                             [disabled]="feedbackForm.invalid"
                             type="submit"
                             class="feedback__form__submit-button"
                         >
-                            Отправить
+                            {{ t("feedback_form_submit_button") }}
                         </button>
                     </div>
                 </div>

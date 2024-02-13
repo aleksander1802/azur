@@ -236,13 +236,13 @@
         "buy-sell-rent_third_title_buy": "Buy",
         "buy-sell-rent_third_description_buy": "Exclusive selection of apartments in France. In order to choose the best property, you only need to do one thing - trust us. Contact us to select the preferred option from the list of locations and spaces.",
         "buy-sell-rent_third_title_sell": "Sell",
-                "buy-sell-rent_third_description_sell": "It is easy to sell real estate in France: contact the managers of Azur Life to settle all administrative formalities related to your property.",
+        "buy-sell-rent_third_description_sell": "It is easy to sell real estate in France: contact the managers of Azur Life to settle all administrative formalities related to your property.",
         "buy-sell-rent_third_title_rent": "Rent",
         "buy-sell-rent_third_description_rent": "Azur Life provides the option of full support of the lease transaction. We will choose premium villas and apartments according to your request without commission and additional charges. All you have to do is voice your preferences.",
-                "buy-sell-rent_third_contact": "Contact us or",
+        "buy-sell-rent_third_contact": "Contact us or",
         "buy-sell-rent_third_button": "Leave a request",
         "buy-sell-rent_third_link": "Learn more"
-            },
+    },
 
     "buy-sell-rent_advantage": {
         "buy-sell-rent_advantage_buy_title": "Advantages of buying with Azur Life",
@@ -263,5 +263,28 @@
         "buy-sell-rent_advantage_sell_first_description": "Thanks to many years of work in this field and accumulated experience, we are able to quickly and easily carry out a real estate sale transaction: we will find a buyer, determine the value of the property that is favorable for you and arrange all the documents.",
         "buy-sell-rent_advantage_sell_second_description": "360° customer service. We take responsibility for conducting the transaction, as well as draw up all the documents required by French law for the sale of real estate. We will also arrange your stay in France during the conclusion of the transaction.",
         "buy-sell-rent_advantage_sell_third_description": "Sale of real estate in your language. Azur Life's experienced employees accompany clients throughout the entire transaction process with ease in interacting with you."
+    },
+
+    "expertise_first": {
+        "expertise_first_title": "Expert review",
+        "expertise_first_title_span": "of real estate",
+        "expertise_first_description": "Expert assessment of housing may be needed when taking out a loan from a bank or when inheriting housing. In order to protect you from interaction with government agencies, we ourselves conduct an expert assessment of the property and determine the market value of the property."
+    },
+
+    "feedback": {
+        "feedback_title_default": "Leave your request",
+        "feedback_title_expertise": "request expertise",
+        "feedback_title_concierge": "Leave a request for concierge service",
+        "feedback_subtitle": "Write to us or",
+        "feedback_form_name_placeholder": "Name",
+        "feedback_form_name_error": "Please enter your name",
+        "feedback_form_phone_placeholder": "Phone",
+        "feedback_form_phone_error": "Please enter your phone number",
+        "feedback_form_email_required_error": "Please enter your email",
+        "feedback_form_email_invalid_error": "Please enter a valid email",
+        "feedback_form_text_placeholder": "Message text",
+        "feedback_form_text_required_error": "Please enter a message",
+        "feedback_form_privacy": "By leaving my email, I accept the privacy policy.",
+        "feedback_form_submit_button": "Send"
     }
 }

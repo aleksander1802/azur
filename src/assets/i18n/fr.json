@@ -88,7 +88,7 @@
 
     "home_eighth": {
         "home_eighth_title": "Obtenez les informations en premier",
-        "home_eighth_request_title":"Soyez le Premier à obtenir les informations sur les nouveaux objets",
+        "home_eighth_request_title": "Soyez le Premier à obtenir les informations sur les nouveaux objets",
         "home_eighth_email_required_error": "Veuillez entrer votre e-mail",
         "home_eighth_email_label": "Entrez votre email",
         "home_eighth_email_invalid_error": "Veuillez entrer un e-mail valide",
@@ -263,5 +263,28 @@
         "buy-sell-rent_advantage_sell_first_description": "Grâce à des années de travail dans ce domaine et à l'expérience accumulée, nous sommes en mesure de réaliser rapidement et facilement une transaction immobilière: trouver un acheteur, déterminer la valeur de l'immobilier qui vous convient le mieux et rédiger tous les documents.",
         "buy-sell-rent_advantage_sell_second_description": "Service client 360°. Nous assumons la responsabilité de la conduite de la transaction et nous traitons également tous les documents requis par la loi française lors de la vente de biens immobiliers. Nous organisons également votre séjour en France lors de la Conclusion de la transaction.",
         "buy-sell-rent_advantage_sell_third_description": "Vente de biens immobiliers dans Votre langue. Le personnel expérimenté d'Azur Life accompagne les clients tout au long du processus de réalisation de la transaction avec facilité en interaction avec vous."
+    },
+
+    "expertise_first": {
+        "expertise_first_title": "Expertise",
+        "expertise_first_title_span": "immobilière",
+        "expertise_first_description": "une évaluation par Les pairs d'un logement peut être nécessaire lors de la prise d'un prêt bancaire ou lors de l'héritage d'un logement. Afin de vous protéger de l'interaction avec les organismes gouvernementaux, nous effectuons nous-mêmes une évaluation par des experts de la propriété et de déterminer la valeur marchande de l'immobilier."
+    },
+
+    "feedback": {
+        "feedback_title_default": "Laissez votre demande",
+        "feedback_title_expertise": "demander une expertise",
+        "feedback_title_concierge": "Laissez une demande de conciergerie",
+        "feedback_subtitle": "Écrivez-nous ou",
+        "feedback_form_name_placeholder": "Nom",
+        "feedback_form_name_error": "Veuillez entrer votre nom",
+        "feedback_form_phone_placeholder": "Téléphone",
+        "feedback_form_phone_error": "Veuillez entrer votre numéro de téléphone",
+        "feedback_form_email_required_error": "Veuillez entrer votre e-mail",
+        "feedback_form_email_invalid_error": "Veuillez entrer un e-mail valide",
+        "feedback_form_text_placeholder": "Texte du message",
+        "feedback_form_text_required_error": "Veuillez entrer un message",
+        "feedback_form_privacy": "En Laissant mon email, j'accepte la politique de confidentialité.",
+        "feedback_form_submit_button": "Envoyer"
     }
 }

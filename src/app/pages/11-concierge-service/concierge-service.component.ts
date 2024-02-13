@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
     styleUrl: './concierge-service.component.scss',
 })
 export class ConciergeServiceComponent {
-    feedbackTitle = 'Оставьте запрос на консьерж сервис';
+    feedbackTitle = 'feedback_title_concierge';
 }
