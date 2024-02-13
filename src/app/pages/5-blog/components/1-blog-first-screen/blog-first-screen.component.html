@@ -1,14 +1,14 @@
 <div class="blog__first">
-    <div class="container">
+    <div class="container" *transloco="let t; read: 'blog_first'">
         <app-crumbs [current]="currentCrumbsTitle"></app-crumbs>
 
         <div class="blog__first_wrapper">
             <div class="blog__first_left">
-                <h1 class="blog__first_title">{{ currentCrumbsTitle }}</h1>
+                <h1 class="blog__first_title">{{ t(currentCrumbsTitle) }}</h1>
 
                 <div class="blog__first_description">
                     @for (blog of blogText; track blog;) {
-                    <p>{{ blog }}</p>
+                    <p>{{ t(blog) }}</p>
                     }
                 </div>
             </div>

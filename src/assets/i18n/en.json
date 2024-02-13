@@ -204,5 +204,11 @@
         "rent_first_title": "Rent",
         "rent_first_title_second": "on the Cote d'Azur",
         "rent_first_description": "It is easy to rent a property for a season or choose something for a long-term period. <br /> Azur Life provides the option of full support of the lease transaction. We will choose premium villas and apartments according to your request without commission and additional charges."
+    },
+
+    "blog_first": {
+        "blog_first_title": "Blog",
+        "blog_text_first": "OuSituated on the slopes of Cap Ferrat in a private setting with breathtaking sea views and yet just a short walk from the village and harbour of Saint Jean Cap Ferrat, this villa is one of the most desirable properties on this stretch of the French Riviera.Modern and open plan, the villa offers the perfect setting for both relaxing and entertaining. Expansive glass windows and sliding doors flood rooms with natural light whilst providing guests with outstanding sea views. With 1000m2 of living space spread across four floors and served by a glass elevator, there is plenty of room to host events or find a quiet corner in which to relax. Villa has five luxurious bedrooms with private bathrooms and able to comfortably accommodate up to 10 guests.",
+        "blog_text_second": "All of the rooms have lounge areas, beautiful ensuite bathrooms and Bang & Olufsen entertainment systems. A seventh double bedroom is available for staff."
     }
 }
