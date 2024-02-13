@@ -210,5 +210,11 @@
         "blog_first_title": "Blog",
         "blog_text_first": "Situata sulle pendici di Cap Ferrat in una posizione appartata con vista mozzafiato sul mare e allo stesso tempo a pochi passi dal villaggio e dal porto di Saint-Jean-Cap Ferrat, questa villa è una delle proprietà più ambite in questo tratto della Costa Azzurra.Moderna e open space, La villa offre l'ambiente ideale sia per il relax che per l'intrattenimento. Grandi finestre di vetro e porte scorrevoli riempiono le stanze di luce naturale, offrendo agli ospiti una splendida vista sul mare. Con una superficie abitabile di 1.000 m2 distribuita su quattro piani e servita da un ascensore in vetro, c'è molto spazio per eventi o per trovare un angolo tranquillo dove rilassarsi. La villa dispone di cinque lussuose camere da letto con bagno privato ed è in grado di ospitare comodamente fino a 10 persone.",
         "blog_text_second": "Tutte le camere sono dotate di aree salotto, splendidi bagni e Sistemi di intrattenimento Bang & Olufsen. La settima camera matrimoniale è riservata al personale."
+    },
+
+    "join_first": {
+        "join_first_title": "Unisciti <br /> ad Azur Life",
+        "join_first_subtitle": "Azur Life",
+        "join_first_description": "Diventa un membro di Azur Life. Compila il modulo sottostante in modo che possiamo conoscerti meglio."
     }
 }

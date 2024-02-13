@@ -1,16 +1,14 @@
 <div class="join__first">
-    <div class="container">
+    <div class="container" *transloco="let t; read: 'join_first'">
         <app-crumbs [current]="currentCrumbsTitle"></app-crumbs>
-        <h1 class="join__first_title">
-            Присоединиться <br />
-            к Azur Life
-        </h1>
+        <h1 class="join__first_title" [innerHTML]="t('join_first_title')"></h1>
 
-        <p class="join__first_subtitle">Azur Life</p>
+        <p class="join__first_subtitle">
+            {{ t("join_first_subtitle") }}
+        </p>
 
         <p class="join__first_description">
-            Станьте участником Azur Life. Заполните форму ниже, что бы мы могли
-            узнать вас получше.
+            {{ t("join_first_description") }}
         </p>
 
         <app-join-form></app-join-form>

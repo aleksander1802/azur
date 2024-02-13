@@ -210,5 +210,11 @@
         "blog_first_title": "Blog",
         "blog_text_first": "Située sur les pentes du Cap Ferrat, dans un endroit isolé avec une vue imprenable sur la mer et à quelques minutes à pied du village et du port de Saint-Jean-Cap-Ferrat, cette Villa est l'une des propriétés les plus convoitées de cette partie de la côte d'Azur.Moderne et ouverte, la Villa offre des conditions idéales pour la détente et le divertissement. De grandes fenêtres en verre et des portes coulissantes inondent les chambres de lumière naturelle, offrant une vue magnifique sur la mer. Avec une surface habitable de 1 000 m2 répartie sur quatre étages et desservie par un ascenseur en verre, il y a suffisamment d'espace pour organiser des événements ou trouver un coin tranquille pour se détendre. La Villa dispose de cinq chambres luxueuses avec salle de bains privée et peut accueillir confortablement jusqu'à 10 personnes.",
         "blog_text_second": "Toutes les chambres disposent d'espaces de détente, de belles salles de bains et de systèmes de divertissement Bang & Olufsen. La septième chambre double est réservée au personnel."
+    },
+
+    "join_first": {
+        "join_first_title": "Rejoindre <br /> Azur Life",
+        "join_first_subtitle": "Azur Life",
+        "join_first_description": "Devenez membre de Azur Life. Remplissez le formulaire ci-dessous afin que nous puissions mieux vous connaître."
     }
 }
