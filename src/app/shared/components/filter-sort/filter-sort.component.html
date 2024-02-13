@@ -1,9 +1,11 @@
-<div class="order__filter">
+<div class="order__filter" *transloco="let t; read: 'filter'">
     <div class="order__filter-title">
-        <h2>Объекты</h2>
+        <h2>
+            {{ t("filter_title") }}
+        </h2>
 
         <h2 class="order__filter-title-span">
-            {{ title }}
+            {{ t(title) }}
 
             @if (data | filtering : selectedHouseType : selectedCity | sorting :
             selectedSortBy; as filteredData;) {
@@ -17,28 +19,50 @@
     <div class="order__filter__wrapper">
         <div class="order__filter__wrapper_item">
             <select id="houseType" [(ngModel)]="selectedHouseType">
-                <option value="" disabled>Тип</option>
-                <option value="apartments">Апартаменты</option>
-                <option value="house">Дом</option>
-                <option value="float">Квартира</option>
+                <option value="" disabled>
+                    {{ t("filter_type") }}
+                </option>
+                <option value="apartments">
+                    {{ t("filter_type_apartments") }}
+                </option>
+                <option value="house">
+                    {{ t("filter_type_house") }}
+                </option>
+                <option value="float">
+                    {{ t("filter_type_float") }}
+                </option>
             </select>
         </div>
         <div class="order__filter__wrapper_item">
             <select id="city" [(ngModel)]="selectedCity">
-                <option value="" disabled>Расположение</option>
-                <option *ngFor="let city of cities" [value]="city">
-                    {{ city }}
+                <option value="" disabled>
+                    {{ t("filter_location") }}
                 </option>
-                <option value="">Все</option>
+                <option *ngFor="let city of cities" [value]="city">
+                    {{ t(city) }}
+                </option>
+                <option value="">
+                    {{ t("filter_location_all") }}
+                </option>
             </select>
         </div>
         <div class="order__filter__wrapper_item">
             <select id="sort" [(ngModel)]="selectedSortBy">
-                <option value="" disabled>Сортировать по</option>
-                <option value="price_asc">По цене (возрастанию)</option>
-                <option value="price_desc">По цене (убыванию)</option>
-                <option value="area_asc">По площади (возрастанию)</option>
-                <option value="area_desc">По площади (убыванию)</option>
+                <option value="" disabled>
+                    {{ t("filter_sort") }}
+                </option>
+                <option value="price_asc">
+                    {{ t("filter_sort_price_asc") }}
+                </option>
+                <option value="price_desc">
+                    {{ t("filter_sort_price_desc") }}
+                </option>
+                <option value="area_asc">
+                    {{ t("filter_sort_area_asc") }}
+                </option>
+                <option value="area_desc">
+                    {{ t("filter_sort_area_desc") }}
+                </option>
             </select>
         </div>
     </div>
@@ -49,7 +73,11 @@ selectedSortBy; as filteredData;) { @if (filteredData.length > 0; ) { @for (item
 of filteredData | filtering : selectedHouseType : selectedCity | sorting :
 selectedSortBy; track item.id) {
 
-<div class="order_wrapper" [ngClass]="{ 'order_wrapper-large': item.large }">
+<div
+    class="order_wrapper"
+    [ngClass]="{ 'order_wrapper-large': item.large }"
+    *transloco="let t; read: 'filter'"
+>
     <div class="order__left" [ngClass]="{ 'order__left-large': item.large }">
         <div
             class="order__left__image"
@@ -57,20 +85,23 @@ selectedSortBy; track item.id) {
                 'order__left__image-large': item.large
             }"
         >
-            <img [src]="item.img" [alt]="item.title" />
+            <img [src]="item.img" [alt]="t(item.title)" />
 
             <div class="order__left__image_top">
                 <img src="assets/icons/pointer.svg" alt="Pointer Azur" />
-                <span>{{ item.address }}</span>
+                <span>{{ t(item.address) }}</span>
             </div>
 
             <div class="order__left__image_bottom">
                 <p class="order__left__image_bottom-title">
-                    {{ item.title }}
+                    {{ t(item.title) }}
                 </p>
+
+                @if (item.description) {
                 <p class="order__left__image_bottom-description">
-                    {{ item.description }}
+                    {{ t(item.description) }}
                 </p>
+                }
             </div>
             @if (item.choice) {
             <div
@@ -102,11 +133,14 @@ selectedSortBy; track item.id) {
     >
         <div class="order__right__top">
             <p class="order__right__top-title">
-                {{ item.title }}
+                {{ t(item.title) }}
             </p>
+
+            @if(item.description) {
             <p class="order__right__top-description">
-                {{ item.description }}
+                {{ t(item.description) }}
             </p>
+            }
         </div>
 
         <div
@@ -131,10 +165,7 @@ selectedSortBy; track item.id) {
                 }"
             >
                 <app-choice-svg [width]="'32'" [height]="'42'"></app-choice-svg>
-                <span
-                    >Выбор <br />
-                    Azur Life</span
-                >
+                <span [innerHTML]="t('filter_choice')"></span>
             </div>
 
             } @if (item.exclusive) {
@@ -148,10 +179,7 @@ selectedSortBy; track item.id) {
                     [width]="'32'"
                     [height]="'42'"
                 ></app-exclusive-svg>
-                <span
-                    >Эксклюзивно <br />
-                    в Azur Life</span
-                >
+                <span [innerHTML]="t('filter_exclusive')"></span>
             </div>
 
             }
@@ -164,12 +192,14 @@ selectedSortBy; track item.id) {
                         item.choice || item.exclusive
                 }"
             >
-                Смотреть объект
+                {{ t("filter_view_object") }}
             </a>
         </div>
     </div>
 </div>
 
 } } @else {
-<h2 class="order_nothing">Ничего не найдено</h2>
+<h2 class="order_nothing" *transloco="let t; read: 'filter'">
+    {{ t("filter_view_nothing") }}
+</h2>
 } }

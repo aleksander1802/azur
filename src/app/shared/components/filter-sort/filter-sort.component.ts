@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
-import { HouseType, SellOrRent } from 'src/app/shared/models/home.types';
-import { SharedModule } from '../../shared.module';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-import { ExclusiveSvgComponent } from '../exclusive-svg/exclusive-svg.component';
+import { SellOrRent, HouseType } from '../../models/home.types';
+import { SharedModule } from '../../shared.module';
 import { ChoiceSvgComponent } from '../choice-svg/choice-svg.component';
+import { ExclusiveSvgComponent } from '../exclusive-svg/exclusive-svg.component';
 
 @Component({
     selector: 'app-filter-sort',

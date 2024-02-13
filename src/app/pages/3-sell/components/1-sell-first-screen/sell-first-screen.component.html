@@ -1,17 +1,17 @@
 <div class="sell__first">
-    <div class="container">
+    <div class="container" *transloco="let t; read: 'sell_first'">
         <app-crumbs [current]="currentCrumbsTitle"></app-crumbs>
         <div class="sell__first_wrapper">
-            <h1 class="sell__first_title">Объекты на продажу</h1>
+            <h1 class="sell__first_title">
+                {{ t("sell_first_title") }}
+            </h1>
             <div class="sell__first_title-circle">
                 <app-logo-circle></app-logo-circle>
             </div>
         </div>
 
         <p class="sell__first_description">
-            Осуществить покупку недвижимости во Франции можно легко: обратитесь
-            к менеджерам Azur Life, чтобы урегулировать все административные
-            формальности, связанные с приобретением собственности.
+            {{ t("sell_first_description") }}
         </p>
     </div>
 </div>

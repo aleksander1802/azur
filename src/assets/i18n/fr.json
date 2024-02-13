@@ -167,5 +167,42 @@
     "objects_third": {
         "objects_third_title": "Location",
         "objects_third_link": "Voir tous les objets à louer"
+    },
+
+    "sell_first": {
+        "sell_first_title": "Objets à vendre",
+        "sell_first_description": "l'achat d'un bien immobilier en France est facile: contactez les gestionnaires d'Azur Life pour régler toutes les formalités administratives liées à l'acquisition d'un bien."
+    },
+
+    "filter": {
+        "filter_title_sell": " à vendre",
+        "filter_title_rent": " à louer",
+        "filter_title": "Objets",
+        "filter_type": "Type",
+        "filter_type_apartments": "Appartement",
+        "filter_type_house": "Maison",
+        "filter_type_float": "Appartement",
+        "filter_location": "Emplacement",
+        "filter_location_cannes": "Cannes, France",
+        "filter_location_nice": "Nice, France",
+        "filter_location_other": "Autres",
+        "filter_location_all": "Tout",
+        "filter_sort": "Trier par",
+        "filter_sort_price_asc": "Prix (croissant)",
+        "filter_sort_price_desc": "Prix (décroissant)",
+        "filter_sort_area_asc": "Par zone (croissant)",
+        "filter_sort_area_desc": "Par zone (décroissante)",
+        "filter_title_full": "Appartement avec vue sur la mer sur la promenade des Anglais",
+        "filter_description_full": "Appartement de 3 pièces entièrement rénové au 5ème étage dans une petite résidence sur la célèbre promenade des Anglais.",
+        "filter_choice": "Sélection <br /> Azur Life",
+        "filter_exclusive": "Exclusif <br/ > dans Azur Life",
+        "filter_view_object": "Regarder l'objet",
+        "filter_view_nothing": "Rien trouvé"
+    },
+
+    "rent_first": {
+        "rent_first_title": "Location",
+        "rent_first_title_second": "Sur la côte d'Azur",
+        "rent_first_description": "Il est facile de Louer une propriété pour la saison ou de choisir quelque chose pour la période à long terme. <br /> Azur Life offre une option de suivi complet de la transaction de location. Nous choisirons des villas et des appartements haut de gamme à Votre demande, sans Commission ni frais supplémentaires."
     }
 }

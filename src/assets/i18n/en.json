@@ -167,5 +167,42 @@
     "objects_third": {
         "objects_third_title": "Rent",
         "objects_third_link": "View all objects for rent"
+    },
+
+    "sell_first": {
+        "sell_first_title": "Objects for sale",
+        "sell_first_description": "It is easy to purchase real estate in France: contact the managers of Azur Life to settle all administrative formalities related to the acquisition of property."
+    },
+
+    "filter": {
+        "filter_title_sell": " for sale",
+        "filter_title_rent": " for rent",
+        "filter_title": "Objects",
+        "filter_type": "Type",
+        "filter_type_apartments": "Apartments",
+        "filter_type_house": "House",
+        "filter_type_float": "Apartment",
+        "filter_location": "Location",
+        "filter_location_cannes": "Cannes, France",
+        "filter_location_nice": "Nice, France",
+        "filter_location_other": "Others",
+        "filter_location_all": "All",
+        "filter_sort": "Sort by",
+        "filter_sort_price_asc": "By price (ascending)",
+        "filter_sort_price_desc": "By price (descending)",
+        "filter_sort_area_asc": "By area (ascending)",
+        "filter_sort_area_desc": "By area (descending)",
+        "filter_title_full": "Apartment with sea view on the Promenade des Anglais",
+        "filter_description_full": "Fully renovated 3-room apartment on the 5th floor in a small residence on the famous Promenade des Anglais.",
+        "filter_choice": "Choice <br /> Azur Life",
+        "filter_exclusive": "Exclusive <br /> in Azur Life",
+        "filter_view_object": "View object",
+        "filter_view_nothing": "Nothing found"
+    },
+
+    "rent_first": {
+        "rent_first_title": "Rent",
+        "rent_first_title_second": "on the Cote d'Azur",
+        "rent_first_description": "It is easy to rent a property for a season or choose something for a long-term period. <br /> Azur Life provides the option of full support of the lease transaction. We will choose premium villas and apartments according to your request without commission and additional charges."
     }
 }

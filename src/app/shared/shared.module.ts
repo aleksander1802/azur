@@ -58,7 +58,6 @@ import { TranslocoRootModule } from '../transloco-root.module';
         SortingPipe,
         NavigationBottomLinksComponent,
         breakSentenceWithBRPipe,
-        CommonModule,
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

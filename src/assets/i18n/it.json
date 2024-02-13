@@ -26,7 +26,7 @@
 
     "home_first": {
         "home_first_title": "Selezione <br/> proprietà <br / > con supporto completo nella tua lingua",
-        "home_first_description": "La nostra agenzia è specializzata in strutture premium <br /> e te le presenta in russo. Selezione di immobili < br /> in tutta la Francia con un focus sulle zone più privilegiate e pittoresche del Mediterraneo francese - Nizza, Cannes o la Costa Azzurra senza inutili costi di tempo e prezzo.",
+        "home_first_description": "La nostra agenzia è specializzata in strutture premium <br /> e te le presenta in russo. Selezione di immobili <br /> in tutta la Francia con un focus sulle zone più privilegiate e pittoresche del Mediterraneo francese - Nizza, Cannes o la Costa Azzurra senza inutili costi di tempo e prezzo.",
         "home_first_presentation": "Scarica la presentazione",
         "home_first_contact": "Scrivici"
     },
@@ -167,5 +167,42 @@
     "objects_third": {
         "objects_third_title": "Affitto",
         "objects_third_link": "Visualizza tutti gli oggetti in affitto"
+    },
+
+    "sell_first": {
+        "sell_first_title": "Oggetti In vendita",
+        "sell_first_description": "L'acquisto di un immobile in Francia è semplice: rivolgersi ai gestori di Azur Life per risolvere tutte le formalità amministrative relative all'acquisto di un immobile."
+    },
+
+    "filter": {
+        "filter_title_sell": " in vendita",
+        "filter_title_rent": " in affitto",
+        "filter_title": "Oggetti",
+        "filter_type": "Tipo",
+        "filter_type_apartments": "Appartamenti",
+        "filter_type_house": "Casa",
+        "filter_type_float": "Appartamento",
+        "filter_location": "Posizione",
+        "filter_location_cannes": "Cannes, Francia",
+        "filter_location_nice": "Nizza, Francia",
+        "filter_location_other": "Altri",
+        "filter_location_all": "Tutto",
+        "filter_sort": "Ordina per",
+        "filter_sort_price_asc": "Per prezzo (crescente)",
+        "filter_sort_price_desc": "Per prezzo (decrescente)",
+        "filter_sort_area_asc": "Per area (crescente)",
+        "filter_sort_area_desc": "Per area (decrescente)",
+        "filter_title_full": "Appartamento con vista mare sulla Promenade des Anglais",
+        "filter_description_full": "Appartamento completamente ristrutturato con 3 camere da letto al 5 ° piano in una piccola residenza sulla famosa Promenade des Anglais.",
+        "filter_choice": "Selezione <br /> Azur Life",
+        "filter_exclusive": "esclusivo <br /> In Azur Life",
+        "filter_view_object": "Guarda l'oggetto",
+        "filter_view_nothing": "niente trovato"
+    },
+
+    "rent_first": {
+        "rent_first_title": "Affitto",
+        "rent_first_title_second": "Sulla Costa Azzurra",
+        "rent_first_description": "Affittare una proprietà per una stagione o scegliere qualcosa per un lungo periodo Può essere facile. <br /> Azur Life offre l'opzione di supporto completo per la transazione di noleggio. Sceglieremo ville e appartamenti premium su vostra richiesta senza costi aggiuntivi e costi aggiuntivi."
     }
 }

@@ -12,15 +12,17 @@
         margin-top: 161px;
     }
     &_title {
+        
         &-circle {
             position: absolute;
             top: -2rem;
-            right: 2rem;
+            right: 1rem;
         }
     }
     &_description {
         max-width: 435px;
         margin-top: 31px;
-        line-height: 160%; 
+        line-height: 160%;
+        min-height: 100px;
     }
 }
