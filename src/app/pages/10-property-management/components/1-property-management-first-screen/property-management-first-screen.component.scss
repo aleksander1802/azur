@@ -19,6 +19,7 @@
     &_title {
         max-width: 646px;
         margin-top: 50px;
+        min-height: 306px;
     }
 
     &_subtitle {
@@ -29,6 +30,7 @@
     &_description {
         margin-top: 37px;
         max-width: 452px;
+        min-height: 150px;
     }
 
     &_button {

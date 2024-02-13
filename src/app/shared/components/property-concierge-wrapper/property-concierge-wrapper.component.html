@@ -1,24 +1,36 @@
 <div class="property__concierge">
-    <div class="property__concierge__left">
+    <div
+        class="property__concierge__left"
+        *transloco="let t; read: 'property_concierge'"
+    >
         <h2 class="property__concierge__left_title">
-            {{ title }}
+            {{ t(title) }}
         </h2>
 
         <div class="property__concierge__left_tags">
             @for (tag of tags; track tag;) {
-            <span class="property__concierge__left_tags-tag">{{ tag }}</span>
+            <span class="property__concierge__left_tags-tag">{{ t(tag) }}</span>
+            }
+        </div>
+
+        <div class="property__concierge__left_tags">
+            @for (tag of tags2; track tag;) {
+            <span class="property__concierge__left_tags-tag">{{ t(tag) }}</span>
             }
         </div>
 
         @if (subtitle) {
-        <p class="property__concierge__left_subtitle">{{ subtitle }}</p>
+        <p class="property__concierge__left_subtitle">{{ t(subtitle) }}</p>
         }
-        <p class="property__concierge__left_description">{{ description }}</p>
+        <p class="property__concierge__left_description">
+            {{ t(description) }}
+        </p>
 
         <button class="property__concierge__left_button">
-            Оставьте ваш запрос
+            {{ t("property_concierge_submit_button") }}
         </button>
     </div>
+
     <div class="property__concierge__right">
         <img [src]="image" alt="Property concierge image" />
     </div>

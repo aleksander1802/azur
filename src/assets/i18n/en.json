@@ -286,5 +286,34 @@
         "feedback_form_text_required_error": "Please enter a message",
         "feedback_form_privacy": "By leaving my email, I accept the privacy policy.",
         "feedback_form_submit_button": "Send"
+    },
+
+    "property_first": {
+        "property_first_title": "Transfer real estate in France to our management",
+        "property_first_subtitle": "& enjoy the really important moments",
+        "property_first_description": "In order for you not to be distracted from what is really important, we create special conditions of comfort and care for you. We will provide cleaning of your property, pay the bills, prepare an apartment or villa for your arrival or rent it out if necessary. We have all the necessary licenses and documents to do this efficiently and quickly.",
+        "property_first_button": "Leave a request"
+    },
+
+    "experience_block": {
+        "experience_block_subtitle_property": "Managing your property",
+        "experience_block_subtitle_concierge": "Concierge service with a special approach"
+    },
+
+    "property_concierge": {
+        "property_concierge_property_title": "Property management",
+        "property_concierge_concierge_title": "Concierge service with a special approach",
+        "property_concierge_property_tag1": "For rent/for sale",
+        "property_concierge_property_tag2": "Cleaning",
+        "property_concierge_property_tag3": "Bill payment",
+        "property_concierge_property_tag4": "Preparation for arrival",
+        "property_concierge_concierge_tag1": "Transfers",
+        "property_concierge_concierge_tag2": "Purchase of items on request",
+        "property_concierge_concierge_tag3": "Booking tickets",
+        "property_concierge_concierge_tag4": "Selection of restaurants",
+        "property_concierge_property_subtitle": "Individual approach and special treatment",
+        "property_concierge_property_description": "We will pay the bills or prepare the apartment for arrival.  Let's rent out your property or order space cleaning: choose what you need.",
+        "property_concierge_concierge_description": "Our customers are satisfied with our special approach and attention to detail and requests. Everything that is required for the perfect travel of Azur life customers will be organized for you.",
+        "property_concierge_submit_button": "Leave your request"
     }
 }

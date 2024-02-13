@@ -286,5 +286,34 @@
         "feedback_form_text_required_error": "Veuillez entrer un message",
         "feedback_form_privacy": "En Laissant mon email, j'accepte la politique de confidentialité.",
         "feedback_form_submit_button": "Envoyer"
+    },
+
+    "property_first": {
+        "property_first_title": "Remettez-nous l'immobilier en France à la gestion",
+        "property_first_subtitle": "& profitez des moments vraiment importants",
+        "property_first_description": "Afin de ne pas vous distraire de ce qui est vraiment important, nous créons des conditions particulières de confort et de soins pour vous. Nous fournissons le nettoyage de votre propriété, paierons les factures, préparerons votre appartement ou Villa pour votre arrivée ou la louerons si nécessaire. Nous avons toutes les licences et les documents nécessaires pour le faire de manière qualitative et rapide.",
+        "property_first_button": "Laisser la requête"
+    },
+
+    "experience_block": {
+        "experience_block_subtitle_property": "Gérer Vos biens immobiliers",
+        "experience_block_subtitle_concierge": "Service de conciergerie avec une approche particulière"
+    },
+
+    "property_concierge": {
+        "property_concierge_property_title": "Gestion immobilière",
+        "property_concierge_concierge_title": "Service de conciergerie avec une approche particulière",
+        "property_concierge_property_tag1": "À louer / à vendre",
+        "property_concierge_property_tag2": "Nettoyage",
+        "property_concierge_property_tag3": "Paiement des factures",
+        "property_concierge_property_tag4": "Préparation de l'arrivée",
+        "property_concierge_concierge_tag1": "Transferts",
+        "property_concierge_concierge_tag2": "Achat d'objets sur demande",
+        "property_concierge_concierge_tag3": "Réservation de billets",
+        "property_concierge_concierge_tag4": "Sélection de restaurants",
+        "property_concierge_property_subtitle": "Approche Individuelle et attitude particulière",
+        "property_concierge_property_description": "Nous allons Payer les factures ou préparer l'appartement pour l'arrivée.  Louez votre propriété ou réservez un espace de nettoyage: choisissez ce dont vous avez besoin.",
+        "property_concierge_concierge_description": "Nos clients sont satisfaits de leur approche particulière et de leur attention portée aux détails et aux demandes. Tout ce qu'il faut pour le voyage parfait des clients Azur life sera organisé pour vous.",
+        "property_concierge_submit_button": "Laissez votre demande"
     }
 }

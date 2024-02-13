@@ -1,5 +1,8 @@
 <div class="experience">
-    <div class="experience__wrapper">
+    <div
+        class="experience__wrapper"
+        *transloco="let t; read: 'experience_block'"
+    >
         <div class="experience__wrapper_top">
             <h2 class="experience__wrapper_top-title">azur life</h2>
             <div class="experience__wrapper_top-circle">
@@ -7,12 +10,18 @@
             </div>
         </div>
 
-        <p class="experience__wrapper_bottom">{{ subtitle }}</p>
+        <p class="experience__wrapper_bottom">
+            {{ t(subtitle) }}
+        </p>
     </div>
 
     <div class="experience__wrapper_exp">
         <app-experience [colorBlack]="colorBlack"></app-experience>
     </div>
 
-    <img src="assets/images/letters/a_light.svg" alt="Background letter" class="experience__letter">
+    <img
+        src="assets/images/letters/a_light.svg"
+        alt="Background letter"
+        class="experience__letter"
+    />
 </div>

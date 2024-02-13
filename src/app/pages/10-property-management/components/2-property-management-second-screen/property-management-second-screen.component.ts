@@ -6,20 +6,23 @@ import { Component } from '@angular/core';
     styleUrl: './property-management-second-screen.component.scss',
 })
 export class PropertyManagementSecondScreenComponent {
-    subtitle = 'Управляем Вашей недвижимостью';
+    subtitle = 'experience_block_subtitle_property';
 
-    propertyTitle = 'Управление недвижимостью';
+    propertyTitle = 'property_concierge_property_title';
+
     propertyTags = [
-        'В аренду/на продажу',
-        'Клининг',
-        'Оплата счетов',
-        'Подготовка к приезду',
+        'property_concierge_property_tag1',
+        'property_concierge_property_tag2',
     ];
 
-    propertySubtitle = 'Индивидуальный подход и особое отношение';
+    propertyTags2 = [
+        'property_concierge_property_tag3',
+        'property_concierge_property_tag4',
+    ];
 
-    propertyDescription =
-        'Оплатим счета или подготовим апартаменты к приезду.  Сдадим вашу недвижимость в аренду или закажем клининг пространства: выберите то, что Вам нужно.';
+    propertySubtitle = 'property_concierge_property_subtitle';
+
+    propertyDescription = 'property_concierge_property_description';
 
     propertyImage = 'assets/images/about/about_fourth.jpg';
 }

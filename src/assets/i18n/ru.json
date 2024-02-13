@@ -281,5 +281,33 @@
         "feedback_form_text_required_error": "Пожалуйста, введите сообщение",
         "feedback_form_privacy": "Оставляя свой email, я принимаю политику конфиденциальности.",
         "feedback_form_submit_button": "Отправить"
+    },
+    "property_first": {
+        "property_first_title": "Передайте недвижимость во Франции нам в управление",
+        "property_first_subtitle": "& наслаждайтесь действительно важными моментами",
+        "property_first_description": "Для того чтобы Вы не отвлекались от того, что действительно важно, мы создаем особые условия комфорта и заботы о Вас. Мы предоставляем клининг вашей недвижимости, оплатим счета, подготовим апартаменты или виллу к вашему приезду или сдадим ее в аренду, если потребуется. У нас есть все необходимые лицензии и документы, чтобы делать это качественно и быстро.",
+        "property_first_button": "Оставить запрос"
+    },
+
+    "experience_block": {
+        "experience_block_subtitle_property": "Управляем Вашей недвижимостью",
+        "experience_block_subtitle_concierge": "консьерж-сервис"
+    },
+
+    "property_concierge": {
+        "property_concierge_property_title": "Управление недвижимостью",
+        "property_concierge_concierge_title": "Консьерж-сервис с особым подходом",
+        "property_concierge_property_tag1": "В аренду/на продажу",
+        "property_concierge_property_tag2": "Клининг",
+        "property_concierge_property_tag3": "Оплата счетов",
+        "property_concierge_property_tag4": "Подготовка к приезду",
+        "property_concierge_concierge_tag1": "Трансферы",
+        "property_concierge_concierge_tag2": "Покупка вещей по запросу",
+        "property_concierge_concierge_tag3": "Бронь билетов",
+        "property_concierge_concierge_tag4": "Подбор ресторанов",
+        "property_concierge_property_subtitle": "Индивидуальный подход и особое отношение",
+        "property_concierge_property_description": "Оплатим счета или подготовим апартаменты к приезду.  Сдадим вашу недвижимость в аренду или закажем клининг пространства: выберите то, что Вам нужно.",
+        "property_concierge_concierge_description": "Наши клиенты остаются довольны благодаря особому подходу и вниманию к деталям и запросам. Всё, что требуется для идеального путешествия клиентов Azur life будет организовано за Вас.",
+        "property_concierge_submit_button": "Оставьте ваш запрос"
     }
 }

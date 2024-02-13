@@ -2,11 +2,12 @@ import { CommonModule } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
 import { SharedModule } from '../../shared.module';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { TranslocoRootModule } from 'src/app/transloco-root.module';
 
 @Component({
     selector: 'app-feedback',
     standalone: true,
-    imports: [CommonModule, SharedModule],
+    imports: [CommonModule, SharedModule, TranslocoRootModule],
     templateUrl: './feedback.component.html',
     styleUrl: './feedback.component.scss',
 })
@@ -19,7 +20,7 @@ export class FeedbackComponent implements OnInit {
     @Input() feedbackTitle = 'feedback_title_default';
 
     feedbackForm!: FormGroup;
-    
+
     constructor(private fb: FormBuilder) {}
 
     ngOnInit() {

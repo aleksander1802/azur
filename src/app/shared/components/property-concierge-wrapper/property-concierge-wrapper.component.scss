@@ -15,15 +15,16 @@
         &_title {
             max-width: 682px;
             margin-top: 39px;
+            margin-bottom: 52px;
+            min-height: 306px;
         }
 
         &_tags {
-            margin-top: 52px;
-            max-width: 310px;
+            margin-top: 15px;
             display: flex;
-            flex-wrap: wrap;
             column-gap: 7px;
             row-gap: 15px;
+            width: max-content;
             &-tag {
                 line-height: 151%;
                 color: var(--accent);
@@ -31,6 +32,7 @@
                 border-radius: 8px;
                 padding: 6px 11px;
                 font-size: 14px;
+                width: max-content;
             }
         }
 
@@ -43,6 +45,7 @@
             margin-top: 26px;
             max-width: 473px;
             line-height: 160%;
+            min-height: 96px;
         }
 
         &_button {

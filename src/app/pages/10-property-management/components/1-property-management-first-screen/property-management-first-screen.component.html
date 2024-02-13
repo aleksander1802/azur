@@ -1,26 +1,24 @@
 <div class="property__first">
     <div class="property__first_wrapper">
-        <div class="container">
+        <div class="container" *transloco="let t; read: 'property_first'">
             <app-crumbs [current]="currentCrumbsTitle"></app-crumbs>
 
-            <h1 class="property__first_title">
-                Передайте недвижимость во Франции нам в управление
-            </h1>
+            <h1
+                class="property__first_title"
+                [innerHTML]="t('property_first_title') | breakSentenceWithBR"
+            ></h1>
 
             <p class="property__first_subtitle">
-                & наслаждайтесь действительно важными моментами
+                {{ t("property_first_subtitle") }}
             </p>
 
             <p class="property__first_description">
-                Для того чтобы Вы не отвлекались от того, что действительно
-                важно, мы создаем особые условия комфорта и заботы о Вас. Мы
-                предоставляем клининг вашей недвижимости, оплатим счета,
-                подготовим апартаменты или виллу к вашему приезду или сдадим ее
-                в аренду, если потребуется. У нас есть все необходимые лицензии
-                и документы, чтобы делать это качественно и быстро.
+                {{ t("property_first_description") }}
             </p>
 
-            <button class="property__first_button">Оставить запрос</button>
+            <button class="property__first_button">
+                {{ t("property_first_button") }}
+            </button>
         </div>
     </div>
 </div>

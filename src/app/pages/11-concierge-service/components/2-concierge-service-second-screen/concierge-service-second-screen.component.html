@@ -1,10 +1,11 @@
 <div class="conciergeService__second">
-    <app-experience-block></app-experience-block>
+    <app-experience-block [subtitle]="subtitle"></app-experience-block>
 
     <div class="container">
         <app-property-concierge-wrapper
             [title]="conciergeServiceTitle"
             [tags]="conciergeServiceTags"
+            [tags2]="conciergeServiceTags2"            
             [description]="conciergeServiceDescription"
             [image]="conciergeServiceImage"
         ></app-property-concierge-wrapper>

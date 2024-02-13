@@ -6,17 +6,21 @@ import { Component } from '@angular/core';
     styleUrl: './concierge-service-second-screen.component.scss',
 })
 export class ConciergeServiceSecondScreenComponent {
-    conciergeServiceTitle = 'Консьерж-сервис с особым подходом';
+    conciergeServiceTitle = 'property_concierge_concierge_title';
+
+    subtitle = 'experience_block_subtitle_concierge';
 
     conciergeServiceTags = [
-        'Трансферы',
-        'Покупка вещей по запросу',
-        'Бронь билетов',
-        'Подбор ресторанов',
+        'property_concierge_concierge_tag1',
+        'property_concierge_concierge_tag2',
     ];
 
-    conciergeServiceDescription =
-        'Наши клиенты остаются довольны благодаря особому подходу и вниманию к деталям и запросам. Всё, что требуется для идеального путешествия клиентов Azur life будет организовано за Вас.';
+    conciergeServiceTags2 = [
+        'property_concierge_concierge_tag3',
+        'property_concierge_concierge_tag4',
+    ];
+
+    conciergeServiceDescription = 'property_concierge_concierge_description';
 
     conciergeServiceImage = 'assets/images/concierge/concierge_second.jpg';
 }
