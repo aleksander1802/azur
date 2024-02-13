@@ -1,11 +1,12 @@
 <div *ngIf="advantagesData[advantage]">
     <h2
         class="advantage__title"
-        [innerHTML]="advantagesData[advantage].title | breakSentenceWithBR"
+        *transloco="let t; read: 'buy-sell-rent_advantage'"
+        [innerHTML]="t(advantagesData[advantage].title) | breakSentenceWithBR"
     ></h2>
 </div>
 
-<div class="advantage">
+<div class="advantage" *transloco="let t; read: 'buy-sell-rent_advantage'">
     <img
         src="assets/icons/diagonal_divider.svg"
         alt="Diagonal divider"
@@ -25,12 +26,16 @@
                     <app-svg-percent></app-svg-percent>
                 </span>
             </div>
+
+            @if (item.value.subtitle) {
             <p class="advantage__{{ item.key }}__subtitle">
-                {{ item.value.subtitle }}
+                {{ t(item.value.subtitle) }}
             </p>
+            } @if (item.value.description) {
             <p class="advantage__{{ item.key }}__description">
-                {{ item.value.description }}
+                {{ t(item.value.description) }}
             </p>
+            }
         </div>
     </div>
 </div>

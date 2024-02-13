@@ -11,86 +11,86 @@ export class BuySellRentAdvantagesComponent {
 
     advantagesData: Advantages = {
         buy: {
-            title: 'Преимущества покупки с Azur Life',
+            title: 'buy-sell-rent_advantage_buy_title',
             advantages: {
                 first: {
                     number: 100,
                     symbol: 'percent',
-                    subtitle: 'remote deal',
+                    subtitle: 'buy-sell-rent_advantage_buy_first_subtitle',
                     description:
-                        'Покупка недвижимости на Вашем языке. Опытные сотрудники Azur Life сопровождают клиентов на протяжении всего пути реализации сделки с легкостью во взаимодействии.',
+                        'buy-sell-rent_advantage_buy_first_description',
                 },
 
                 second: {
                     number: 100,
                     symbol: 'percent',
-                    subtitle: 'remote deal',
+                    subtitle: 'buy-sell-rent_advantage_buy_first_subtitle',
                     description:
-                        'Покупка недвижимости станет для Вас приятным времяпрепровождением. Мы организуем Ваше пребывание во Франции во время покупки объекта так, чтобы это было легко, приятно и удобно для Вас.',
+                        'buy-sell-rent_advantage_buy_second_description',
                 },
 
                 third: {
                     number: 100,
                     symbol: 'percent',
-                    subtitle: 'remote deal',
+                    subtitle: 'buy-sell-rent_advantage_buy_first_subtitle',
                     description:
-                        'Покупка недвижимости происходит без дополнительных наценок и комиссий, а выбор объектов осуществляется из премиальной базы недвижимости, чтобы подобрать вариант, который лучше всего будет подходить Вам.',
+                        'buy-sell-rent_advantage_buy_third_description',
                 },
             },
         },
         rent: {
-            title: 'Преимущества аренды с Azur Life',
+            title: 'buy-sell-rent_advantage_rent_title',
             advantages: {
                 first: {
                     number: 100,
                     symbol: 'percent',
-                    subtitle: 'экспертное сопровождение любой сделки',
+                    subtitle: 'buy-sell-rent_advantage_rent_first_subtitle',
                     description:
-                        'Аренда  недвижимости осуществляется легко и последовательно. Для оказания качественных услуг в сфере недвижимости, мы имеем все необходимые лицензии, страховые и финансовые гарантии, требуемые французским законодательством.',
+                        'buy-sell-rent_advantage_rent_first_description',
                 },
 
                 second: {
                     number: 100,
                     symbol: 'percent',
-                    subtitle: 'проверенная база недвижимости',
+                    subtitle: 'buy-sell-rent_advantage_rent_second_subtitle',
                     description:
-                        'Azur Life является членом Национальной Федерации Агентов Недвижимости (FNAIM) и имеет допуск к обширной базе объектов недвижимости по всей Франции. Это дает возможность выбирать уникальные объекты на тот срок, который будет удобен именно Вам.',
+                        'buy-sell-rent_advantage_rent_second_description',
                 },
 
                 third: {
                     number: 100,
                     symbol: 'percent',
-                    subtitle: 'полный спектр услуг',
+                    subtitle: 'buy-sell-rent_advantage_rent_third_subtitle',
                     description:
-                        'Мы организуем консьерж-сервис и управление арендованной недвижимостью, чтобы проживание в выбранном объекте приносило только удовольствие.',
+                        'buy-sell-rent_advantage_rent_third_description',
                 },
             },
         },
         sell: {
-            title: 'Преимущества продажи недвижимости с нами',
+            title: 'buy-sell-rent_advantage_sell_title',
             advantages: {
                 first: {
                     number: 100,
                     symbol: 'percent',
-                    subtitle: 'знание рынка',
+                    subtitle: 'buy-sell-rent_advantage_sell_first_subtitle',
                     description:
-                        'Благодаря многолетней работе в данной сфере и накопленному опыту мы способны быстро и легко осуществить сделку по продаже недвижимости: найдем покупателя, определим выгодную для Вас стоимость недвижимости  и оформим все документы.',
+                        'buy-sell-rent_advantage_sell_first_description',
                 },
 
                 second: {
                     number: 100,
                     symbol: 'percent',
-                    subtitle: '360°',
+                    subtitle: 'buy-sell-rent_advantage_sell_second_subtitle',
                     description:
-                        '360° обслуживание клиента. Мы берем на себя ответственность за ведение сделки, а также оформляем все документы, требуемые французским законодательством при продаже недвижимости. Также мы организуем Ваше пребывание во Франции во время заключения сделки.',
+                        'buy-sell-rent_advantage_sell_second_description',
                 },
 
                 third: {
                     number: 100,
                     symbol: 'percent',
-                    subtitle: 'remote deal',
+                    subtitle: 'buy-sell-rent_advantage_buy_first_subtitle',
                     description:
-                        'Продажа недвижимости на Вашем языке. Опытные сотрудники Azur Life сопровождают клиентов на протяжении всего пути реализации сделки с легкостью во взаимодействии с Вами.',
+                        'buy-sell-rent_advantage_sell_third_description',
                 },
             },
         },

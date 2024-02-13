@@ -88,6 +88,7 @@
 
     "home_eighth": {
         "home_eighth_title": "Ottieni prima le informazioni",
+        "home_eighth_request_title": "Ottieni prima le informazioni sui nuovi oggetti",
         "home_eighth_email_required_error": "Inserisci la tua email",
         "home_eighth_email_label": "Inserisci la tua email",
         "home_eighth_email_invalid_error": "Inserisci un'e-mail valida",
@@ -216,5 +217,51 @@
         "join_first_title": "Unisciti <br /> ad Azur Life",
         "join_first_subtitle": "Azur Life",
         "join_first_description": "Diventa un membro di Azur Life. Compila il modulo sottostante in modo che possiamo conoscerti meglio."
+    },
+
+    "buy-sell-rent_first": {
+        "buy-sell-rent_first_title": "Compra, vendi, affitta",
+        "buy-sell-rent_first_subtitle": "Insieme ad Azur Life",
+        "buy-sell-rent_first_description": "Azur Life amplierà gli orizzonti delle operazioni immobiliari in Francia. Non importa ciò che è necessario oggi: la vendita di appartamenti o l'acquisto di una nuova proprietà, insieme con Azur Life questo processo sarà veloce."
+    },
+
+    "buy-sell-rent_second": {
+        "buy-sell-rent_second_title": "Scoprilo",
+        "buy-sell-rent_second_advantage_button_buy": "Vantaggi dell'acquisto",
+        "buy-sell-rent_second_advantage_button_sell": "Vantaggi della vendita",
+        "buy-sell-rent_second_advantage_button_rent": "Vantaggi del noleggio"
+    },
+
+    "buy-sell-rent_third": {
+        "buy-sell-rent_third_title_buy": "Acquista",
+        "buy-sell-rent_third_description_buy": "Selezione esclusiva di appartamenti in Francia. Al fine di scegliere la migliore proprietà, è necessario fare solo una cosa - fiducia in noi. Contattaci per trovare l'opzione preferita dall'elenco di luoghi e spazi.",
+        "buy-sell-rent_third_title_sell": "Vendi",
+        "buy-sell-rent_third_description_sell": "La vendita di immobili in Francia è semplice: contatta i gestori di Azur Life per risolvere tutte le formalità amministrative relative alla tua proprietà.",
+        "buy-sell-rent_third_title_rent": "Affitta",
+        "buy-sell-rent_third_description_rent": "Azur Life offre un'opzione per la manutenzione completa della transazione di noleggio. Sceglieremo ville e appartamenti premium su vostra richiesta senza costi aggiuntivi e costi aggiuntivi. Tutto quello che devi fare è esprimere le tue preferenze.",
+        "buy-sell-rent_third_contact": "Contattaci o",
+        "buy-sell-rent_third_button": "Lascia una richiesta",
+        "buy-sell-rent_third_link": "Scopri di più"
+    },
+
+    "buy-sell-rent_advantage": {
+        "buy-sell-rent_advantage_buy_title": "Vantaggi dell'acquisto con Azur Life",
+        "buy-sell-rent_advantage_rent_title": "Vantaggi del noleggio con Azur Life",
+        "buy-sell-rent_advantage_sell_title": "Vantaggi della vendita di immobili con noi",
+        "buy-sell-rent_advantage_buy_first_subtitle": "transazione remota",
+        "buy-sell-rent_advantage_buy_first_description": "Acquisto di proprietà nella tua lingua. I dipendenti esperti di Azur Life accompagnano i clienti lungo tutto il percorso della transazione con facilità nell'interazione.",
+        "buy-sell-rent_advantage_buy_second_description": "L'acquisto di immobili sarà un passatempo piacevole per te. Organizzeremo il tuo soggiorno in Francia al momento dell'acquisto della struttura in modo che sia facile, piacevole e conveniente per te.",
+        "buy-sell-rent_advantage_buy_third_description": "L'acquisto di immobili avviene senza costi aggiuntivi e senza costi aggiuntivi, e la selezione degli oggetti viene effettuata da una base immobiliare PREMIUM per scegliere l'opzione più adatta a te",
+        "buy-sell-rent_advantage_rent_first_subtitle": "supporto esperto per qualsiasi transazione",
+        "buy-sell-rent_advantage_rent_second_subtitle": "base immobiliare verificata",
+        "buy-sell-rent_advantage_rent_third_subtitle": "servizio completo",
+        "buy-sell-rent_advantage_rent_first_description": "Gli affitti immobiliari sono facili e coerenti. Per fornire servizi di qualità nel settore immobiliare, abbiamo tutte le licenze necessarie, assicurazioni e garanzie finanziarie richieste dalla legge francese.",
+        "buy-sell-rent_advantage_rent_second_description": "Azur Life è membro della Federazione Nazionale degli Agenti Immobiliari (FNAIM) e ha accesso a una vasta base di proprietà in tutta la Francia. Ciò consente di scegliere oggetti unici per il periodo che sarà conveniente per voi.",
+        "buy-sell-rent_advantage_rent_third_description": "Organizziamo il servizio di portineria e la gestione degli immobili in affitto per garantire che l'alloggio nella proprietà selezionata sia solo un piacere.",
+        "buy-sell-rent_advantage_sell_first_subtitle": "conoscenza del mercato",
+        "buy-sell-rent_advantage_sell_second_subtitle": "360°",
+        "buy-sell-rent_advantage_sell_first_description": "Grazie a molti anni di lavoro in questo settore e all'esperienza accumulata, siamo in grado di realizzare rapidamente e facilmente una transazione di vendita di immobili: troveremo un acquirente, determineremo il valore della proprietà che è vantaggioso per te e formalizzeremo tutti i documenti.",
+        "buy-sell-rent_advantage_sell_second_description": "360° servizio clienti. Ci assumiamo la responsabilità di condurre la transazione e di redigere tutti i documenti richiesti dalla legge francese per la vendita di immobili. Organizzeremo anche il tuo soggiorno in Francia durante la conclusione della transazione.",
+        "buy-sell-rent_advantage_sell_third_description": "Vendita di immobili nella tua lingua. I dipendenti esperti di Azur Life accompagnano i clienti lungo tutto il percorso della transazione con facilità nell'interazione con te."
     }
 }

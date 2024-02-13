@@ -1,8 +1,11 @@
 <div class="buySellRent__second">
-    <div class="buySellRent__second_choice">
+    <div
+        class="buySellRent__second_choice"
+        *transloco="let t; read: 'buy-sell-rent_second'"
+    >
         <div class="buySellRent__second_choice_wrapper_left">
             <h2 class="buySellRent__second_choice_wrapper_left-title">
-                Узнайте
+                {{ t("buy-sell-rent_second_title") }}
             </h2>
             <div class="buySellRent__second_choice_wrapper_left-circle">
                 <app-logo-circle [fill]="fill"></app-logo-circle>
@@ -24,7 +27,7 @@
                 }"
                 (click)="setActiveTab('buy')"
             >
-                Преимущества покупки
+                {{ t("buy-sell-rent_second_advantage_button_buy") }}
             </button>
             <button
                 class="buySellRent__second_choice_wrapper_right-button"
@@ -34,7 +37,7 @@
                 }"
                 (click)="setActiveTab('sell')"
             >
-                Преимущества продажи
+                {{ t("buy-sell-rent_second_advantage_button_sell") }}
             </button>
             <button
                 class="buySellRent__second_choice_wrapper_right-button"
@@ -44,7 +47,7 @@
                 }"
                 (click)="setActiveTab('rent')"
             >
-                Преимущества аренды
+                {{ t("buy-sell-rent_second_advantage_button_rent") }}
             </button>
         </div>
     </div>

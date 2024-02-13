@@ -88,6 +88,7 @@
 
     "home_eighth": {
         "home_eighth_title": "Get the information <br /> first",
+        "home_eighth_request_title": "Get information about new objects first",
         "home_eighth_email_required_error": "Please enter your email",
         "home_eighth_email_label": "Enter your email",
         "home_eighth_email_invalid_error": "Please enter a valid email",
@@ -211,10 +212,56 @@
         "blog_text_first": "OuSituated on the slopes of Cap Ferrat in a private setting with breathtaking sea views and yet just a short walk from the village and harbour of Saint Jean Cap Ferrat, this villa is one of the most desirable properties on this stretch of the French Riviera.Modern and open plan, the villa offers the perfect setting for both relaxing and entertaining. Expansive glass windows and sliding doors flood rooms with natural light whilst providing guests with outstanding sea views. With 1000m2 of living space spread across four floors and served by a glass elevator, there is plenty of room to host events or find a quiet corner in which to relax. Villa has five luxurious bedrooms with private bathrooms and able to comfortably accommodate up to 10 guests.",
         "blog_text_second": "All of the rooms have lounge areas, beautiful ensuite bathrooms and Bang & Olufsen entertainment systems. A seventh double bedroom is available for staff."
     },
-    
+
     "join_first": {
         "join_first_title": "Join <br /> Azur Life",
         "join_first_subtitle": "Azur Life",
         "join_first_description": "Become a member of Azur Life. Fill out the form below so that we can get to know you better."
+    },
+
+    "buy-sell-rent_first": {
+        "buy-sell-rent_first_title": "Buy, sell, rent",
+        "buy-sell-rent_first_subtitle": "Together with Azur Life",
+        "buy-sell-rent_first_description": "Azur Life will expand the horizons of real estate transactions in France. It doesn't matter what you need today: the sale of apartments or the purchase of new real estate, together with Azur Life this process will be fast."
+    },
+
+    "buy-sell-rent_second": {
+        "buy-sell-rent_second_title": "Find out",
+        "buy-sell-rent_second_advantage_button_buy": "Advantages of buying",
+        "buy-sell-rent_second_advantage_button_sell": "Advantages of selling",
+        "buy-sell-rent_second_advantage_button_rent": "Advantages of renting"
+    },
+
+    "buy-sell-rent_third": {
+        "buy-sell-rent_third_title_buy": "Buy",
+        "buy-sell-rent_third_description_buy": "Exclusive selection of apartments in France. In order to choose the best property, you only need to do one thing - trust us. Contact us to select the preferred option from the list of locations and spaces.",
+        "buy-sell-rent_third_title_sell": "Sell",
+                "buy-sell-rent_third_description_sell": "It is easy to sell real estate in France: contact the managers of Azur Life to settle all administrative formalities related to your property.",
+        "buy-sell-rent_third_title_rent": "Rent",
+        "buy-sell-rent_third_description_rent": "Azur Life provides the option of full support of the lease transaction. We will choose premium villas and apartments according to your request without commission and additional charges. All you have to do is voice your preferences.",
+                "buy-sell-rent_third_contact": "Contact us or",
+        "buy-sell-rent_third_button": "Leave a request",
+        "buy-sell-rent_third_link": "Learn more"
+            },
+
+    "buy-sell-rent_advantage": {
+        "buy-sell-rent_advantage_buy_title": "Advantages of buying with Azur Life",
+        "buy-sell-rent_advantage_rent_title": "Advantages of renting with Azur Life",
+        "buy-sell-rent_advantage_sell_title": "Advantages of selling real estate with us",
+        "buy-sell-rent_advantage_buy_first_subtitle": "remote transaction",
+        "buy-sell-rent_advantage_buy_first_description": "Buying real estate in your language. Azur Life's experienced employees accompany clients throughout the entire transaction process with ease of interaction.",
+        "buy-sell-rent_advantage_buy_second_description": "Buying a property will be a pleasant pastime for you. We will organize your stay in France during the purchase of an object so that it is easy, pleasant and convenient for you.",
+        "buy-sell-rent_advantage_buy_third_description": "The purchase of real estate takes place without additional margins and commissions, and the selection of objects is carried out from the premium real estate database to choose the option that will be best suitable for you",
+        "buy-sell-rent_advantage_rent_first_subtitle": "expert support for any transaction",
+        "buy-sell-rent_advantage_rent_second_subtitle": "verified real estate database",
+        "buy-sell-rent_advantage_rent_third_subtitle": "full range of services",
+        "buy-sell-rent_advantage_rent_first_description": "Real estate rentals are easy and consistent. To provide high-quality real estate services, we have all the necessary licenses, insurance and financial guarantees required by French law.",
+        "buy-sell-rent_advantage_rent_second_description": "Azur Life is a member of the National Federation of Real Estate Agents (FNAIM) and has access to an extensive database of real estate properties throughout France. This makes it possible to choose unique objects for the period that will be convenient for you.",
+        "buy-sell-rent_advantage_rent_third_description": "We organize concierge service and management of rented real estate so that living in the selected object brings only pleasure.",
+        "buy-sell-rent_advantage_sell_first_subtitle": "market knowledge",
+        "buy-sell-rent_advantage_sell_second_subtitle": "360°",
+        "buy-sell-rent_advantage_sell_first_description": "Thanks to many years of work in this field and accumulated experience, we are able to quickly and easily carry out a real estate sale transaction: we will find a buyer, determine the value of the property that is favorable for you and arrange all the documents.",
+        "buy-sell-rent_advantage_sell_second_description": "360° customer service. We take responsibility for conducting the transaction, as well as draw up all the documents required by French law for the sale of real estate. We will also arrange your stay in France during the conclusion of the transaction.",
+        "buy-sell-rent_advantage_sell_third_description": "Sale of real estate in your language. Azur Life's experienced employees accompany clients throughout the entire transaction process with ease in interacting with you."
     }
 }

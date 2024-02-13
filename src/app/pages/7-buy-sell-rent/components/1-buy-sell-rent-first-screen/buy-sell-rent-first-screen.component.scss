@@ -19,7 +19,7 @@
     }
 
     &_title {
-        max-width: 454px;
+        max-width: 254px;
         margin-top: 132px;
     }
 
@@ -31,5 +31,6 @@
     &_description {
         max-width: 425px;
         margin-top: 41px;
+        min-height: 105px;
     }
 }

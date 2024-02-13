@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
     styleUrl: './buy-sell-rent.component.scss',
 })
 export class BuySellRentComponent {
-    requestTitle = 'Получите первыми информацию о новых объектах';
+
+    requestTitle = 'home_eighth_request_title';
     break = true;
 
     

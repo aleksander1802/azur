@@ -88,6 +88,7 @@
 
     "home_eighth": {
         "home_eighth_title": "Obtenez les informations en premier",
+        "home_eighth_request_title":"Soyez le Premier à obtenir les informations sur les nouveaux objets",
         "home_eighth_email_required_error": "Veuillez entrer votre e-mail",
         "home_eighth_email_label": "Entrez votre email",
         "home_eighth_email_invalid_error": "Veuillez entrer un e-mail valide",
@@ -216,5 +217,51 @@
         "join_first_title": "Rejoindre <br /> Azur Life",
         "join_first_subtitle": "Azur Life",
         "join_first_description": "Devenez membre de Azur Life. Remplissez le formulaire ci-dessous afin que nous puissions mieux vous connaître."
+    },
+
+    "buy-sell-rent_first": {
+        "buy-sell-rent_first_title": "Acheter, vendre, louer",
+        "buy-sell-rent_first_subtitle": "Avec Azur Life",
+        "buy-sell-rent_first_description": "Azur Life élargira l'horizon des opérations immobilières en France. Peu importe ce dont vous avez besoin aujourd'hui: la vente d'appartements ou l'achat d'une nouvelle propriété, avec Azur Life ce processus sera rapide."
+    },
+
+    "buy-sell-rent_second": {
+        "buy-sell-rent_second_title": "Découvrez",
+        "buy-sell-rent_second_advantage_button_buy": "Avantages de l'achat",
+        "buy-sell-rent_second_advantage_button_sell": "Avantages de la vente",
+        "buy-sell-rent_second_advantage_button_rent": "Avantages locatifs"
+    },
+
+    "buy-sell-rent_third": {
+        "buy-sell-rent_third_title_buy": "Acheter",
+        "buy-sell-rent_third_description_buy": "Sélection exclusive d'appartements en France. Afin de choisir la meilleure propriété, vous devez faire une seule chose - nous faire confiance. Contactez-nous pour choisir votre option préférée dans la liste des lieux et des espaces.",
+        "buy-sell-rent_third_title_sell": "Vendre",
+        "buy-sell-rent_third_description_sell": "La vente de biens immobiliers en France est facile: contactez Azur Life pour régler toutes les formalités administratives liées à votre propriété.",
+        "buy-sell-rent_third_title_rent": "Louer",
+        "buy-sell-rent_third_description_rent": "Azur Life offre une option permettant d'assurer le suivi complet de la transaction de location. Nous choisirons des villas et des appartements haut de gamme à Votre demande, sans Commission ni frais supplémentaires. Tout ce que vous avez à faire est d'exprimer Vos préférences.",
+        "buy-sell-rent_third_contact": "Contactez-nous ou",
+        "buy-sell-rent_third_button": "Laissez la demande",
+        "buy-sell-rent_third_link": "En savoir Plus"
+    },
+
+    "buy-sell-rent_advantage": {
+        "buy-sell-rent_advantage_buy_title": "Avantages de l'achat avec Azur Life",
+        "buy-sell-rent_advantage_rent_title": "Avantages de la location avec Azur Life",
+        "buy-sell-rent_advantage_sell_title": "Avantages de la vente de biens immobiliers avec nous",
+        "buy-sell-rent_advantage_buy_first_subtitle": "transaction supprimée",
+        "buy-sell-rent_advantage_buy_first_description": "Achat de biens immobiliers dans Votre langue. Le personnel expérimenté d'Azur Life accompagne les clients tout au long de la réalisation de la transaction avec facilité dans l'interaction.",
+        "buy-sell-rent_advantage_buy_second_description": "L'achat d'une propriété sera un passe-temps agréable pour vous. Nous organisons votre séjour en France lors de l'achat d'un objet de manière à ce qu'il soit facile, agréable et pratique pour vous.",
+        "buy-sell-rent_advantage_buy_third_description": "L'achat d'une propriété se fait sans frais supplémentaires et sans commissions, et le choix des propriétés est effectué à partir de la base de données Premium de l'immobilier pour trouver l'option qui Vous convient le mieux.",
+        "buy-sell-rent_advantage_rent_first_subtitle": "support expert pour toute transaction",
+        "buy-sell-rent_advantage_rent_second_subtitle": "base de données validée de l'immobilier",
+        "buy-sell-rent_advantage_rent_third_subtitle": "service complet",
+        "buy-sell-rent_advantage_rent_first_description": "Les locations immobilières sont faciles et cohérentes. Afin de fournir des services de qualité dans le secteur immobilier, nous disposons de toutes les licences, Assurances et garanties financières requises par la législation française.",
+        "buy-sell-rent_advantage_rent_second_description": "Azur Life est membre de la Fédération nationale des Agents Immobiliers (FNAIM) et a accès à une vaste base de données de propriétés dans toute la France. Cela vous donne la possibilité de choisir des objets uniques pour la période qui sera pratique pour vous.",
+        "buy-sell-rent_advantage_rent_third_description": "Nous organisons le service de conciergerie et la gestion des biens locatifs afin que l'hébergement dans le bien choisi ne soit qu'un plaisir.",
+        "buy-sell-rent_advantage_sell_first_subtitle": "connaissance du marché",
+        "buy-sell-rent_advantage_sell_second_subtitle": "360°",
+        "buy-sell-rent_advantage_sell_first_description": "Grâce à des années de travail dans ce domaine et à l'expérience accumulée, nous sommes en mesure de réaliser rapidement et facilement une transaction immobilière: trouver un acheteur, déterminer la valeur de l'immobilier qui vous convient le mieux et rédiger tous les documents.",
+        "buy-sell-rent_advantage_sell_second_description": "Service client 360°. Nous assumons la responsabilité de la conduite de la transaction et nous traitons également tous les documents requis par la loi française lors de la vente de biens immobiliers. Nous organisons également votre séjour en France lors de la Conclusion de la transaction.",
+        "buy-sell-rent_advantage_sell_third_description": "Vente de biens immobiliers dans Votre langue. Le personnel expérimenté d'Azur Life accompagne les clients tout au long du processus de réalisation de la transaction avec facilité en interaction avec vous."
     }
 }

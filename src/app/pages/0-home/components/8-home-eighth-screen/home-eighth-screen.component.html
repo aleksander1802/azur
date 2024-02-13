@@ -3,7 +3,7 @@
         <div class="container" *transloco="let t; read: 'home_eighth'">
             @if (break) {
             <h2
-                [innerHTML]="title | breakSentenceWithBR : 3"
+                [innerHTML]="t(title) | breakSentenceWithBR : 3"
                 class="home__eighth_title"
             ></h2>
             } @else {
@@ -53,7 +53,7 @@
                         for="privacyCheckbox"
                         class="home__eighth__form_checkbox-label"
                     >
-                    {{ t("home_eighth_privacy_policy_label") }}
+                        {{ t("home_eighth_privacy_policy_label") }}
                     </label>
                 </div>
 
@@ -63,7 +63,7 @@
                         type="submit"
                         class="home__eighth__form__submit-button"
                     >
-                    {{ t("home_eighth_submit_button") }}
+                        {{ t("home_eighth_submit_button") }}
                     </button>
                 </div>
             </form>

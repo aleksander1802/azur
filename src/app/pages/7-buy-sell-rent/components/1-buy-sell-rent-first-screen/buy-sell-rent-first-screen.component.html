@@ -1,19 +1,18 @@
 <div class="buySellRent__first">
     <div class="buySellRent__first_wrapper">
-        <div class="container">
+        <div class="container" *transloco="let t; read: 'buy-sell-rent_first'">
             <app-crumbs [current]="currentCrumbsTitle"></app-crumbs>
 
             <h1 class="buySellRent__first_title">
-                Купить, продать, арендовать
+                {{ t("buy-sell-rent_first_title") }}
             </h1>
 
-            <p class="buySellRent__first_subtitle">Вместе с Azur Life</p>
+            <p class="buySellRent__first_subtitle">
+                {{ t("buy-sell-rent_first_subtitle") }}
+            </p>
 
             <div class="buySellRent__first_description">
-                Azur Life расширит горизонты операций с недвижимостью во
-                Франции. Неважно, что необходимо Вам сегодня: продажа
-                апартаментов или приобретение новой недвижимости, вместе с Azur
-                Life этот процессбудет быстрым.
+                {{ t("buy-sell-rent_first_description") }}
             </div>
         </div>
     </div>

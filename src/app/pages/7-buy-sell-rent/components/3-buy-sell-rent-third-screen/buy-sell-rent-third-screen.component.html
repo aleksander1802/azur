@@ -1,35 +1,37 @@
 <div class="buySellRent__third">
-    <div class="container">
+    <div class="container" *transloco="let t; read: 'buy-sell-rent_third'">
         <div
             *ngFor="let realEstate of realEstates; let i = index"
             class="buySellRent__third__item"
         >
             <h2 class="buySellRent__third__item_title">
-                {{ realEstate.title }}
+                {{ t(realEstate.title) }}
             </h2>
             <div class="buySellRent__third__items">
                 <div class="buySellRent__third__item_wrapper">
                     <p class="buySellRent__third__item_wrapper-description">
-                        {{ realEstate.description }}
+                        {{ t(realEstate.description) }}
                     </p>
                     <div class="buySellRent__third__item_wrapper_feedback">
                         <a
                             href=""
                             class="buySellRent__third__item_wrapper_feedback-link"
-                            >Свяжитесь с нами или</a
                         >
+                            {{ t("buy-sell-rent_third_contact") }}
+                        </a>
                         <button
                             class="buySellRent__third__item_wrapper_feedback-button"
                         >
-                            Оставьте запрос
+                            {{ t("buy-sell-rent_third_button") }}
                         </button>
                     </div>
                 </div>
                 <a
                     [href]="realEstate.actionLink"
                     class="buySellRent__third__item_link"
-                    >Узнать больше</a
                 >
+                    {{ t("buy-sell-rent_third_link") }}
+                </a>
             </div>
             <img
                 [src]="realEstate.imageUrl"
