@@ -88,6 +88,7 @@
 
     "home_eighth": {
         "home_eighth_title": "Obtenez les informations en premier",
+        "home_eighth_request_title": "Soyez le Premier à obtenir les informations sur les nouveaux objets",
         "home_eighth_email_required_error": "Veuillez entrer votre e-mail",
         "home_eighth_email_label": "Entrez votre email",
         "home_eighth_email_invalid_error": "Veuillez entrer un e-mail valide",
@@ -167,5 +168,310 @@
     "objects_third": {
         "objects_third_title": "Location",
         "objects_third_link": "Voir tous les objets à louer"
+    },
+
+    "sell_first": {
+        "sell_first_title": "Objets à vendre",
+        "sell_first_description": "l'achat d'un bien immobilier en France est facile: contactez les gestionnaires d'Azur Life pour régler toutes les formalités administratives liées à l'acquisition d'un bien."
+    },
+
+    "filter": {
+        "filter_title_sell": " à vendre",
+        "filter_title_rent": " à louer",
+        "filter_title": "Objets",
+        "filter_type": "Type",
+        "filter_type_apartments": "Appartement",
+        "filter_type_house": "Maison",
+        "filter_type_float": "Appartement",
+        "filter_location": "Emplacement",
+        "filter_location_cannes": "Cannes, France",
+        "filter_location_nice": "Nice, France",
+        "filter_location_other": "Autres",
+        "filter_location_all": "Tout",
+        "filter_sort": "Trier par",
+        "filter_sort_price_asc": "Prix (croissant)",
+        "filter_sort_price_desc": "Prix (décroissant)",
+        "filter_sort_area_asc": "Par zone (croissant)",
+        "filter_sort_area_desc": "Par zone (décroissante)",
+        "filter_title_full": "Appartement avec vue sur la mer sur la promenade des Anglais",
+        "filter_description_full": "Appartement de 3 pièces entièrement rénové au 5ème étage dans une petite résidence sur la célèbre promenade des Anglais.",
+        "filter_choice": "Sélection <br /> Azur Life",
+        "filter_exclusive": "Exclusif <br/ > dans Azur Life",
+        "filter_view_object": "Regarder l'objet",
+        "filter_view_nothing": "Rien trouvé"
+    },
+
+    "rent_first": {
+        "rent_first_title": "Location",
+        "rent_first_title_second": "Sur la côte d'Azur",
+        "rent_first_description": "Il est facile de Louer une propriété pour la saison ou de choisir quelque chose pour la période à long terme. <br /> Azur Life offre une option de suivi complet de la transaction de location. Nous choisirons des villas et des appartements haut de gamme à Votre demande, sans Commission ni frais supplémentaires."
+    },
+
+    "blog_first": {
+        "blog_first_title": "Blog",
+        "blog_text_first": "Située sur les pentes du Cap Ferrat, dans un endroit isolé avec une vue imprenable sur la mer et à quelques minutes à pied du village et du port de Saint-Jean-Cap-Ferrat, cette Villa est l'une des propriétés les plus convoitées de cette partie de la côte d'Azur.Moderne et ouverte, la Villa offre des conditions idéales pour la détente et le divertissement. De grandes fenêtres en verre et des portes coulissantes inondent les chambres de lumière naturelle, offrant une vue magnifique sur la mer. Avec une surface habitable de 1 000 m2 répartie sur quatre étages et desservie par un ascenseur en verre, il y a suffisamment d'espace pour organiser des événements ou trouver un coin tranquille pour se détendre. La Villa dispose de cinq chambres luxueuses avec salle de bains privée et peut accueillir confortablement jusqu'à 10 personnes.",
+        "blog_text_second": "Toutes les chambres disposent d'espaces de détente, de belles salles de bains et de systèmes de divertissement Bang & Olufsen. La septième chambre double est réservée au personnel."
+    },
+
+    "join_first": {
+        "join_first_title": "Rejoindre <br /> Azur Life",
+        "join_first_subtitle": "Azur Life",
+        "join_first_description": "Devenez membre de Azur Life. Remplissez le formulaire ci-dessous afin que nous puissions mieux vous connaître."
+    },
+
+    "buy-sell-rent_first": {
+        "buy-sell-rent_first_title": "Acheter, vendre, louer",
+        "buy-sell-rent_first_subtitle": "Avec Azur Life",
+        "buy-sell-rent_first_description": "Azur Life élargira l'horizon des opérations immobilières en France. Peu importe ce dont vous avez besoin aujourd'hui: la vente d'appartements ou l'achat d'une nouvelle propriété, avec Azur Life ce processus sera rapide."
+    },
+
+    "buy-sell-rent_second": {
+        "buy-sell-rent_second_title": "Découvrez",
+        "buy-sell-rent_second_advantage_button_buy": "Avantages de l'achat",
+        "buy-sell-rent_second_advantage_button_sell": "Avantages de la vente",
+        "buy-sell-rent_second_advantage_button_rent": "Avantages locatifs"
+    },
+
+    "buy-sell-rent_third": {
+        "buy-sell-rent_third_title_buy": "Acheter",
+        "buy-sell-rent_third_description_buy": "Sélection exclusive d'appartements en France. Afin de choisir la meilleure propriété, vous devez faire une seule chose - nous faire confiance. Contactez-nous pour choisir votre option préférée dans la liste des lieux et des espaces.",
+        "buy-sell-rent_third_title_sell": "Vendre",
+        "buy-sell-rent_third_description_sell": "La vente de biens immobiliers en France est facile: contactez Azur Life pour régler toutes les formalités administratives liées à votre propriété.",
+        "buy-sell-rent_third_title_rent": "Louer",
+        "buy-sell-rent_third_description_rent": "Azur Life offre une option permettant d'assurer le suivi complet de la transaction de location. Nous choisirons des villas et des appartements haut de gamme à Votre demande, sans Commission ni frais supplémentaires. Tout ce que vous avez à faire est d'exprimer Vos préférences.",
+        "buy-sell-rent_third_contact": "Contactez-nous ou",
+        "buy-sell-rent_third_button": "Laissez la demande",
+        "buy-sell-rent_third_link": "En savoir Plus"
+    },
+
+    "buy-sell-rent_advantage": {
+        "buy-sell-rent_advantage_buy_title": "Avantages de l'achat avec Azur Life",
+        "buy-sell-rent_advantage_rent_title": "Avantages de la location avec Azur Life",
+        "buy-sell-rent_advantage_sell_title": "Avantages de la vente de biens immobiliers avec nous",
+        "buy-sell-rent_advantage_buy_first_subtitle": "transaction supprimée",
+        "buy-sell-rent_advantage_buy_first_description": "Achat de biens immobiliers dans Votre langue. Le personnel expérimenté d'Azur Life accompagne les clients tout au long de la réalisation de la transaction avec facilité dans l'interaction.",
+        "buy-sell-rent_advantage_buy_second_description": "L'achat d'une propriété sera un passe-temps agréable pour vous. Nous organisons votre séjour en France lors de l'achat d'un objet de manière à ce qu'il soit facile, agréable et pratique pour vous.",
+        "buy-sell-rent_advantage_buy_third_description": "L'achat d'une propriété se fait sans frais supplémentaires et sans commissions, et le choix des propriétés est effectué à partir de la base de données Premium de l'immobilier pour trouver l'option qui Vous convient le mieux.",
+        "buy-sell-rent_advantage_rent_first_subtitle": "support expert pour toute transaction",
+        "buy-sell-rent_advantage_rent_second_subtitle": "base de données validée de l'immobilier",
+        "buy-sell-rent_advantage_rent_third_subtitle": "service complet",
+        "buy-sell-rent_advantage_rent_first_description": "Les locations immobilières sont faciles et cohérentes. Afin de fournir des services de qualité dans le secteur immobilier, nous disposons de toutes les licences, Assurances et garanties financières requises par la législation française.",
+        "buy-sell-rent_advantage_rent_second_description": "Azur Life est membre de la Fédération nationale des Agents Immobiliers (FNAIM) et a accès à une vaste base de données de propriétés dans toute la France. Cela vous donne la possibilité de choisir des objets uniques pour la période qui sera pratique pour vous.",
+        "buy-sell-rent_advantage_rent_third_description": "Nous organisons le service de conciergerie et la gestion des biens locatifs afin que l'hébergement dans le bien choisi ne soit qu'un plaisir.",
+        "buy-sell-rent_advantage_sell_first_subtitle": "connaissance du marché",
+        "buy-sell-rent_advantage_sell_second_subtitle": "360°",
+        "buy-sell-rent_advantage_sell_first_description": "Grâce à des années de travail dans ce domaine et à l'expérience accumulée, nous sommes en mesure de réaliser rapidement et facilement une transaction immobilière: trouver un acheteur, déterminer la valeur de l'immobilier qui vous convient le mieux et rédiger tous les documents.",
+        "buy-sell-rent_advantage_sell_second_description": "Service client 360°. Nous assumons la responsabilité de la conduite de la transaction et nous traitons également tous les documents requis par la loi française lors de la vente de biens immobiliers. Nous organisons également votre séjour en France lors de la Conclusion de la transaction.",
+        "buy-sell-rent_advantage_sell_third_description": "Vente de biens immobiliers dans Votre langue. Le personnel expérimenté d'Azur Life accompagne les clients tout au long du processus de réalisation de la transaction avec facilité en interaction avec vous."
+    },
+
+    "expertise_first": {
+        "expertise_first_title": "Expertise",
+        "expertise_first_title_span": "immobilière",
+        "expertise_first_description": "une évaluation par Les pairs d'un logement peut être nécessaire lors de la prise d'un prêt bancaire ou lors de l'héritage d'un logement. Afin de vous protéger de l'interaction avec les organismes gouvernementaux, nous effectuons nous-mêmes une évaluation par des experts de la propriété et de déterminer la valeur marchande de l'immobilier."
+    },
+
+    "feedback": {
+        "feedback_title_default": "Laissez votre demande",
+        "feedback_title_expertise": "demander une expertise",
+        "feedback_title_concierge": "Laissez une demande de conciergerie",
+        "feedback_subtitle": "Écrivez-nous ou",
+        "feedback_form_name_placeholder": "Nom",
+        "feedback_form_name_error": "Veuillez entrer votre nom",
+        "feedback_form_phone_placeholder": "Téléphone",
+        "feedback_form_phone_error": "Veuillez entrer votre numéro de téléphone",
+        "feedback_form_email_required_error": "Veuillez entrer votre e-mail",
+        "feedback_form_email_invalid_error": "Veuillez entrer un e-mail valide",
+        "feedback_form_text_placeholder": "Texte du message",
+        "feedback_form_text_required_error": "Veuillez entrer un message",
+        "feedback_form_privacy": "En Laissant mon email, j'accepte la politique de confidentialité.",
+        "feedback_form_submit_button": "Envoyer"
+    },
+
+    "property_first": {
+        "property_first_title": "Remettez-nous l'immobilier en France à la gestion",
+        "property_first_subtitle": "& profitez des moments vraiment importants",
+        "property_first_description": "Afin de ne pas vous distraire de ce qui est vraiment important, nous créons des conditions particulières de confort et de soins pour vous. Nous fournissons le nettoyage de votre propriété, paierons les factures, préparerons votre appartement ou Villa pour votre arrivée ou la louerons si nécessaire. Nous avons toutes les licences et les documents nécessaires pour le faire de manière qualitative et rapide.",
+        "property_first_button": "Laisser la requête"
+    },
+
+    "experience_block": {
+        "experience_block_subtitle_property": "Gérer Vos biens immobiliers",
+        "experience_block_subtitle_concierge": "service de conciergerie"
+    },
+
+    "property_concierge": {
+        "property_concierge_property_title": "Gestion immobilière",
+        "property_concierge_concierge_title": "Service de conciergerie avec une approche particulière",
+        "property_concierge_property_tag1": "À louer / à vendre",
+        "property_concierge_property_tag2": "Nettoyage",
+        "property_concierge_property_tag3": "Paiement des factures",
+        "property_concierge_property_tag4": "Préparation de l'arrivée",
+        "property_concierge_concierge_tag1": "Transferts",
+        "property_concierge_concierge_tag2": "Achat d'objets sur demande",
+        "property_concierge_concierge_tag3": "Réservation de billets",
+        "property_concierge_concierge_tag4": "Sélection de restaurants",
+        "property_concierge_property_subtitle": "Approche Individuelle et attitude particulière",
+        "property_concierge_property_description": "Nous allons Payer les factures ou préparer l'appartement pour l'arrivée.  Louez votre propriété ou réservez un espace de nettoyage: choisissez ce dont vous avez besoin.",
+        "property_concierge_concierge_description": "Nos clients sont satisfaits de leur approche particulière et de leur attention portée aux détails et aux demandes. Tout ce qu'il faut pour le voyage parfait des clients Azur life sera organisé pour vous.",
+        "property_concierge_submit_button": "Laissez votre demande"
+    },
+
+    "concierge_first": {
+        "concierge_first_title": "Service de conciergerie premium pour les clients Azur Life",
+        "concierge_first_description": "Si vous louez une propriété avec Azure Life, nous garantissons un service haut de gamme pour vous et Vos invités. Tout ce qui est nécessaire pour un voyage parfait pour les clients Azur life sera organisé pour Vous: que ce soit l'organisation d'excursions individuelles ou la réservation de restaurants.",
+        "concierge_first_submit_button": "Envoyer une demande"
+    },
+
+    "fee_first": {
+        "fee_first_title": "Notre Commission",
+        "fee_first_top_category": "Catégorie",
+        "fee_first_top_fee": "Commission",
+        "fee_first_top_feevat": "Commission TVA incluse",
+        "fee_first_first_category": "Vente",
+        "fee_first_second_category": "Vente",
+        "fee_first_third_category": "Vente",
+        "fee_first_fourth_category": "Location Saisonnière",
+        "fee_first_first_description": "",
+        "fee_first_second_description": "pour les mandats exclusifs et les anciens clients",
+        "fee_first_third_description": "parking, garage",
+        "fee_first_fourth_description": "gestion des biens immobiliers - prix en fonction de la tâche."
+    },
+
+    "privacy_first": {
+        "privacy_first_title": "Politique de confidentialité",
+        "privacy_first_paragrapgh_first": "Située sur les pentes du Cap Ferrat, dans un endroit isolé avec une vue imprenable sur la mer et à quelques minutes à pied du village et du port de Saint-Jean-Cap-Ferrat, cette Villa est l'une des propriétés les plus convoitées de cette partie de la côte d'Azur.Moderne et ouverte, la Villa offre des conditions idéales pour la détente et le divertissement. De grandes fenêtres en verre et des portes coulissantes inondent les chambres de lumière naturelle, offrant une vue magnifique sur la mer. Avec une surface habitable de 1 000 m2 répartie sur quatre étages et desservie par un ascenseur en verre, il y a suffisamment d'espace pour organiser des événements ou trouver un coin tranquille pour se détendre. La Villa dispose de cinq chambres luxueuses avec salle de bains privée et peut accueillir confortablement jusqu'à 10 personnes.",
+        "privacy_first_paragrapgh_second": "Toutes les chambres disposent d'espaces de détente, de belles salles de bains et de systèmes de divertissement Bang & Olufsen. La septième chambre double est réservée au personnel.",
+        "privacy_first_paragrapgh_third": "Venez-vous sur la côte d'Azur pour passer de merveilleuses vacances avec votre famille et vous ne voulez pas perdre votre temps à résoudre tous les petits problèmes liés à votre propriété accumulés pendant votre absence?",
+        "privacy_first_paragrapgh_fourth": "Située sur les pentes du Cap Ferrat, dans un endroit isolé avec une vue imprenable sur la mer et à quelques minutes à pied du village et du port de Saint-Jean-Cap-Ferrat, cette Villa est l'une des propriétés les plus convoitées de cette région de la côte d'Azur. La Villa dispose de cinq chambres luxueuses avec salle de bains privée pouvant accueillir confortablement jusqu'à 10 personnes. Toutes les chambres ont des espaces de détente, de belles salles de bains et des systèmes de divertissement Bang & Olufsen. La septième chambre double est disponible pour le personnel."
+    },
+
+    "crumbs": {
+        "crumbs_title": "Page d'Accueil",
+        "crumbs_title_sell": "Vente",
+        "crumbs_title_rent": "Location",
+        "crumbs_title_sell_object": "Objet à vendre",
+        "crumbs_title_rent_object": "Objet à louer",
+        "crumbs_title_about": "À propos de nous",
+        "crumbs_title_property": "Transférer la propriété à la gestion",
+        "crumbs_title_concierge": "Service de conciergerie",
+        "crumbs_title_fee": "Notre Commission",
+        "crumbs_title_privacy": "Politique de confidentialité",
+        "crumbs_title_all": "Tous les objets",
+        "crumbs_title_sell_objects": "Objets à vendre",
+        "crumbs_title_rent_objects": "Objets à louer",
+        "crumbs_title_blog": "Blog",
+        "crumbs_title_join": "Rejoignez-nous",
+        "crumbs_title_buy-sell-rent": "Acheter, vendre, louer avec Azur Life",
+        "crumbs_title_expertise": "Avis d'expert",
+        "crumbs_title_detailed_sell": "Vente",
+        "crumbs_title_detailed_rent": "Location"
+    },
+
+    "not_found": {
+        "not_found_title": "Désolé, mais la page n'a pas été trouvée",
+        "not_found_subtitle": "mais vous pouvez toujours revenir à la",
+        "not_found_link": "page d'accueil"
+    },
+
+    "detailed_first": {
+        "detailed_sell_button": "Vente",
+        "detailed_rent_button": "Location",
+        "detailed_address_cannes": "Cannes, France",
+        "detailed_address_nice": "Nice, France",
+        "detailed_title": "Appartement avec vue sur la mer",
+        "detailed_subtitle": "Sur la promenade des Anglais",
+        "detailed_description": "Appartement de 3 pièces entièrement rénové au 5ème étage dans une petite résidence sur la célèbre promenade des Anglais."
+    },
+
+    "detailed_second": {
+        "detailed_second_title": "A propos de l'objet",
+        "detailed_second_link": "En savoir plus sur l'objet",
+        "detailed_second_choice": "Sélection <br /> Azur Life",
+        "detailed_second_exclusive": "Exclusif <br/ > dans Azur Life",
+        "detailed_second_paragraph_first": "Situé sur les pentes du Cap Ferrat, dans un endroit isolé avec une vue imprenable sur la mer et à quelques minutes à pied du village et du port de Saint-Jean-Cap-Ferrat, cette Villa est l'une des propriétés les plus attrayantes de cette partie de la côte d'Azur.",
+        "detailed_second_paragraph_second": "Cette Villa Moderne offre un cadre idéal pour les loisirs et les loisirs. De larges fenêtres en verre et des portes coulissantes inondent les chambres de lumière naturelle tout en offrant une vue magnifique sur la mer. Les 1000 m2 de surface habitable, répartis sur quatre étages et desservis par un ascenseur en verre, permettent d'organiser diverses activités ou de trouver un coin tranquille pour se détendre.",
+        "detailed_second_paragraph_third": "La Villa dispose de cinq chambres luxueuses avec salle de bains privative pouvant accueillir jusqu'à 10 personnes. Toutes les chambres ont des salons, de belles salles de bains et des systèmes de divertissement Bang & lufsen. La septième chambre double est disponible pour le personnel."
+    },
+
+    "detailed_fourth": {
+        "detailed_fourth_title": "Détails",
+        "detailed_fourth_title_common": "Général",
+        "detailed_fourth_title_common_heating": "Conditionnement",
+        "detailed_fourth_title_common_hot_water": "Individuel",
+        "detailed_fourth_title_common_state": "Excellent état",
+        "detailed_fourth_title_common_landmarks": "Est, Sud, est",
+        "detailed_fourth_title_common_view": "Vue Panoramique sur la mer",
+        "detailed_fourth_left_area": "Zone",
+        "detailed_fourth_left_rooms": "Pièces",
+        "detailed_fourth_left_rooms_number": "Pièces",
+        "detailed_fourth_left_heat": "Chauffage",
+        "detailed_fourth_left_hot_water": "Accès <br / > à l'eau chaude",
+        "detailed_fourth_left_state": "État",
+        "detailed_fourth_left_landmarks": "Repères",
+        "detailed_fourth_left_view": "Vue",
+        "detailed_fourth_left_services": "Services",
+        "detailed_fourth_left_services_heating": "Conditionnement",
+        "detailed_fourth_left_services_glass": "Double vitrage",
+        "detailed_fourth_left_services_tub": "Jacuzzi",
+        "detailed_fourth_left_services_marquise": "Marquises Électriques",
+        "detailed_fourth_left_services_barbecue": "Barbecue",
+        "detailed_fourth_left_services_concierge": "Concierge",
+        "detailed_fourth_left_services_pool": "Piscine",
+        "detailed_fourth_left_services_view": "Vue",
+        "detailed_fourth_left_services_hearth": "Cheminée",
+        "detailed_fourth_left_services_net": "Internet",
+        "detailed_fourth_left_services_furniture": "Meubles",
+        "detailed_fourth_left_services_watering": "Arroseur d'arrosage",
+        "detailed_fourth_left_services_elevator": "Ascenseur",
+        "detailed_fourth_left_services_intercom": "Interphone",
+        "detailed_fourth_left_services_sauna": "Sauna",
+        "detailed_fourth_left_distance": "Distance",
+        "detailed_fourth_left_airport": "Aéroport",
+        "detailed_fourth_left_bus": "Arrêt de Bus",
+        "detailed_fourth_left_sea": "Mer",
+        "detailed_fourth_left_beach": "Plage",
+        "detailed_fourth_left_highway": "Autoroute",
+        "detailed_fourth_left_city_center": "Centre-ville",
+        "detailed_fourth_left_city_park": "Parc",
+        "detailed_fourth_left_city_sea_port": "Port Maritime",
+        "detailed_fourth_description": "Bel appartement de 3 pièces entièrement rénové au 5ème étage dans une petite résidence sur la célèbre promenade des Anglais.",
+        "detailed_fourth_forty_minutes": "40 minutes",
+        "detailed_fourth_fifteen_minutes": "15 minutes",
+        "detailed_fourth_ten_minutes": "10 minutes",
+        "detailed_fourth_five_minutes": "5 minutes"
+    },
+
+    "menu": {
+        "menu_contact_button": "Contactez-nous",
+        "menu_link_fee": "Notre Commission",
+        "menu_link_privacy": "Politique de confidentialité",
+        "menu_link_about": "À propos de nous",
+        "menu_link_objects": "Tous les objets",
+        "menu_link_sell": "Vente",
+        "menu_link_rent": "Location",
+        "menu_link_blog": "Blog",
+        "menu_link_join": "Rejoignez-nous",
+        "menu_link_buy-sell-rent": "Acheter, vendre, louer avec nous",
+        "menu_link_expertise": "Avis d'expert",
+        "menu_link_presentation": "Présentation",
+        "menu_link_property": "Gestion immobilière",
+        "menu_link_concierge": "Service de conciergerie"
+    },
+
+    "navigation_bottom_links": {
+        "navigation_bottom_links_title_main": "Retour à la page d'accueil",
+        "navigation_bottom_links_title_sell_objects": "Objets à vendre",
+        "navigation_bottom_links_title_rent_objects": "Objets à louer",
+        "navigation_bottom_links_home": "Retour à la page d'accueil",
+        "navigation_bottom_links_about": "À propos de nous",
+        "navigation_bottom_links_objects": "Tous les objets",
+        "navigation_bottom_links_sell": "Vente",
+        "navigation_bottom_links_rent": "Location",
+        "navigation_bottom_links_buy-sell-rent": "Acheter, vendre, louer avec nous",
+        "navigation_bottom_links_property": "Gestion immobilière",
+        "navigation_bottom_links_concierge": "Service de conciergerie",
+        "navigation_bottom_links_expertise": "Avis d'expert",
+        "navigation_bottom_links_fee": "Notre Commission"
     }
 }
