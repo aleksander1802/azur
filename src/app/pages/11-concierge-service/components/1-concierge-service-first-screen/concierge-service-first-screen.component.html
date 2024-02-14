@@ -1,22 +1,18 @@
 <div class="conciergeService__first">
     <div class="conciergeService__first_wrapper">
-        <div class="container">
+        <div class="container" *transloco="let t; read: 'concierge_first'">
             <app-crumbs [current]="currentCrumbsTitle"></app-crumbs>
 
             <h1 class="conciergeService__first_title">
-                Премиум консьерж-сервис для клиентов Azur Life
+                {{ t("concierge_first_title") }}
             </h1>
 
             <p class="conciergeService__first_description">
-                Если Вы арендуете недвижимость с Azure Life, мы гарантируем
-                высококлассный сервис для Вас и Ваших гостей. Всё, что требуется
-                для идеального путешествия клиентов Azur life будет организовано
-                за Вас: будь то организация индивидуальных экскурсий или
-                резервация ресторанов.
+                {{ t("concierge_first_description") }}
             </p>
 
             <button class="conciergeService__first_button">
-                Отправить запрос
+                {{ t("concierge_first_submit_button") }}
             </button>
         </div>
     </div>

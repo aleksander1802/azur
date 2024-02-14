@@ -297,7 +297,7 @@
 
     "experience_block": {
         "experience_block_subtitle_property": "Gérer Vos biens immobiliers",
-        "experience_block_subtitle_concierge": "Service de conciergerie avec une approche particulière"
+        "experience_block_subtitle_concierge": "service de conciergerie"
     },
 
     "property_concierge": {
@@ -315,5 +315,11 @@
         "property_concierge_property_description": "Nous allons Payer les factures ou préparer l'appartement pour l'arrivée.  Louez votre propriété ou réservez un espace de nettoyage: choisissez ce dont vous avez besoin.",
         "property_concierge_concierge_description": "Nos clients sont satisfaits de leur approche particulière et de leur attention portée aux détails et aux demandes. Tout ce qu'il faut pour le voyage parfait des clients Azur life sera organisé pour vous.",
         "property_concierge_submit_button": "Laissez votre demande"
+    },
+
+    "concierge_first": {
+        "concierge_first_title": "Service de conciergerie premium pour les clients Azur Life",
+        "concierge_first_description": "Si vous louez une propriété avec Azure Life, nous garantissons un service haut de gamme pour vous et Vos invités. Tout ce qui est nécessaire pour un voyage parfait pour les clients Azur life sera organisé pour Vous: que ce soit l'organisation d'excursions individuelles ou la réservation de restaurants.",
+        "concierge_first_submit_button": "Envoyer une demande"
     }
 }

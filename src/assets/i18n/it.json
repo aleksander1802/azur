@@ -297,7 +297,7 @@
 
     "experience_block": {
         "experience_block_subtitle_property": "Gestisci la tua proprietà",
-        "experience_block_subtitle_concierge": "Servizio di portineria con un approccio speciale"
+        "experience_block_subtitle_concierge": "servizio concierge"
     },
 
     "property_concierge": {
@@ -315,5 +315,11 @@
         "property_concierge_property_description": "Pagheremo le bollette o prepareremo l'appartamento per l'arrivo.  Affittiamo la tua proprietà o prenotiamo la pulizia dello spazio: scegli quello che ti serve.",
         "property_concierge_concierge_description": "I nostri clienti sono soddisfatti grazie al loro particolare approccio e attenzione ai dettagli e alle richieste. Tutto ciò che serve per il viaggio perfetto dei clienti di Azur life sarà organizzato per te.",
         "property_concierge_submit_button": "Lascia la tua richiesta"
+    },
+
+    "concierge_first": {
+        "concierge_first_title": "Servizio di portineria premium per clienti Azur Life",
+        "concierge_first_description": "Se noleggi una proprietà con Azure Life, ti garantiamo un servizio di alta qualità per te e i tuoi ospiti. Tutto ciò che serve per un viaggio perfetto per i clienti di Azur life sarà organizzato per te: che si tratti di organizzare escursioni individuali o di prenotare ristoranti.",
+        "concierge_first_submit_button": "Invia richiesta"
     }
 }
