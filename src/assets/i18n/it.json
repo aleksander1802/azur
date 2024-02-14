@@ -440,5 +440,22 @@
         "detailed_fourth_fifteen_minutes": "15 minuti",
         "detailed_fourth_ten_minutes": "10 minuti",
         "detailed_fourth_five_minutes": "5 minuti"
+    },
+
+    "menu": {
+        "menu_contact_button": "Contattaci",
+        "menu_link_fee": "La nostra commissione",
+        "menu_link_privacy": "Informativa sulla privacy",
+        "menu_link_about": "Chi siamo",
+        "menu_link_objects": "Tutti gli oggetti",
+        "menu_link_sell": "Vendita",
+        "menu_link_rent": "Affitto",
+        "menu_link_blog": "Blog",
+        "menu_link_join": "Unisciti a noi",
+        "menu_link_buy-sell-rent": "Compra, Vendi, affitta con noi",
+        "menu_link_expertise": "Revisione tra pari",
+        "menu_link_presentation": "Presentazione",
+        "menu_link_property": "Gestione della proprietà",
+        "menu_link_concierge": "Servizio di portineria"
     }
 }

@@ -15,17 +15,17 @@ export class MenuComponent {
     closeButtonColor = '#656565';
 
     navLinks = [
-        { title: 'О нас', link: '/about' },
-        { title: 'Все объекты', link: '/objects' },
-        { title: 'Продажа', link: '/sell' },
-        { title: 'Аренда', link: '/rent' },
-        { title: 'Блог', link: '/blog' },
-        { title: 'Присоединиться к нам', link: '/join' },
-        { title: 'Купить, продать, арендовать с нами', link: '/buy-sell-rent' },
-        { title: 'Экспертная оценка', link: '/expertise' },
-        { title: 'Презентация', link: '/presentation' },
-        { title: 'Управление недвижимостью', link: '/property' },
-        { title: 'Консьерж-сервис', link: '/concierge' },
+        { title: 'menu_link_about', link: '/about' },
+        { title: 'menu_link_objects', link: '/objects' },
+        { title: 'menu_link_sell', link: '/sell' },
+        { title: 'menu_link_rent', link: '/rent' },
+        { title: 'menu_link_blog', link: '/blog' },
+        { title: 'menu_link_join', link: '/join' },
+        { title: 'menu_link_buy-sell-rent', link: '/buy-sell-rent' },
+        { title: 'menu_link_expertise', link: '/expertise' },
+        { title: 'menu_link_presentation', link: '/presentation' },
+        { title: 'menu_link_property', link: '/property' },
+        { title: 'menu_link_concierge', link: '/concierge' },
     ];
 
     onCloseMenu() {

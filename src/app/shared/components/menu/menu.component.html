@@ -3,9 +3,9 @@
     [ngClass]="{ menu__active: isOpen }"
     (click)="onMenuOverlayClick($event)"
 >
-    <div class="menu__wrapper">
+    <div class="menu__wrapper" *transloco="let t; read: 'menu'">
         <div class="menu__header">
-           <app-language-switcher></app-language-switcher>
+            <app-language-switcher></app-language-switcher>
 
             <app-svg-close-button
                 [color]="closeButtonColor"
@@ -25,7 +25,7 @@
                         [routerLink]="item.link"
                         class="menu__links_link link__hover"
                         (click)="onCloseMenu()"
-                        >{{ item.title }}</a
+                        >{{ t(item.title) }}</a
                     >
                 </li>
                 }
@@ -37,7 +37,7 @@
             (click)="onCloseMenu()"
             (click)="contactWithUsService.toggleIsOpenContact()"
         >
-            Связаться с нами
+            {{ t("menu_contact_button") }}
         </button>
 
         <div class="menu__links_policy">
@@ -45,14 +45,16 @@
                 [routerLink]="'/fee'"
                 class="link__policy_hover"
                 (click)="onCloseMenu()"
-                >Наша комиссия</a
             >
+                {{ t("menu_link_fee") }}
+            </a>
             <a
                 [routerLink]="'/policy'"
                 class="link__policy_hover"
                 (click)="onCloseMenu()"
-                >Политика конфиденциальности</a
             >
+                {{ t("menu_link_privacy") }}
+            </a>
         </div>
     </div>
 </div>

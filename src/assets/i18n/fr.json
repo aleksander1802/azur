@@ -402,7 +402,7 @@
         "detailed_fourth_title_common_state": "Excellent état",
         "detailed_fourth_title_common_landmarks": "Est, Sud, est",
         "detailed_fourth_title_common_view": "Vue Panoramique sur la mer",
-        "detailed_fourth_left_area":"Zone",
+        "detailed_fourth_left_area": "Zone",
         "detailed_fourth_left_rooms": "Pièces",
         "detailed_fourth_left_rooms_number": "Pièces",
         "detailed_fourth_left_heat": "Chauffage",
@@ -427,9 +427,9 @@
         "detailed_fourth_left_services_intercom": "Interphone",
         "detailed_fourth_left_services_sauna": "Sauna",
         "detailed_fourth_left_distance": "Distance",
-        "detailed_fourth_left_airport": "Aéroport",        
-        "detailed_fourth_left_bus": "Arrêt de Bus",        
-        "detailed_fourth_left_sea": "Mer",        
+        "detailed_fourth_left_airport": "Aéroport",
+        "detailed_fourth_left_bus": "Arrêt de Bus",
+        "detailed_fourth_left_sea": "Mer",
         "detailed_fourth_left_beach": "Plage",
         "detailed_fourth_left_highway": "Autoroute",
         "detailed_fourth_left_city_center": "Centre-ville",
@@ -440,5 +440,22 @@
         "detailed_fourth_fifteen_minutes": "15 minutes",
         "detailed_fourth_ten_minutes": "10 minutes",
         "detailed_fourth_five_minutes": "5 minutes"
+    },
+
+    "menu": {
+        "menu_contact_button": "Contactez-nous",
+        "menu_link_fee": "Notre Commission",
+        "menu_link_privacy": "Politique de confidentialité",
+        "menu_link_about": "À propos de nous",
+        "menu_link_objects": "Tous les objets",
+        "menu_link_sell": "Vente",
+        "menu_link_rent": "Location",
+        "menu_link_blog": "Blog",
+        "menu_link_join": "Rejoignez-nous",
+        "menu_link_buy-sell-rent": "Acheter, vendre, louer avec nous",
+        "menu_link_expertise": "Avis d'expert",
+        "menu_link_presentation": "Présentation",
+        "menu_link_property": "Gestion immobilière",
+        "menu_link_concierge": "Service de conciergerie"
     }
 }
