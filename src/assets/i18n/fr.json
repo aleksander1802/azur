@@ -344,5 +344,27 @@
         "privacy_first_paragrapgh_second": "Toutes les chambres disposent d'espaces de détente, de belles salles de bains et de systèmes de divertissement Bang & Olufsen. La septième chambre double est réservée au personnel.",
         "privacy_first_paragrapgh_third": "Venez-vous sur la côte d'Azur pour passer de merveilleuses vacances avec votre famille et vous ne voulez pas perdre votre temps à résoudre tous les petits problèmes liés à votre propriété accumulés pendant votre absence?",
         "privacy_first_paragrapgh_fourth": "Située sur les pentes du Cap Ferrat, dans un endroit isolé avec une vue imprenable sur la mer et à quelques minutes à pied du village et du port de Saint-Jean-Cap-Ferrat, cette Villa est l'une des propriétés les plus convoitées de cette région de la côte d'Azur. La Villa dispose de cinq chambres luxueuses avec salle de bains privée pouvant accueillir confortablement jusqu'à 10 personnes. Toutes les chambres ont des espaces de détente, de belles salles de bains et des systèmes de divertissement Bang & Olufsen. La septième chambre double est disponible pour le personnel."
+    },
+
+    "crumbs": {
+        "crumbs_title": "Page d'Accueil",
+        "crumbs_title_sell": "Vente",
+        "crumbs_title_rent": "Location",
+        "crumbs_title_sell_object": "Objet à vendre",
+        "crumbs_title_rent_object": "Objet à louer",
+        "crumbs_title_about": "À propos de nous",
+        "crumbs_title_property": "Transférer la propriété à la gestion",
+        "crumbs_title_concierge": "Service de conciergerie",
+        "crumbs_title_fee": "Notre Commission",
+        "crumbs_title_privacy": "Politique de confidentialité",
+        "crumbs_title_all": "Tous les objets",
+        "crumbs_title_sell_objects": "Objets à vendre",
+        "crumbs_title_rent_objects": "Objets à louer",
+        "crumbs_title_blog": "Blog",
+        "crumbs_title_join": "Rejoignez-nous",
+        "crumbs_title_buy-sell-rent": "Acheter, vendre, louer avec Azur Life",
+        "crumbs_title_expertise": "Avis d'expert",
+        "crumbs_title_detailed_sell": "Vente",
+        "crumbs_title_detailed_rent": "Location"
     }
 }

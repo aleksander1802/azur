@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
     styleUrl: './blog-first-screen.component.scss',
 })
 export class BlogFirstScreenComponent {
-    currentCrumbsTitle = 'blog_first_title';
+    currentCrumbsTitle = 'crumbs_title_blog';
 
     blogText = ['blog_text_first', 'blog_text_second'];
 }

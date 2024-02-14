@@ -6,10 +6,14 @@ import { Component } from '@angular/core';
     styleUrl: './fee-first-screen.component.scss',
 })
 export class FeeFirstScreenComponent {
-    currentCrumbsTitle = 'Наша комиссия';
+    currentCrumbsTitle = 'crumbs_title_fee';
 
     fees = [
-        { category: 'fee_first_first_category', commission: '6.00 %', description: '' },
+        {
+            category: 'fee_first_first_category',
+            commission: '6.00 %',
+            description: '',
+        },
         {
             category: 'fee_first_second_category',
             commission: '5.00 %',
@@ -23,8 +27,7 @@ export class FeeFirstScreenComponent {
         {
             category: 'fee_first_fourth_category',
             commission: '25.00 %',
-            description:
-                'fee_first_fourth_description',
+            description: 'fee_first_fourth_description',
         },
     ];
 }

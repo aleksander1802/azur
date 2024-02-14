@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
     styleUrl: './policy-first-screen.component.scss',
 })
 export class PolicyFirstScreenComponent {
-    currentCrumbsTitle = 'Политика конфиденциальности';
+    currentCrumbsTitle = 'crumbs_title_privacy';
 
     privacyParagraphs = [
         'privacy_first_paragrapgh_first',

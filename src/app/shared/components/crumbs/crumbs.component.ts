@@ -34,14 +34,14 @@ export class CrumbsComponent implements OnInit {
         this.detailedSell = this.currentLink.startsWith('/sell/');
 
         if (this.detailedSell && this.currentLink.split('/')[2]) {
-            this.current = 'Объект на продажу';
+            this.current = 'crumbs_title_sell_object';
         }
     }
 
     private checkRentLink() {
         this.detailedRent = this.currentLink.startsWith('/rent/');
         if (this.detailedRent && this.currentLink.split('/')[2]) {
-            this.current = 'Объект в аренду';
+            this.current = 'crumbs_title_rent_object';
         }
     }
 }

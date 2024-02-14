@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
     styleUrl: './expertise-first-screen.component.scss',
 })
 export class ExpertiseFirstScreenComponent {
-    currentCrumbsTitle = 'Экспертная оценка';
+    currentCrumbsTitle = 'crumbs_title_expertise';
 }

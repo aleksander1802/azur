@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
     styleUrl: './objects-first-screen.component.scss',
 })
 export class ObjectsFirstScreenComponent {
-    currentCrumbsTitle = 'Все объекты'
+    currentCrumbsTitle = 'crumbs_title_all';
 }

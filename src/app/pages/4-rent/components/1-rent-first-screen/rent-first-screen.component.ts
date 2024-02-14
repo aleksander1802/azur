@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
     styleUrl: './rent-first-screen.component.scss',
 })
 export class RentFirstScreenComponent {
-    currentCrumbsTitle = 'Объекты в аренду';
+    currentCrumbsTitle = 'crumbs_title_rent_objects';
 }

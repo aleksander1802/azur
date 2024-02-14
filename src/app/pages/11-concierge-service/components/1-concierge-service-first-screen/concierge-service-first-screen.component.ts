@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
     styleUrl: './concierge-service-first-screen.component.scss',
 })
 export class ConciergeServiceFirstScreenComponent {
-    currentCrumbsTitle = 'Консьерж-сервис';
+    currentCrumbsTitle = 'crumbs_title_concierge';
 }

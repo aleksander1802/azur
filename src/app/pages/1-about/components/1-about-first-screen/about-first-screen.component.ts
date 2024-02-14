@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
     styleUrl: './about-first-screen.component.scss',
 })
 export class AboutFirstScreenComponent {
-    currentCrumbsTitle = 'О нас';
+    currentCrumbsTitle = 'crumbs_title_about';
 }

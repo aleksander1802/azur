@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
     styleUrl: './buy-sell-rent-first-screen.component.scss',
 })
 export class BuySellRentFirstScreenComponent {
-    currentCrumbsTitle = 'Купить, продать, арендовать вместе с Azur Life';
+    currentCrumbsTitle = 'crumbs_title_buy-sell-rent';
 }

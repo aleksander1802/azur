@@ -344,5 +344,27 @@
         "privacy_first_paragrapgh_second": "All rooms have relaxation areas, beautiful bathrooms and Bang & Olufsen entertainment systems. The seventh double bedroom is reserved for staff.",
         "privacy_first_paragrapgh_third": "Are you coming to the Cote d'Azur to spend a wonderful vacation with your family, and you don't want to waste your time solving all the minor problems related to your property that have accumulated during your absence?",
         "privacy_first_paragrapgh_fourth": "Located on the slopes of Cap Ferrat in a secluded location with spectacular sea views and at the same time just a short walk from the village and harbor of Saint-Jean-Cap Ferrat, this villa is one of the most desirable properties on this stretch of the French Riviera. The villa has five luxurious bedrooms with private bathrooms, which can comfortably accommodate up to 10 guests. All rooms have relaxation areas, beautiful bathrooms and Bang & Olufsen entertainment systems. The seventh double bedroom is available for staff."
+    },
+
+    "crumbs": {
+        "crumbs_title": "Home page",
+        "crumbs_title_sell": "Sale",
+        "crumbs_title_rent": "Rent",
+        "crumbs_title_sell_object": "Object for sale",
+        "crumbs_title_rent_object": "Object for rent",
+        "crumbs_title_about": "About us",
+        "crumbs_title_property": "Transfer real estate in management",
+        "crumbs_title_concierge": "Concierge service",
+        "crumbs_title_fee": "Our commission",
+        "crumbs_title_privacy": "Privacy Policy",
+        "crumbs_title_all": "All objects",
+        "crumbs_title_sell_objects": "Objects for sale",
+        "crumbs_title_rent_objects": "Objects for rent",
+        "crumbs_title_blog": "Blog",
+        "crumbs_title_join": "Join us",
+        "crumbs_title_buy-sell-rent": "Buy, sell, rent with Azur Life",
+        "crumbs_title_expertise": "Expert assessment",
+        "crumbs_title_detailed_sell": "Sale",
+        "crumbs_title_detailed_rent": "Rent"
     }
 }

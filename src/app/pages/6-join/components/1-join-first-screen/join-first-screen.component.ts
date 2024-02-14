@@ -7,5 +7,5 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
     styleUrl: './join-first-screen.component.scss',
 })
 export class JoinFirstScreenComponent {
-    currentCrumbsTitle = 'Присоединиться к нам';
+    currentCrumbsTitle = 'crumbs_title_join';
 }

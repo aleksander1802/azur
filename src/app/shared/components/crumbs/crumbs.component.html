@@ -1,5 +1,7 @@
-<div class="crumbs">
-    <a [routerLink]="'/'" class="crumbs__title">Главная страница</a>
+<div class="crumbs" *transloco="let t; read: 'crumbs'">
+    <a [routerLink]="'/'" class="crumbs__title">
+        {{ t("crumbs_title") }}
+    </a>
     <img
         src="
         assets/icons/crumbs_row.svg"
@@ -9,7 +11,9 @@
 
     @if (detailedSell) {
 
-    <a [routerLink]="'/sell'" class="crumbs__title">Продажа</a>
+    <a [routerLink]="'/sell'" class="crumbs__title">
+        {{ t("crumbs_title_sell") }}
+    </a>
     <img
         src="
                 assets/icons/crumbs_row.svg"
@@ -18,7 +22,9 @@
     />
     } @if (detailedRent) {
 
-    <a [routerLink]="'/rent'" class="crumbs__title">Аренда</a>
+    <a [routerLink]="'/rent'" class="crumbs__title">
+        {{ t("crumbs_title_rent") }}
+    </a>
     <img
         src="
                 assets/icons/crumbs_row.svg"
@@ -27,5 +33,5 @@
     />
     }
 
-    <span class="crumbs__current">{{ current }}</span>
+    <span class="crumbs__current">{{ t(current) }}</span>
 </div>

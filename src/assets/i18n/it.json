@@ -344,5 +344,27 @@
         "privacy_first_paragrapgh_second": "Tutte le camere sono dotate di aree salotto, splendidi bagni e Sistemi di intrattenimento Bang & Olufsen. La settima camera matrimoniale è riservata al personale.",
         "privacy_first_paragrapgh_third": "Stai arrivando in Costa Azzurra per trascorrere una bella vacanza con la tua famiglia e non vuoi perdere tempo a risolvere tutti i piccoli problemi legati alla tua proprietà che si sono accumulati durante la tua assenza?",
         "privacy_first_paragrapgh_fourth": "Situata sulle pendici di Cap Ferrat in una posizione appartata con una vista spettacolare sul mare e allo stesso tempo a pochi passi dal villaggio e dal porto di Saint-Jean-Cap Ferrat, questa villa è una delle proprietà più ambite in questo tratto della Costa Azzurra. La villa dispone di cinque lussuose camere da letto con bagno privato che possono ospitare comodamente fino a 10 ospiti. Tutte le camere dispongono di aree salotto, bellissimi bagni e Sistemi di intrattenimento Bang & Olufsen. La settima camera matrimoniale è disponibile per il personale."
+    },
+
+    "crumbs": {
+        "crumbs_title": "Pagina principale",
+        "crumbs_title_sell": "Vendita",
+        "crumbs_title_rent": "Affitto",
+        "crumbs_title_sell_object": "Oggetto in vendita",
+        "crumbs_title_rent_object": "Oggetto in affitto",
+        "crumbs_title_about": "Chi siamo",
+        "crumbs_title_property": "Metti la proprietà in Gestione",
+        "crumbs_title_concierge": "Servizio di portineria",
+        "crumbs_title_fee": "La nostra commissione",
+        "crumbs_title_privacy": "Informativa sulla privacy",
+        "crumbs_title_all": "Tutti gli oggetti",
+        "crumbs_title_sell_objects": "Oggetti In vendita",
+        "crumbs_title_rent_objects": "Oggetti in affitto",
+        "crumbs_title_blog": "Blog",
+        "crumbs_title_join": "Unisciti a noi",
+        "crumbs_title_buy-sell-rent": "Compra, Vendi, affitta con Azur Life",
+        "crumbs_title_expertise": "Revisione tra pari",
+        "crumbs_title_detailed_sell": "Vendita",
+        "crumbs_title_detailed_rent": "Affitto"
     }
 }
