@@ -1,9 +1,14 @@
 @if (additionalPages) {
 <div class="navigation__links">
-    <div class="navigation__links_left">
+    <div
+        class="navigation__links_left"
+        *transloco="let t; read: 'navigation_bottom_links'"
+    >
         <a [routerLink]="'/'">
             <img src="assets/icons/left_arrow_link.svg" alt="Left arrow link" />
-            <span>Вернуться на главную страницу</span>
+            <span>
+                {{ t("navigation_bottom_links_title_main") }}
+            </span>
         </a>
     </div>
 </div>
@@ -13,18 +18,21 @@
     class="navigation__links"
     [class.single-link_left]="isFirstPage"
     [class.single-link_right]="isLastPage"
+    *transloco="let t; read: 'navigation_bottom_links'"
 >
     <div class="navigation__links_left" [class.hide]="isFirstPage">
         @if (showSellRentLinks) {
         <a [routerLink]="'/sell'">
             <img src="assets/icons/left_arrow_link.svg" alt="Left arrow link" />
-            <span>Объекты на продажу</span>
+            <span>
+                {{ t("navigation_bottom_links_title_sell_objects") }}
+            </span>
         </a>
         } @else {
 
         <a [routerLink]="previousLink">
             <img src="assets/icons/left_arrow_link.svg" alt="Left arrow link" />
-            <span>{{ previousTitle }}</span>
+            <span>{{ t(previousTitle) }}</span>
         </a>
         }
     </div>
@@ -32,7 +40,9 @@
     <div class="navigation__links_right" [class.hide]="isLastPage">
         @if (showSellRentLinks) {
         <a [routerLink]="'/rent'">
-            <span>Объекты в аренду </span>
+            <span>
+                {{ t("navigation_bottom_links_title_rent_objects") }}
+            </span>
             <img
                 src="assets/icons/right_arrow_link.svg"
                 alt="Right arrow link"
@@ -41,7 +51,7 @@
         } @else {
 
         <a [routerLink]="nextLink">
-            <span>{{ nextTitle }}</span>
+            <span>{{ t(nextTitle) }}</span>
             <img
                 src="assets/icons/right_arrow_link.svg"
                 alt="Right arrow link"

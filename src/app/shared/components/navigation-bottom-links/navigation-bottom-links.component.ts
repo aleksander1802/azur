@@ -22,16 +22,19 @@ export class NavigationBottomLinksComponent implements OnInit {
     additionalPages = false;
 
     navLinks = [
-        { title: 'Вернуться на главную страницу', link: '/' },
-        { title: 'О нас', link: '/about' },
-        { title: 'Все объекты', link: '/objects' },
-        { title: 'Продажа', link: '/sell' },
-        { title: 'Аренда', link: '/rent' },
-        { title: 'Купить, продать, арендовать с нами', link: '/buy-sell-rent' },
-        { title: 'Управление недвижимостью', link: '/property' },
-        { title: 'Консьерж-сервис', link: '/concierge' },
-        { title: 'Экспертная оценка', link: '/expertise' },
-        { title: 'Наша комиссия', link: '/fee' },
+        { title: 'navigation_bottom_links_home', link: '/' },
+        { title: 'navigation_bottom_links_about', link: '/about' },
+        { title: 'navigation_bottom_links_objects', link: '/objects' },
+        { title: 'navigation_bottom_links_sell', link: '/sell' },
+        { title: 'navigation_bottom_links_rent', link: '/rent' },
+        {
+            title: 'navigation_bottom_links_buy-sell-rent',
+            link: '/buy-sell-rent',
+        },
+        { title: 'navigation_bottom_links_property', link: '/property' },
+        { title: 'navigation_bottom_links_concierge', link: '/concierge' },
+        { title: 'navigation_bottom_links_expertise', link: '/expertise' },
+        { title: 'navigation_bottom_links_fee', link: '/fee' },
     ];
 
     ngOnInit() {

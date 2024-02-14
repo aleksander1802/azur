@@ -457,5 +457,21 @@
         "menu_link_presentation": "Presentation",
         "menu_link_property": "Property management",
         "menu_link_concierge": "Concierge service"
+    },
+
+    "navigation_bottom_links": {
+        "navigation_bottom_links_title_main": "Return to the main page",
+        "navigation_bottom_links_title_sell_objects": "Objects for sale",
+        "navigation_bottom_links_title_rent_objects": "Objects for rent",
+        "navigation_bottom_links_home": "Return to the main page",
+        "navigation_bottom_links_about": "About us",
+        "navigation_bottom_links_objects": "All objects",
+        "navigation_bottom_links_sell": "Sale",
+        "navigation_bottom_links_rent": "Rent",
+        "navigation_bottom_links_buy-sell-rent": "Buy, sell, rent with us",
+        "navigation_bottom_links_property": "Property management",
+        "navigation_bottom_links_concierge": "Concierge service",
+        "navigation_bottom_links_expertise": "Expert assessment",
+        "navigation_bottom_links_fee": "Our commission"
     }
 }

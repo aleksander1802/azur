@@ -457,5 +457,21 @@
         "menu_link_presentation": "Présentation",
         "menu_link_property": "Gestion immobilière",
         "menu_link_concierge": "Service de conciergerie"
+    },
+
+    "navigation_bottom_links": {
+        "navigation_bottom_links_title_main": "Retour à la page d'accueil",
+        "navigation_bottom_links_title_sell_objects": "Objets à vendre",
+        "navigation_bottom_links_title_rent_objects": "Objets à louer",
+        "navigation_bottom_links_home": "Retour à la page d'accueil",
+        "navigation_bottom_links_about": "À propos de nous",
+        "navigation_bottom_links_objects": "Tous les objets",
+        "navigation_bottom_links_sell": "Vente",
+        "navigation_bottom_links_rent": "Location",
+        "navigation_bottom_links_buy-sell-rent": "Acheter, vendre, louer avec nous",
+        "navigation_bottom_links_property": "Gestion immobilière",
+        "navigation_bottom_links_concierge": "Service de conciergerie",
+        "navigation_bottom_links_expertise": "Avis d'expert",
+        "navigation_bottom_links_fee": "Notre Commission"
     }
 }
