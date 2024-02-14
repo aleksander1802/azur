@@ -321,5 +321,20 @@
         "concierge_first_title": "Service de conciergerie premium pour les clients Azur Life",
         "concierge_first_description": "Si vous louez une propriété avec Azure Life, nous garantissons un service haut de gamme pour vous et Vos invités. Tout ce qui est nécessaire pour un voyage parfait pour les clients Azur life sera organisé pour Vous: que ce soit l'organisation d'excursions individuelles ou la réservation de restaurants.",
         "concierge_first_submit_button": "Envoyer une demande"
+    },
+
+    "fee_first": {
+        "fee_first_title": "Notre Commission",
+        "fee_first_top_category": "Catégorie",
+        "fee_first_top_fee": "Commission",
+        "fee_first_top_feevat": "Commission TVA incluse",
+        "fee_first_first_category": "Vente",
+        "fee_first_second_category": "Vente",
+        "fee_first_third_category": "Vente",
+        "fee_first_fourth_category": "Location Saisonnière",
+        "fee_first_first_description": "",
+        "fee_first_second_description": "pour les mandats exclusifs et les anciens clients",
+        "fee_first_third_description": "parking, garage",
+        "fee_first_fourth_description": "gestion des biens immobiliers - prix en fonction de la tâche."
     }
 }

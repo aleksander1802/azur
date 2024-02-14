@@ -1,15 +1,21 @@
 <div class="fee__first">
-    <div class="container">
+    <div class="container" *transloco="let t; read: 'fee_first'">
         <app-crumbs [current]="currentCrumbsTitle"></app-crumbs>
 
-        <h1 class="fee__first_title">{{ currentCrumbsTitle }}</h1>
+        <h1 class="fee__first_title">
+            {{ t("fee_first_title") }}
+        </h1>
 
         <div class="fee__first_wrapper">
             <div class="fee__first_wrapper_top">
-                <p class="fee__first_wrapper_top-category">Категория</p>
-                <p class="fee__first_wrapper_top-fee">Комиссия</p>
+                <p class="fee__first_wrapper_top-category">
+                    {{ t("fee_first_top_category") }}
+                </p>
+                <p class="fee__first_wrapper_top-fee">
+                    {{ t("fee_first_top_fee") }}
+                </p>
                 <p class="fee__first_wrapper_top-feevat">
-                    Комиссия с учетом НДС
+                    {{ t("fee_first_top_feevat") }}
                 </p>
             </div>
 
@@ -18,7 +24,7 @@
 
                 <div class="fee__first_wrapper_bottom_item">
                     <p class="fee__first_wrapper_bottom_item-first">
-                        {{ fee.category }}
+                        {{ t(fee.category) }}
                     </p>
 
                     <p class="fee__first_wrapper_bottom_item-second">
@@ -27,7 +33,7 @@
 
                     @if (fee.description) {
                     <p class="fee__first_wrapper_bottom_item-third">
-                        {{ fee.description }}
+                        {{ t(fee.description) }}
                     </p>
                     }
                 </div>

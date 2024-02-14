@@ -321,5 +321,20 @@
         "concierge_first_title": "Servizio di portineria premium per clienti Azur Life",
         "concierge_first_description": "Se noleggi una proprietà con Azure Life, ti garantiamo un servizio di alta qualità per te e i tuoi ospiti. Tutto ciò che serve per un viaggio perfetto per i clienti di Azur life sarà organizzato per te: che si tratti di organizzare escursioni individuali o di prenotare ristoranti.",
         "concierge_first_submit_button": "Invia richiesta"
+    },
+
+    "fee_first": {
+        "fee_first_title": "La nostra commissione",
+        "fee_first_top_category": "Categoria",
+        "fee_first_top_fee": "Commissione",
+        "fee_first_top_feevat": "Commissione IVA inclusa",
+        "fee_first_first_category": "Vendita",
+        "fee_first_second_category": "Vendita",
+        "fee_first_third_category": "Vendita",
+        "fee_first_fourth_category": "Affitto stagione",
+        "fee_first_first_description": "",
+        "fee_first_second_description": "per mandati esclusivi ed ex clienti",
+        "fee_first_third_description": "parcheggio, garage",
+        "fee_first_fourth_description": "gestione proprietà - prezzi in base al lavoro."
     }
 }

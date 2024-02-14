@@ -9,22 +9,22 @@ export class FeeFirstScreenComponent {
     currentCrumbsTitle = 'Наша комиссия';
 
     fees = [
-        { category: 'Продажа', commission: '6.00 %', description: '' },
+        { category: 'fee_first_first_category', commission: '6.00 %', description: '' },
         {
-            category: 'Продажа',
+            category: 'fee_first_second_category',
             commission: '5.00 %',
-            description: 'для эксклюзивных мандатов и бывших клиентов',
+            description: 'fee_first_second_description',
         },
         {
-            category: 'Продажа',
+            category: 'fee_first_third_category',
             commission: '12.00 %',
-            description: 'парковка, гараж',
+            description: 'fee_first_third_description',
         },
         {
-            category: 'Сезонная аренда',
+            category: 'fee_first_fourth_category',
             commission: '25.00 %',
             description:
-                'управление недвижимостью - цены в зависимости от задания.',
+                'fee_first_fourth_description',
         },
     ];
 }

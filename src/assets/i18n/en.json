@@ -321,5 +321,20 @@
         "concierge_first_title": "Premium concierge service for Azur Life customers",
         "concierge_first_description": "If you rent a property with Azure Life, we guarantee a high-class service for you and your guests. Everything that is required for a perfect trip for Azur life customers will be organized for you: whether it is the organization of individual excursions or restaurant reservations.",
         "concierge_first_submit_button": "Send a request"
+    },
+
+    "fee_first": {
+        "fee_first_title": "Our commission",
+        "fee_first_top_category": "Category",
+        "fee_first_top_fee": "Commission",
+        "fee_first_top_feevat": "Commission including VAT",
+        "fee_first_first_category": "Sale",
+        "fee_first_second_category": "Sale",
+        "fee_first_third_category": "Sale",
+        "fee_first_fourth_category": "Seasonal rental",
+        "fee_first_first_description": "",
+        "fee_first_second_description": "for exclusive mandates and former customers",
+        "fee_first_third_description": "parking, garage",
+        "fee_first_fourth_description": "property management - prices depending on the task."
     }
 }

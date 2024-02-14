@@ -315,5 +315,20 @@
         "concierge_first_title": "Премиум консьерж-сервис для клиентов Azur Life",
         "concierge_first_description": "Если Вы арендуете недвижимость с Azure Life, мы гарантируем высококлассный сервис для Вас и Ваших гостей. Всё, что требуется для идеального путешествия клиентов Azur life будет организовано за Вас: будь то организация индивидуальных экскурсий или резервация ресторанов.",
         "concierge_first_submit_button": "Отправить запрос"
+    },
+
+    "fee_first": {
+        "fee_first_title": "Наша комиссия",
+        "fee_first_top_category": "Категория",
+        "fee_first_top_fee": "Комиссия",
+        "fee_first_top_feevat": "Комиссия с учетом НДС",
+        "fee_first_first_category": "Продажа",
+        "fee_first_second_category": "Продажа",
+        "fee_first_third_category": "Продажа",
+        "fee_first_fourth_category": "Сезонная аренда",
+        "fee_first_first_description": "",
+        "fee_first_second_description": "для эксклюзивных мандатов и бывших клиентов",
+        "fee_first_third_description": "парковка, гараж",
+        "fee_first_fourth_description": "управление недвижимостью - цены в зависимости от задания."
     }
 }
