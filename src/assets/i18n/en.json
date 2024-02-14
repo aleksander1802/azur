@@ -366,5 +366,11 @@
         "crumbs_title_expertise": "Expert assessment",
         "crumbs_title_detailed_sell": "Sale",
         "crumbs_title_detailed_rent": "Rent"
+    },
+
+    "not_found": {
+        "not_found_title": "Sorry, but the page was not found",
+        "not_found_subtitle": "but you can still return to the",
+        "not_found_link": "main page"
     }
 }

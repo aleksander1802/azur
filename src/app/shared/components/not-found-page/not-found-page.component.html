@@ -4,18 +4,20 @@
 
 <div class="not__found">
     <div class="not__found_wrapper">
-        <div class="container">
+        <div class="container" *transloco="let t; read: 'not_found'">
             <div class="not__found_top">
                 <h1 class="not__found_title">
-                    Извините, но страница не найдена
+                    {{ t("not_found_title") }}
                 </h1>
                 <div class="not__found_title-circle">
                     <app-logo-circle></app-logo-circle>
                 </div>
             </div>
             <p class="not__found_subtitle">
-                но вы все ещё можете вернуться на
-                <a [routerLink]="'/'">главную страницу</a>
+                {{ t("not_found_subtitle") }}
+                <a [routerLink]="'/'">
+                    {{ t("not_found_link") }}
+                </a>
             </p>
         </div>
     </div>

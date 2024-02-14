@@ -366,5 +366,11 @@
         "crumbs_title_expertise": "Avis d'expert",
         "crumbs_title_detailed_sell": "Vente",
         "crumbs_title_detailed_rent": "Location"
+    },
+
+    "not_found": {
+        "not_found_title": "Désolé, mais la page n'a pas été trouvée",
+        "not_found_subtitle": "mais vous pouvez toujours revenir à la",
+        "not_found_link": "page d'accueil"
     }
 }

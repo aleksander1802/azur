@@ -360,5 +360,11 @@
         "crumbs_title_expertise": "Экспертная оценка",
         "crumbs_title_detailed_sell": "Продажа",
         "crumbs_title_detailed_rent": "Аренда"
+    },
+
+    "not_found": {
+        "not_found_title": "Извините, но страница не найдена",
+        "not_found_subtitle": "но вы все ещё можете вернуться на",
+        "not_found_link": "главную страницу"
     }
 }

@@ -366,5 +366,11 @@
         "crumbs_title_expertise": "Revisione tra pari",
         "crumbs_title_detailed_sell": "Vendita",
         "crumbs_title_detailed_rent": "Affitto"
+    },
+
+    "not_found": {
+        "not_found_title": "Siamo spiacenti, ma la pagina non è stata trovata",
+        "not_found_subtitle": "ma puoi ancora tornare alla",
+        "not_found_link": "home page"
     }
 }
