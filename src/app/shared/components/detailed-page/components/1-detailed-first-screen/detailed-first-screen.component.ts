@@ -5,6 +5,7 @@ import { CrumbsComponent } from '../../../crumbs/crumbs.component';
 import { ExclusiveSvgComponent } from '../../../exclusive-svg/exclusive-svg.component';
 import { ChoiceSvgComponent } from '../../../choice-svg/choice-svg.component';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { TranslocoRootModule } from 'src/app/transloco-root.module';
 
 @Component({
     selector: 'app-detailed-first-screen',
@@ -15,6 +16,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
         ExclusiveSvgComponent,
         ChoiceSvgComponent,
         SharedModule,
+        TranslocoRootModule,
     ],
     templateUrl: './detailed-first-screen.component.html',
     styleUrl: './detailed-first-screen.component.scss',

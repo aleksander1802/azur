@@ -1,14 +1,16 @@
 @if (data) {
 <div class="detailed__second">
-    <div class="container">
+    <div class="container" *transloco="let t; read: 'detailed_second'">
         <div class="detailed__second__left">
-            <h2>Об объекте</h2>
+            <h2>
+                {{ t("detailed_second_title") }}
+            </h2>
 
             <div class="detailed__second__left_description">
                 @for (paragraph of data.descriptionFull; track paragraph) {
 
                 <p class="detailed__second__left_description-paragraph">
-                    {{ paragraph }}
+                    {{ t(paragraph) }}
                 </p>
                 }
             </div>
@@ -24,10 +26,7 @@
                         [width]="'32'"
                         [height]="'42'"
                     ></app-choice-svg>
-                    <span
-                        >Выбор <br />
-                        Azur Life</span
-                    >
+                    <span [innerHTML]="t('detailed_second_choice')"> </span>
                 </div>
 
                 } @if (data.exclusive) {
@@ -41,15 +40,14 @@
                         [width]="'32'"
                         [height]="'42'"
                     ></app-exclusive-svg>
-                    <span
-                        >Эксклюзивно <br />
-                        в Azur Life</span
-                    >
+                    <span [innerHTML]="t('detailed_second_exclusive')"> </span>
                 </div>
 
                 }
 
-                <a class="detailed__second__left_link">Узнать об объекте</a>
+                <a class="detailed__second__left_link">
+                    {{ t("detailed_second_link") }}</a
+                >
             </div>
         </div>
 

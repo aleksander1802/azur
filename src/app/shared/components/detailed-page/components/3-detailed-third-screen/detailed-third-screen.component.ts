@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
-import {
-    DetailedSellOrRent,
-    SellOrRent,
-} from 'src/app/shared/models/home.types';
+import { DetailedSellOrRent } from 'src/app/shared/models/home.types';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { Navigation } from 'swiper/modules';
 import { SwiperOptions } from 'swiper/types';

@@ -4,6 +4,7 @@ import { SellOrRent } from 'src/app/shared/models/home.types';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { ChoiceSvgComponent } from '../../../choice-svg/choice-svg.component';
 import { ExclusiveSvgComponent } from '../../../exclusive-svg/exclusive-svg.component';
+import { TranslocoRootModule } from 'src/app/transloco-root.module';
 
 @Component({
     selector: 'app-detailed-second-screen',
@@ -13,6 +14,7 @@ import { ExclusiveSvgComponent } from '../../../exclusive-svg/exclusive-svg.comp
         ExclusiveSvgComponent,
         ChoiceSvgComponent,
         SharedModule,
+        TranslocoRootModule,
     ],
     templateUrl: './detailed-second-screen.component.html',
     styleUrl: './detailed-second-screen.component.scss',

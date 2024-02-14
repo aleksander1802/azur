@@ -1,20 +1,24 @@
 <div class="detailed__fourth">
-    <div class="container">
+    <div class="container" *transloco="let t; read: 'detailed_fourth'">
         <div class="detailed__fourth_wrapper">
             <img
                 src="assets/images/letters/a_light.svg"
                 alt="Background letter"
                 class="detailed__fourth_letter"
             />
-            <h2 class="detailed__fourth_title">Детали</h2>
+            <h2 class="detailed__fourth_title">
+                {{ t("detailed_fourth_title") }}
+            </h2>
 
             <p class="detailed__fourth_description">
-                {{ details.description }}
+                {{ t(details.description) }}
             </p>
 
             <div class="detailed__fourth__details">
                 <div class="detailed__fourth__details_common">
-                    <span class="detailed__fourth__details_title">Общее</span>
+                    <span class="detailed__fourth__details_title">
+                        {{ t("detailed_fourth_title_common") }}
+                    </span>
 
                     <svg
                         width="311"
@@ -31,7 +35,9 @@
                             <div
                                 class="detailed__fourth__details_common_item_left"
                             >
-                                <span>Площадь</span>
+                                <span>
+                                    {{ t("detailed_fourth_left_area") }}
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_common_item_right"
@@ -46,24 +52,34 @@
                             <div
                                 class="detailed__fourth__details_common_item_left"
                             >
-                                <span>Комнаты</span>
+                                <span>
+                                    {{ t("detailed_fourth_left_rooms") }}
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_common_item_right"
                             >
-                                <span>{{ details.common.rooms }} комнат</span>
+                                <span>
+                                    {{ details.common.rooms }}
+                                    {{ t("detailed_fourth_left_rooms_number") }}
+                                </span>
                             </div>
                         </div>
                         <div class="detailed__fourth__details_common_item">
                             <div
                                 class="detailed__fourth__details_common_item_left"
                             >
-                                <span>Отопление</span>
+                                <span>
+                                    {{ t("detailed_fourth_left_heat") }}
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_common_item_right"
                             >
-                                <span>{{ details.common.heating }}</span>
+                                @if (details.common.heating) {
+
+                                <span>{{ t(details.common.heating) }}</span>
+                                }
                             </div>
                         </div>
                         <div class="detailed__fourth__details_common_item">
@@ -71,56 +87,80 @@
                                 class="detailed__fourth__details_common_item_left"
                             >
                                 <span
-                                    >Доступ <br />
-                                    к горячей воде</span
+                                    [innerHTML]="
+                                        t('detailed_fourth_left_hot_water')
+                                    "
                                 >
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_common_item_right"
                             >
-                                <span>{{ details.common.hot_water }}</span>
+                                @if (details.common.hot_water) {
+
+                                <span>{{ t(details.common.hot_water) }}</span>
+                                }
                             </div>
                         </div>
                         <div class="detailed__fourth__details_common_item">
                             <div
                                 class="detailed__fourth__details_common_item_left"
                             >
-                                <span>Состояние</span>
+                                <span>
+                                    {{ t("detailed_fourth_left_state") }}
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_common_item_right"
                             >
-                                <span>{{ details.common.state }}</span>
+                                @if (details.common.state) {
+
+                                <span>{{ t(details.common.state) }}</span>
+                                }
                             </div>
                         </div>
                         <div class="detailed__fourth__details_common_item">
                             <div
                                 class="detailed__fourth__details_common_item_left"
                             >
-                                <span>Ориентиры</span>
+                                <span>
+                                    {{ t("detailed_fourth_left_landmarks") }}
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_common_item_right"
                             >
-                                <span>{{ details.common.landmarks }}</span>
+                                @if (details.common.landmarks) {
+
+                                <span>{{ t(details.common.landmarks) }}</span>
+                                }
                             </div>
                         </div>
                         <div class="detailed__fourth__details_common_item">
                             <div
                                 class="detailed__fourth__details_common_item_left"
                             >
-                                <span>Вид</span>
+                                <span>
+                                    {{ t("detailed_fourth_left_view") }}
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_common_item_right"
                             >
-                                <span>{{ details.common.view }}</span>
+                                @if (details.common.view) {
+
+                                <span>
+                                    {{ t(details.common.view) }}
+                                </span>
+                                }
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="detailed__fourth__details_services">
-                    <span class="detailed__fourth__details_title">Услуги</span>
+                    <span class="detailed__fourth__details_title">
+                        {{ t("detailed_fourth_left_services") }}
+                    </span>
 
                     <svg
                         width="311"
@@ -135,15 +175,15 @@
                     <div class="detailed__fourth__details_services_wrapper">
                         @for (item of details.services; track item) {
                         <div class="detailed__fourth__details_services_item">
-                            <span>{{ item }}</span>
+                            <span>{{ t(item) }}</span>
                         </div>
                         }
                     </div>
                 </div>
                 <div class="detailed__fourth__details_distance">
-                    <span class="detailed__fourth__details_title"
-                        >Расстояние</span
-                    >
+                    <span class="detailed__fourth__details_title">
+                        {{ t("detailed_fourth_left_distance") }}
+                    </span>
 
                     <svg
                         width="311"
@@ -160,12 +200,17 @@
                             <div
                                 class="detailed__fourth__details_distance_item_left"
                             >
-                                <span>Аэропорт</span>
+                                <span>
+                                    {{ t("detailed_fourth_left_airport") }}
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_distance_item_right"
                             >
-                                <span>{{ details.distance.airport }} </span>
+                                @if (details.distance.airport) {
+
+                                <span>{{ t(details.distance.airport) }} </span>
+                                }
                             </div>
                         </div>
 
@@ -173,12 +218,17 @@
                             <div
                                 class="detailed__fourth__details_distance_item_left"
                             >
-                                <span>Автобусная остановка</span>
+                                <span>
+                                    {{ t("detailed_fourth_left_bus") }}
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_distance_item_right"
                             >
-                                <span>{{ details.distance.bus_stop }} </span>
+                                @if (details.distance.bus_stop) {
+
+                                <span>{{ t(details.distance.bus_stop) }} </span>
+                                }
                             </div>
                         </div>
 
@@ -186,12 +236,17 @@
                             <div
                                 class="detailed__fourth__details_distance_item_left"
                             >
-                                <span>Море</span>
+                                <span>
+                                    {{ t("detailed_fourth_left_sea") }}
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_distance_item_right"
                             >
-                                <span>{{ details.distance.sea }} </span>
+                                @if (details.distance.sea) {
+
+                                <span>{{ t(details.distance.sea) }} </span>
+                                }
                             </div>
                         </div>
 
@@ -199,12 +254,17 @@
                             <div
                                 class="detailed__fourth__details_distance_item_left"
                             >
-                                <span>Пляж</span>
+                                <span>
+                                    {{ t("detailed_fourth_left_beach") }}
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_distance_item_right"
                             >
-                                <span>{{ details.distance.beach }} </span>
+                                @if (details.distance.beach) {
+
+                                <span>{{ t(details.distance.beach) }} </span>
+                                }
                             </div>
                         </div>
 
@@ -212,12 +272,17 @@
                             <div
                                 class="detailed__fourth__details_distance_item_left"
                             >
-                                <span>Шоссе</span>
+                                <span>
+                                    {{ t("detailed_fourth_left_highway") }}
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_distance_item_right"
                             >
-                                <span>{{ details.distance.highway }} </span>
+                                @if (details.distance.highway) {
+
+                                <span>{{ t(details.distance.highway) }} </span>
+                                }
                             </div>
                         </div>
 
@@ -225,12 +290,19 @@
                             <div
                                 class="detailed__fourth__details_distance_item_left"
                             >
-                                <span>Центр города</span>
+                                <span>
+                                    {{ t("detailed_fourth_left_city_center") }}
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_distance_item_right"
                             >
-                                <span>{{ details.distance.city_center }} </span>
+                                @if (details.distance.city_center) {
+
+                                <span>
+                                    {{ t(details.distance.city_center) }}
+                                </span>
+                                }
                             </div>
                         </div>
 
@@ -238,12 +310,17 @@
                             <div
                                 class="detailed__fourth__details_distance_item_left"
                             >
-                                <span>Парк</span>
+                                <span>
+                                    {{ t("detailed_fourth_left_city_park") }}
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_distance_item_right"
                             >
-                                <span>{{ details.distance.park }} </span>
+                                @if (details.distance.park) {
+
+                                <span>{{ t(details.distance.park) }} </span>
+                                }
                             </div>
                         </div>
 
@@ -251,12 +328,19 @@
                             <div
                                 class="detailed__fourth__details_distance_item_left"
                             >
-                                <span>Морской порт</span>
+                                <span>
+                                    {{
+                                        t("detailed_fourth_left_city_sea_port")
+                                    }}
+                                </span>
                             </div>
                             <div
                                 class="detailed__fourth__details_distance_item_right"
                             >
-                                <span>{{ details.distance.seaport }} </span>
+                                @if (details.distance.seaport) {
+
+                                <span>{{ t(details.distance.seaport) }} </span>
+                                }
                             </div>
                         </div>
                     </div>

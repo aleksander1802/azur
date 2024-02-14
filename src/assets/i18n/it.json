@@ -196,9 +196,9 @@
         "filter_title_full": "Appartamento con vista mare sulla Promenade des Anglais",
         "filter_description_full": "Appartamento completamente ristrutturato con 3 camere da letto al 5 ° piano in una piccola residenza sulla famosa Promenade des Anglais.",
         "filter_choice": "Selezione <br /> Azur Life",
-        "filter_exclusive": "esclusivo <br /> In Azur Life",
+        "filter_exclusive": "Esclusivo <br /> In Azur Life",
         "filter_view_object": "Guarda l'oggetto",
-        "filter_view_nothing": "niente trovato"
+        "filter_view_nothing": "Niente trovato"
     },
 
     "rent_first": {
@@ -372,5 +372,73 @@
         "not_found_title": "Siamo spiacenti, ma la pagina non è stata trovata",
         "not_found_subtitle": "ma puoi ancora tornare alla",
         "not_found_link": "home page"
+    },
+
+    "detailed_first": {
+        "detailed_sell_button": "Vendita",
+        "detailed_rent_button": "Affitto",
+        "detailed_address_cannes": "Cannes, Francia",
+        "detailed_address_nice": "Nizza, Francia",
+        "detailed_title": "Appartamento con vista mare",
+        "detailed_subtitle": "Sulla Promenade des Anglais",
+        "detailed_description": "Appartamento completamente ristrutturato con 3 camere da letto al 5 ° piano in una piccola residenza sulla famosa Promenade des Anglais."
+    },
+
+    "detailed_second": {
+        "detailed_second_title": "Informazioni sull'oggetto",
+        "detailed_second_link": "Informazioni sull'oggetto",
+        "detailed_second_choice": "Selezione <br /> Azur Life",
+        "detailed_second_exclusive": "Esclusivo <br /> In Azur Life",
+        "detailed_second_paragraph_first": "Situata sulle pendici di Cap Ferrat in una posizione appartata con una vista spettacolare sul mare ea pochi minuti a piedi dal villaggio e dal porto di Saint-Jean-Cap Ferrat, questa villa è una delle proprietà più attraenti di questo tratto della Costa Azzurra.",
+        "detailed_second_paragraph_second": "La villa moderna offre un ambiente ideale sia per il relax che per l'intrattenimento. Ampie finestre di vetro e porte scorrevoli inondano le stanze di luce naturale, offrendo agli ospiti una splendida vista sul mare. I 1000 m2 di spazio abitativo, distribuiti su quattro piani e serviti da un ascensore in vetro, consentono di svolgere varie attività o di trovare un angolo tranquillo dove rilassarsi.",
+        "detailed_second_paragraph_third": "La villa dispone di cinque lussuose camere da letto con bagno privato che possono ospitare comodamente fino a 10 persone. Tutte le camere dispongono di salotti, bellissimi bagni e Sistemi di intrattenimento Bang & lufsen. La settima camera matrimoniale è disponibile per il personale."
+    },
+
+    "detailed_fourth": {
+        "detailed_fourth_title": "Dettagli",
+        "detailed_fourth_title_common": "Generale",
+        "detailed_fourth_title_common_heating": "Condizionamento",
+        "detailed_fourth_title_common_hot_water": "Individuale",
+        "detailed_fourth_title_common_state": "Stato eccellente",
+        "detailed_fourth_title_common_landmarks": "Est, Sud, Est",
+        "detailed_fourth_title_common_view": "Vista panoramica sul mare",
+        "detailed_fourth_left_area": "Area",
+        "detailed_fourth_left_rooms": "Stanze",
+        "detailed_fourth_left_rooms_number": "Camere",
+        "detailed_fourth_left_heat": "Riscaldamento",
+        "detailed_fourth_left_hot_water": "Accesso <br /> all'acqua calda",
+        "detailed_fourth_left_state": "Stato",
+        "detailed_fourth_left_landmarks": "Da vedere",
+        "detailed_fourth_left_view": "Vista",
+        "detailed_fourth_left_services": "Servizi",
+        "detailed_fourth_left_services_heating": "Condizionamento",
+        "detailed_fourth_left_services_glass": "Doppi vetri",
+        "detailed_fourth_left_services_tub": "Vasca idromassaggio",
+        "detailed_fourth_left_services_marquise": "Tende da sole elettriche",
+        "detailed_fourth_left_services_barbecue": "Barbecue",
+        "detailed_fourth_left_services_concierge": "Concierge",
+        "detailed_fourth_left_services_pool": "Piscina",
+        "detailed_fourth_left_services_view": "Vista",
+        "detailed_fourth_left_services_hearth": "Camino",
+        "detailed_fourth_left_services_net": "Internet",
+        "detailed_fourth_left_services_furniture": "Mobili",
+        "detailed_fourth_left_services_watering": "Irrigatore per irrigazione",
+        "detailed_fourth_left_services_elevator": "Ascensore",
+        "detailed_fourth_left_services_intercom": "Citofono",
+        "detailed_fourth_left_services_sauna": "Sauna",
+        "detailed_fourth_left_distance": "Distanza",
+        "detailed_fourth_left_airport": "Aeroporto",
+        "detailed_fourth_left_bus": "Fermata Dell'autobus",
+        "detailed_fourth_left_sea": "Mare",
+        "detailed_fourth_left_beach": "Spiaggia",
+        "detailed_fourth_left_highway": "Autostrada",
+        "detailed_fourth_left_city_center": "Centro città",
+        "detailed_fourth_left_city_park": "Parco",
+        "detailed_fourth_left_city_sea_port": "Porto marittimo",
+        "detailed_fourth_description": "Bellissimo appartamento con 3 camere da letto completamente ristrutturato al 5 ° piano in una piccola residenza sulla famosa Promenade des Anglais.",
+        "detailed_fourth_forty_minutes": "40 minuti",
+        "detailed_fourth_fifteen_minutes": "15 minuti",
+        "detailed_fourth_ten_minutes": "10 minuti",
+        "detailed_fourth_five_minutes": "5 minuti"
     }
 }

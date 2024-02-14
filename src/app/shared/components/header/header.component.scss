@@ -5,6 +5,7 @@
     width: 100%;
     padding: 0 7.5rem;
     z-index: 200;
+
     &__contacts {
         display: flex;
         justify-content: space-between;
@@ -35,7 +36,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 132px;        
+        width: 132px;
         position: fixed;
         top: inherit;
         right: 7.5rem;

@@ -4,7 +4,7 @@
     [ngStyle]="{ 'background-image': 'url(' + data.imageFull + ')' }"
 >
     <div class="detailed__first_wrapper">
-        <div class="container">
+        <div class="container" *transloco="let t; read: 'detailed_first'">
             <app-crumbs
                 [current]="
                     data.sell ? currentCrumbsTitleSell : currentCrumbsTitleRent
@@ -12,11 +12,13 @@
             ></app-crumbs>
             <div class="detailed__first_address">
                 <img src="assets/icons/pointer.svg" alt="Location address" />
-                <span>{{ data.address }}</span>
+                <span>
+                    {{ t(data.address) }}
+                </span>
             </div>
 
             <div class="detailed__first_title">
-                <h1 [innerHTML]="data.title | breakSentenceWithBR"></h1>
+                <h1 [innerHTML]="t(data.title) | breakSentenceWithBR"></h1>
                 @if(data.exclusive) {
                 <span class="detailed__first_title-svg">
                     <app-exclusive-svg></app-exclusive-svg>
@@ -28,18 +30,22 @@
                 }
             </div>
 
-            <p class="detailed__first_subtitle">{{ data.subtitle }}</p>
+            @if (data.subtitle) {
 
-            <p class="detailed__first_description">{{ data.description }}</p>
+            <p class="detailed__first_subtitle">{{ t(data.subtitle) }}</p>
+            } @if (data.description) {
+
+            <p class="detailed__first_description">{{ t(data.description) }}</p>
+            }
 
             <div class="detailed__first__info">
                 @if(data.sell) {
                 <button type="button" class="detailed__first__info_button">
-                    Продажа
+                    {{ t("detailed_sell_button") }}
                 </button>
                 } @else {
                 <button type="button" class="detailed__first__info_button">
-                    Аренда
+                    {{ t("detailed_rent_button") }}
                 </button>
                 }
 

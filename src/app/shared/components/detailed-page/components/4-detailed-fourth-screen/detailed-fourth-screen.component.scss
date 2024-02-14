@@ -4,7 +4,7 @@
     left: 50%;
     transform: translate(-50%, -70%);
     height: inherit;
-    z-index: 10000;
+    z-index: 100;
 }
 
 .detailed__fourth {
@@ -41,6 +41,7 @@
 
     &_description {
         max-width: 470px;
+        min-height: 72px;
         line-height: 160%;
     }
 
