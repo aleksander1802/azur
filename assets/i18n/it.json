@@ -460,18 +460,18 @@
     },
 
     "navigation_bottom_links": {
-       "navigation_bottom_links_title_main": "Torna alla home page",
+        "navigation_bottom_links_title_main": "Torna alla home page",
         "navigation_bottom_links_title_sell_objects": "Oggetti In vendita",
         "navigation_bottom_links_title_rent_objects": "Oggetti in affitto",
         "navigation_bottom_links_home": "Torna alla home page",
         "navigation_bottom_links_about": "Chi siamo",
         "navigation_bottom_links_objects": "Tutti gli oggetti",
         "navigation_bottom_links_sell": "Vendita",
-        "navigation_bottom_links_rent":"Affitto",
+        "navigation_bottom_links_rent": "Affitto",
         "navigation_bottom_links_buy-sell-rent": "Compra, Vendi, affitta con noi",
         "navigation_bottom_links_property": "Gestione della proprietà",
-        "navigation_bottom_links_concierge":"Servizio di portineria",
+        "navigation_bottom_links_concierge": "Servizio di portineria",
         "navigation_bottom_links_expertise": "Revisione tra pari",
-        "navigation_bottom_links_fee":"La nostra commissione"
+        "navigation_bottom_links_fee": "La nostra commissione"
     }
 }
