@@ -336,5 +336,13 @@
         "fee_first_second_description": "per mandati esclusivi ed ex clienti",
         "fee_first_third_description": "parcheggio, garage",
         "fee_first_fourth_description": "gestione proprietà - prezzi in base al lavoro."
+    },
+
+    "privacy_first": {
+        "privacy_first_title": "Informativa sulla privacy",
+        "privacy_first_paragrapgh_first": "Situata sulle pendici di Cap Ferrat in una posizione appartata con vista mozzafiato sul mare e allo stesso tempo a pochi passi dal villaggio e dal porto di Saint-Jean-Cap Ferrat, questa villa è una delle proprietà più ambite di questo tratto della Costa Azzurra.Moderna e open space, La villa offre l'ambiente ideale sia per il relax che per l'intrattenimento. Grandi finestre di vetro e porte scorrevoli riempiono le stanze di luce naturale, offrendo agli ospiti una splendida vista sul mare. Con una superficie abitabile di 1.000 m2 distribuita su quattro piani e servita da un ascensore in vetro, c'è molto spazio per eventi o per trovare un angolo tranquillo dove rilassarsi. La villa dispone di cinque lussuose camere da letto con bagno privato ed è in grado di ospitare comodamente fino a 10 persone.",
+        "privacy_first_paragrapgh_second": "Tutte le camere sono dotate di aree salotto, splendidi bagni e Sistemi di intrattenimento Bang & Olufsen. La settima camera matrimoniale è riservata al personale.",
+        "privacy_first_paragrapgh_third": "Stai arrivando in Costa Azzurra per trascorrere una bella vacanza con la tua famiglia e non vuoi perdere tempo a risolvere tutti i piccoli problemi legati alla tua proprietà che si sono accumulati durante la tua assenza?",
+        "privacy_first_paragrapgh_fourth": "Situata sulle pendici di Cap Ferrat in una posizione appartata con una vista spettacolare sul mare e allo stesso tempo a pochi passi dal villaggio e dal porto di Saint-Jean-Cap Ferrat, questa villa è una delle proprietà più ambite in questo tratto della Costa Azzurra. La villa dispone di cinque lussuose camere da letto con bagno privato che possono ospitare comodamente fino a 10 ospiti. Tutte le camere dispongono di aree salotto, bellissimi bagni e Sistemi di intrattenimento Bang & Olufsen. La settima camera matrimoniale è disponibile per il personale."
     }
 }

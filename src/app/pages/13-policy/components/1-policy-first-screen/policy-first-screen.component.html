@@ -1,13 +1,13 @@
 <div class="policy__first">
-    <div class="container">
+    <div class="container" *transloco="let t; read: 'privacy_first'">
         <app-crumbs [current]="currentCrumbsTitle"></app-crumbs>
         <h1 class="policy__first_title">
-            {{ currentCrumbsTitle }}
+            {{ t("privacy_first_title") }}
         </h1>
         <div class="policy__first_paragraphs">
             @for (paragraph of privacyParagraphs; track paragraph;) {
             <p class="policy__first_paragraphs-paragraph">
-                {{ paragraph }}
+                {{ t(paragraph) }}
             </p>
             }
         </div>

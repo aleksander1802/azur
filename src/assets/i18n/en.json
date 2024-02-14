@@ -336,5 +336,13 @@
         "fee_first_second_description": "for exclusive mandates and former customers",
         "fee_first_third_description": "parking, garage",
         "fee_first_fourth_description": "property management - prices depending on the task."
+    },
+
+    "privacy_first": {
+        "privacy_first_title": "Privacy Policy",
+        "privacy_first_paragrapgh_first": "Located on the slopes of Cap Ferrat in a secluded location with spectacular sea views and at the same time just a few minutes walk from the village and harbor of Saint-Jean-Cap Ferrat, this villa is one of the most desirable properties on this stretch of the French Riviera.Modern and open-plan, the villa offers ideal conditions for both relaxation and entertainment. Large glass windows and sliding doors fill the rooms with natural light, providing guests with a magnificent view of the sea. With a living area of 1000 m2 spread over four floors and serviced by a glass elevator, there is plenty of space for events or finding a quiet place to relax. The villa has five luxurious bedrooms with private bathrooms and is able to comfortably accommodate up to 10 guests.",
+        "privacy_first_paragrapgh_second": "All rooms have relaxation areas, beautiful bathrooms and Bang & Olufsen entertainment systems. The seventh double bedroom is reserved for staff.",
+        "privacy_first_paragrapgh_third": "Are you coming to the Cote d'Azur to spend a wonderful vacation with your family, and you don't want to waste your time solving all the minor problems related to your property that have accumulated during your absence?",
+        "privacy_first_paragrapgh_fourth": "Located on the slopes of Cap Ferrat in a secluded location with spectacular sea views and at the same time just a short walk from the village and harbor of Saint-Jean-Cap Ferrat, this villa is one of the most desirable properties on this stretch of the French Riviera. The villa has five luxurious bedrooms with private bathrooms, which can comfortably accommodate up to 10 guests. All rooms have relaxation areas, beautiful bathrooms and Bang & Olufsen entertainment systems. The seventh double bedroom is available for staff."
     }
 }

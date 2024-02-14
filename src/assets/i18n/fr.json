@@ -336,5 +336,13 @@
         "fee_first_second_description": "pour les mandats exclusifs et les anciens clients",
         "fee_first_third_description": "parking, garage",
         "fee_first_fourth_description": "gestion des biens immobiliers - prix en fonction de la tâche."
+    },
+
+    "privacy_first": {
+        "privacy_first_title": "Politique de confidentialité",
+        "privacy_first_paragrapgh_first": "Située sur les pentes du Cap Ferrat, dans un endroit isolé avec une vue imprenable sur la mer et à quelques minutes à pied du village et du port de Saint-Jean-Cap-Ferrat, cette Villa est l'une des propriétés les plus convoitées de cette partie de la côte d'Azur.Moderne et ouverte, la Villa offre des conditions idéales pour la détente et le divertissement. De grandes fenêtres en verre et des portes coulissantes inondent les chambres de lumière naturelle, offrant une vue magnifique sur la mer. Avec une surface habitable de 1 000 m2 répartie sur quatre étages et desservie par un ascenseur en verre, il y a suffisamment d'espace pour organiser des événements ou trouver un coin tranquille pour se détendre. La Villa dispose de cinq chambres luxueuses avec salle de bains privée et peut accueillir confortablement jusqu'à 10 personnes.",
+        "privacy_first_paragrapgh_second": "Toutes les chambres disposent d'espaces de détente, de belles salles de bains et de systèmes de divertissement Bang & Olufsen. La septième chambre double est réservée au personnel.",
+        "privacy_first_paragrapgh_third": "Venez-vous sur la côte d'Azur pour passer de merveilleuses vacances avec votre famille et vous ne voulez pas perdre votre temps à résoudre tous les petits problèmes liés à votre propriété accumulés pendant votre absence?",
+        "privacy_first_paragrapgh_fourth": "Située sur les pentes du Cap Ferrat, dans un endroit isolé avec une vue imprenable sur la mer et à quelques minutes à pied du village et du port de Saint-Jean-Cap-Ferrat, cette Villa est l'une des propriétés les plus convoitées de cette région de la côte d'Azur. La Villa dispose de cinq chambres luxueuses avec salle de bains privée pouvant accueillir confortablement jusqu'à 10 personnes. Toutes les chambres ont des espaces de détente, de belles salles de bains et des systèmes de divertissement Bang & Olufsen. La septième chambre double est disponible pour le personnel."
     }
 }
